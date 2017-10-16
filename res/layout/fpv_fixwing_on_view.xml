@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.leftmenu.fixwing.DJIFixWingOnView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/fpv_leftmenu_fixwing_on_img" android:background="@drawable/selector_fpv_cgh" android:padding="@dimen/txt_eight" android:src="@drawable/leftmenu_gohome_cancel_icon" style="@style/LeftMenuItemImg" />
+    <dji.pilot.publics.widget.DJIStateImageView android:background="@drawable/leftmenu_fixedwing_c2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" />
+</dji.pilot.fpv.leftmenu.fixwing.DJIFixWingOnView>

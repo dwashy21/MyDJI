@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_marginBottom="@dimen/dp_5_in_sw320dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/v2playback_item_info_title" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="equipment" />
+    <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/v2playback_item_info_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="iPhone" />
+</LinearLayout>

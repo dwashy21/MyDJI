@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/adsb_item_sigle_bg_1" android:layout_width="@dimen/adsb_item_width_total" android:layout_height="@dimen/adsb_top_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gs_adsb_list_icon" android:layout_marginStart="@dimen/d_8_dp" android:layout_marginEnd="@dimen/d_8_dp" />
+    <TextView android:textSize="@dimen/adsb_top_text_size" android:textColor="@color/gs_white" android:gravity="center" android:id="@id/adsb_dis_view" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/adsb_list_top_name" />
+    <TextView android:textSize="@dimen/adsb_top_text_size" android:textColor="@color/adsb_top_blue" android:gravity="center|right" android:id="@id/adsb_list_hide_view" android:paddingRight="@dimen/d_8_dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Hide" />
+</LinearLayout>

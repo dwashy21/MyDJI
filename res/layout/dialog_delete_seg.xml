@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:background="#ffffffff" android:layout_width="310.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="17.0dip" android:text="@string/editor_delete_seg_title" />
+        <dji.publics.DJIUI.DJITextView android:textSize="15.0sp" android:textColor="#ff4a4a4a" android:id="@id/txt_content" android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_marginTop="22.0dip" android:text="@string/editor_delete_seg_content" android:layout_below="@id/txt_title" android:layout_alignLeft="@id/txt_title" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/img_devider_horizon" android:background="#0f0b1622" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_marginTop="34.0dip" android:layout_below="@id/txt_content" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/img_devider_vertical" android:background="#0f0b1622" android:layout_width="1.0dip" android:layout_height="50.0dip" android:layout_below="@id/img_devider_horizon" android:layout_centerHorizontal="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#fff84242" android:gravity="center" android:id="@id/txt_ok" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/editor_delete_seg_ok" android:layout_toLeftOf="@id/img_devider_vertical" android:layout_below="@id/img_devider_horizon" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff32bfff" android:gravity="center" android:id="@id/txt_cancel" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/editor_delete_seg_cancel" android:layout_toRightOf="@id/img_devider_vertical" android:layout_below="@id/img_devider_horizon" />
+    </RelativeLayout>
+</RelativeLayout>

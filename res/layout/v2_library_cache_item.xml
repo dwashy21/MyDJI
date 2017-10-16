@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/parent_layout" android:layout_width="@dimen/dp_95_in_sw320dp" android:layout_height="@dimen/dp_95_in_sw320dp">
+        <dji.pilot.usercenter.widget.DJIShareProgressBar android:id="@id/v2_cachelist_item_img" android:duplicateParentState="true" android:layout_width="@dimen/dp_90_in_sw320dp" android:layout_height="@dimen/dp_90_in_sw320dp" android:src="@drawable/v2_photo_defalut" android:scaleType="centerCrop" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/v2_cachelist_item_bottom_ly" android:padding="@dimen/fpv_top_min_margin" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:baselineAligned="false" android:layout_alignRight="@id/parent_layout" android:layout_alignBottom="@id/parent_layout">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_ten" android:gravity="center|right" android:id="@id/v2_cachelist_item_time_img" android:layout_width="fill_parent" phantom:djiTextFace="nbold" style="@style/GenTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/v2_cachelist_item_HD_img" android:visibility="gone" android:layout_width="@dimen/dp_35_in_sw320dp" android:layout_height="@dimen/dp_20_in_sw320dp" android:src="@drawable/usercenter_cloud_icon" android:scaleType="fitStart" android:layout_alignRight="@id/parent_layout" android:layout_alignParentTop="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/v2_cachelist_item_new_img" android:background="@drawable/v2_lib_new_icon" android:visibility="gone" android:layout_width="@dimen/dp_28_in_sw320dp" android:layout_height="@dimen/dp_15_in_sw320dp" android:layout_marginTop="-1.5dip" android:layout_marginRight="5.0dip" android:layout_alignLeft="@id/parent_layout" android:layout_alignParentTop="true" android:contentDescription="@string/app_name" />
+</dji.publics.DJIUI.DJIRelativeLayout>

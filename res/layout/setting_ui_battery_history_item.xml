@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/battery_history_normal_ly" android:paddingLeft="@dimen/setting_ui_item_padding" android:paddingRight="@dimen/setting_ui_item_padding" android:layout_width="fill_parent" android:layout_height="@dimen/dp_35">
+        <TextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/battery_history_item_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/battery_history_item_arrow_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ui_battery_pagedown" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+    <ViewStub android:id="@id/battery_history_item_info" android:layout="@layout/setting_ui_battery_history_info_view" android:inflatedId="@id/battery_history_info_ly" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

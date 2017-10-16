@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/camera_photo_format_title" android:text="@string/fpv_camera_photoformat" style="@style/setting_ui_item_title" />
+    <dji.publics.DJIUI.DJISengmentedGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/camera_photo_format_sg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RadioButton android:textSize="@dimen/setting_ui_txt_small" android:id="@id/camera_photo_format_raw" android:checked="true" android:text="@string/fpv_camera_pictureformat_raw" style="@style/SGRadioButton" />
+        <RadioButton android:textSize="@dimen/setting_ui_txt_small" android:id="@id/camera_photo_format_jpeg" android:text="@string/fpv_camera_pictureformat_jpeg" style="@style/SGRadioButton" />
+        <RadioButton android:textSize="@dimen/setting_ui_txt_small" android:id="@id/camera_photo_format_jr" android:text="@string/fpv_camera_pictureformat_jpegraw" style="@style/SGRadioButton" />
+    </dji.publics.DJIUI.DJISengmentedGroup>
+</LinearLayout>

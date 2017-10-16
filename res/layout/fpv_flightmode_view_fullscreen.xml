@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.flightmode.FlightModeFullScreenView android:orientation="vertical" android:background="@color/black_half" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/flightmode_full_top_bar" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50_in_sw320dp">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/fpv_flightmode_full_close_img" android:background="@color/white_half" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="@dimen/dp_45_in_sw320dp" android:layout_height="@dimen/dp_45_in_sw320dp" android:src="@drawable/v2_fullscreen_webview_cross" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/flightmode_full_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/flightmode_full_top_bar" />
+    <RelativeLayout android:id="@id/flightmode_beginner_mode_ly" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="@dimen/dp_85_in_sw320dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/txt_forteen" android:textColor="@color/white" android:id="@id/flightmode_full_beginner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_25_in_sw320dp" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/fpv_gensetting_beginner_toggle_desc" />
+        <TextView android:textSize="@dimen/txt_forteen" android:textColor="@color/v2_local_music_grey" android:id="@id/flightmode_full_beginner_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_25_in_sw320dp" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_marginRight="@dimen/dp_120_in_sw320dp" android:text="@string/setting_ui_flyc_beginner_desc" android:layout_below="@id/flightmode_full_beginner_title" />
+        <Switch android:id="@id/flightmode_full_beginner_switch" android:layout_marginRight="@dimen/dp_25_in_sw320dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_switch" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/flightmode_full_index_point_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:layout_above="@id/flightmode_beginner_mode_ly" android:layout_centerHorizontal="true" />
+</dji.pilot.fpv.flightmode.FlightModeFullScreenView>

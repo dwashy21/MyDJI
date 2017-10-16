@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@android:color/transparent" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/folder_thumb" android:background="@color/v2_library_place_holder_color" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/dp_80_in_sw320dp" android:scaleType="centerCrop" />
+        <View android:id="@id/folder_cover" android:background="#1effffff" android:visibility="gone" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/dp_80_in_sw320dp" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/folder_select" android:padding="@dimen/dp_3_in_sw320dp" android:visibility="gone" android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:src="@drawable/new_library_itemselect_true" />
+        <LinearLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_toLeftOf="@id/item_arrow" android:layout_toRightOf="@id/folder_thumb" android:layout_centerInParent="true">
+            <dji.pilot2.commonwidget.DJIStateTextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/folder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_5_in_sw320dp" android:singleLine="true" />
+            <dji.pilot2.commonwidget.DJIStateTextView android:textColor="#ff999999" android:ellipsize="end" android:id="@id/folder_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_5_in_sw320dp" android:singleLine="true" />
+        </LinearLayout>
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/item_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_new_library_right_arrow" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <View android:background="#ffc8c8c8" android:layout_width="fill_parent" android:layout_height="0.5px" />
+</LinearLayout>

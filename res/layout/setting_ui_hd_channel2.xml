@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/fpv_hd_channel_ly" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_hd_channel_desc" style="@style/setting_ui_item_title" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fpv_hd_channel_rg" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/fpv_hd_channel_auto_radio" android:checked="true" android:button="@null" android:text="@string/setting_ui_hd_channel_auto" android:singleLine="false" style="@style/setting_ui_item_btn" />
+            <RadioButton android:id="@id/fpv_hd_channel_custom_radio" android:layout_marginLeft="25.0dip" android:button="@null" android:text="@string/setting_ui_hd_channel_custom" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@color/setting_ui_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <dji.setting.ui.hd.WorkingFreqViewNewFreq android:id="@id/setting_hd_newlb_ofdm_workfreq" setting_ui:titleText="@string/setting_ui_hd_work_freq_desc" style="@style/setting_ui_item" />
+    <dji.setting.ui.hd.sdr.ChannelModeView android:id="@id/setting_hd_sdr_channel_mode" android:visibility="gone" setting_ui:titleText="@string/setting_ui_hd_channel_desc" setting_ui:showDivider="false" style="@style/setting_ui_item" />
+    <dji.setting.ui.hd.sdr.SdrViewStatusBtn android:id="@id/sdr_view_status_btn" setting_ui:titleText="@string/setting_ui_hd_view_sdr_btn" style="@style/setting_ui_item_noPadding" />
+    <include android:id="@id/sdr_freq_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sdr_freq_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fpv_hd_channel_freq_ly" android:visibility="visible" android:layout_height="wrap_content" style="@style/setting_ui_item">
+        <dji.setting.ui.rc.FreqSnrViewNewFreq android:id="@id/fpv_hd_channel_freq" android:layout_width="fill_parent" android:layout_height="@dimen/dp_170" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/setting_ui_txt_small" android:id="@id/fpv_hd_channel_auto_desc" android:visibility="gone" android:text="@string/setting_ui_hd_channel_desc_auto" android:layout_alignTop="@id/fpv_hd_channel_freq" android:layout_centerHorizontal="true" style="@style/setting_ui_item_title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/dp_20">
+            <ImageView android:background="@color/setting_ui_hd_fq_green" android:layout_width="@dimen/dp_2" android:layout_height="@dimen/dp_8" android:layout_marginLeft="45.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_stable" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+            <ImageView android:background="@color/setting_ui_hd_fq_red" android:layout_width="@dimen/dp_2" android:layout_height="@dimen/dp_8" android:layout_marginLeft="30.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_unstable" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+            <ImageView android:background="@color/setting_ui_hd_fq_blue" android:layout_width="@dimen/dp_2" android:layout_height="@dimen/dp_8" android:layout_marginLeft="30.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_current" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+        </LinearLayout>
+    </LinearLayout>
+    <dji.setting.ui.hd.SdrBandWidthSpinner android:id="@id/setting_hd_band_width_select" setting_ui:titleText="@string/setting_ui_hd_bandwidth_desc" style="@style/setting_ui_item" />
+    <dji.setting.ui.hd.HDSwitch android:id="@id/setting_hd_hd_switch" style="@style/setting_ui_item" />
+    <View android:background="@color/setting_ui_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:id="@id/fpv_hd_channel_select_ly" android:visibility="visible" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_hd_channel_desc" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/fpv_hd_channel_spinner" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_spinner_btn" />
+    </LinearLayout>
+    <View android:background="@color/setting_ui_item_divider_color" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <dji.setting.ui.hd.HdCmsSpinner android:id="@id/fpv_hd_cms_root" setting_ui:titleText="@string/setting_ui_hd_quality_desc" style="@style/setting_ui_item_noPadding" />
+</LinearLayout>

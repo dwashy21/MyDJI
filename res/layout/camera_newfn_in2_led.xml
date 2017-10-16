@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.sub.DJICameraIn2LedView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/camera_newfn_in2_led_auto_ly" style="@style/CameraFnLy">
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/camera_newfn_in2_led_auto_sw" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:gravity="left" android:id="@id/camera_newfn_in2_led_auto" android:layout_width="fill_parent" android:text="@string/camera_ref_in2_led_auto" android:layout_toLeftOf="@id/camera_newfn_in2_led_auto_sw" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/camera_newfn_in2_led_auto_back_ly" style="@style/CameraFnLy">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:id="@id/camera_newfn_in2_led_auto_back" android:text="@string/camera_ref_in2_led_auto_back" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/camera_newfn_in2_led_auto_back_sw" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/camera_newfn_in2_led_auto_front_ly" style="@style/CameraFnLy">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:id="@id/camera_newfn_in2_led_auto_front" android:text="@string/camera_ref_in2_led_auto_front" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/camera_newfn_in2_led_auto_front_sw" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/camera_newfn_in2_led_back_ly" style="@style/CameraFnLy">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:id="@id/camera_newfn_in2_led_back" android:text="@string/camera_ref_in2_led_back" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/camera_newfn_in2_led_back_sw" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/camera_newfn_in2_led_front_ly" style="@style/CameraFnLy">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:id="@id/camera_newfn_in2_led_front" android:text="@string/camera_ref_in2_led_front" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/camera_newfn_in2_led_front_sw" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.fpv.camera.newfn.sub.DJICameraIn2LedView>

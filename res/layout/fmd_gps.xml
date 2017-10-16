@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fpv_top_gps_img" android:src="@drawable/fmd_osd_gps" android:layout_centerVertical="true" style="@style/fmd_status_item_icon" />
+    <ImageView android:id="@id/fpv_top_gps_level_img" android:layout_marginLeft="0.0dip" android:layout_toRightOf="@id/fpv_top_gps_img" android:layout_centerVertical="true" style="@style/FpvSignalLevelImg" />
+    <TextView android:textSize="@dimen/d_8_dp" android:textColor="#ffffffff" android:id="@id/fpv_top_gps_number_tv" android:text="12" android:layout_toRightOf="@id/fpv_top_gps_img" android:layout_alignTop="@id/fpv_top_gps_img" style="@style/d_txt" />
+    <TextView android:textSize="@dimen/d_12_dp" android:textColor="#ffa0a0a0" android:id="@id/fpv_top_rtk_tv" android:visibility="gone" android:text="R" android:layout_toRightOf="@id/fpv_top_gps_level_img" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/d_txt" />
+</merge>

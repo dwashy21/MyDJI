@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.general.LivePlatformSelectView liveshare:titleText="@string/setting_ui_general_liveshare_select" style="@style/setting_ui_items_scrollview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto" xmlns:liveshare="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_items_linearlayout">
+        <dji.setting.ui.general.LivePlatformView android:id="@id/liveshare_platform_facebook" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" liveshare:type="facebook" />
+        <dji.setting.ui.general.LivePlatformView android:id="@id/liveshare_platform_youtube" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" liveshare:type="youtube" />
+        <dji.setting.ui.general.LivePlatformView android:id="@id/liveshare_platform_weibo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" liveshare:type="weibo" />
+        <dji.setting.ui.general.LivePlatformView android:id="@id/liveshare_platform_custom" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" liveshare:type="custom" />
+    </LinearLayout>
+</dji.setting.ui.general.LivePlatformSelectView>

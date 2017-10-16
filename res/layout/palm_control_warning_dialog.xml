@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root_layout" android:background="@color/black_60P" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_bar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dp_20" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:text="@string/setting_ui_palm_control_warning_title" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/close_btn" android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_20" android:layout_marginRight="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:src="@drawable/ic_close_white" android:layout_alignParentRight="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/palm_control_linear_layout1" android:paddingBottom="@dimen/dp_15" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/palm_control_pic_open_area" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:layout_marginRight="@dimen/dp_20" android:src="@drawable/palm_control_warning_open_area" />
+                <TextView android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center|top" android:id="@id/palm_control_text_open_area" android:layout_width="@dimen/dp_200" android:layout_height="wrap_content" android:text="@string/setting_ui_palm_control_warning_open_area" />
+                <ImageView android:layout_gravity="top" android:id="@id/palm_control_pic_protecion" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:layout_marginLeft="@dimen/dp_30" android:layout_marginRight="@dimen/dp_20" android:src="@drawable/palm_control_warning_protection" />
+                <TextView android:textColor="@color/white" android:gravity="center|left|top" android:layout_gravity="center|top" android:id="@id/palm_control_text_protection" android:layout_width="@dimen/dp_200" android:layout_height="wrap_content" android:text="@string/setting_ui_palm_control_warning_protection" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/palm_control_linear_layout2" android:paddingBottom="@dimen/dp_15" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="top" android:id="@id/palm_control_pic_hurt" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:layout_marginRight="@dimen/dp_20" android:src="@drawable/palm_control_warning_hurt" />
+                <TextView android:textColor="@color/white" android:gravity="center|left" android:layout_gravity="center|top" android:id="@id/palm_control_text_hurt" android:layout_width="@dimen/dp_200" android:layout_height="wrap_content" android:text="@string/setting_ui_palm_control_warning_hurt" />
+                <ImageView android:layout_gravity="top" android:id="@id/palm_control_pic_go_home" android:layout_width="@dimen/dp_100" android:layout_height="@dimen/dp_100" android:layout_marginLeft="@dimen/dp_30" android:layout_marginRight="@dimen/dp_20" android:src="@drawable/palm_control_warning_go_home" />
+                <TextView android:textColor="@color/white" android:gravity="center|left|top" android:layout_gravity="center|top" android:id="@id/palm_control_text_go_home" android:layout_width="@dimen/dp_200" android:layout_height="wrap_content" android:text="@string/setting_ui_palm_control_warning_go_home" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <CheckBox android:textSize="12.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:button="@drawable/setting_ui_check_icon" android:text="@string/setting_ui_palm_control_warning_dont_show_again" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/white_half" android:layout_width="fill_parent" android:layout_height="@dimen/dp_4" android:layout_marginTop="@dimen/dp_20" android:contentDescription="@string/app_name" />
+    <TextView android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/setting_ui_exp_blue" android:gravity="center" android:id="@id/fs_img_opt_tv" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40" android:text="@string/setting_ui_palm_control_warning_accept" />
+</LinearLayout>

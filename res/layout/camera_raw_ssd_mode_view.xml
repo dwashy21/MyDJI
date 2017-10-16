@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingBottom="@dimen/setting_ui_item_padding" android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:id="@id/raw_ssd_switch_ly" style="@style/setting_ui_item">
+        <dji.publics.DJIUI.DJITextView android:id="@id/setting_ui_item_title" android:text="@string/fpv_camera_rawmode" style="@style/setting_ui_item_title" />
+        <Switch android:id="@id/setting_ui_item_switch" style="@style/setting_ui_item_switch" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJISengmentedGroup android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/setting_ui_item_radiogroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/raw_ssd_switch_ly">
+        <RadioButton android:textSize="@dimen/txt_twelve" android:id="@id/setting_ui_group_jpeg" android:text="@string/setting_ui_hd_channel_custom" style="@style/SGRadioButton" />
+        <RadioButton android:textSize="@dimen/txt_twelve" android:id="@id/setting_ui_group_draw" android:visibility="gone" android:text="@string/setting_ui_hd_channel_custom" style="@style/SGRadioButton" />
+        <RadioButton android:textSize="@dimen/txt_twelve" android:id="@id/setting_ui_group_unit_422" android:text="@string/setting_ui_hd_channel_custom" style="@style/SGRadioButton" />
+        <RadioButton android:textSize="@dimen/txt_twelve" android:id="@id/setting_ui_group_unit_444" android:text="@string/setting_ui_hd_channel_custom" style="@style/SGRadioButton" />
+    </dji.publics.DJIUI.DJISengmentedGroup>
+</RelativeLayout>

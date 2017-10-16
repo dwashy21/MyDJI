@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/root" android:background="@android:color/white" android:fitsSystemWindows="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/share_header" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height">
+        <dji.pilot.publics.widget.DJIStateImageView android:gravity="center" android:id="@id/share_back_button" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_nativeexplore_back_normal" android:onClick="toFinish" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="14.0sp" android:textColor="@color/standard3_0_dark_primary_color" android:gravity="center" android:id="@id/finish" android:paddingLeft="@dimen/v2_topbar_right_btn_leftright_pd" android:paddingRight="@dimen/v2_topbar_right_btn_leftright_pd" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_share_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="toFinish" />
+        <View android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/qrcode" android:visibility="gone" android:layout_width="250.0dip" android:layout_height="250.0dip" android:scaleType="fitCenter" />
+        <ProgressBar android:id="@id/progress_bar" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="101.0dip" android:layout_marginBottom="101.0dip" android:indeterminate="true" style="@style/mediumCustomProgressBar" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/v2_share_qrcode_hint" />
+    </LinearLayout>
+</RelativeLayout>

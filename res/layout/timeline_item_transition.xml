@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="45.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/img_transition" android:background="@drawable/editor_timeline_transition_background" android:visibility="visible" android:layout_width="28.0dip" android:layout_height="28.0dip" android:src="@drawable/transition_cross" android:scaleType="center" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

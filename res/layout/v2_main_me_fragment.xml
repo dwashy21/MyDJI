@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.widget.ratio.RatioFrameLayout android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aspectRatio="2.0">
+        <ImageView android:id="@id/header_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/v2_mine_noresign_bg" android:scaleType="centerCrop" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/messages" android:padding="16.0dip" android:clickable="true" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_me_message" android:scaleType="fitCenter" />
+        <dji.pilot.publics.widget.DJIStateImageView android:layout_gravity="end" android:id="@id/settings" android:padding="16.0dip" android:clickable="true" android:layout_width="56.0dip" android:layout_height="56.0dip" android:src="@drawable/ic_me_settings" android:scaleType="fitCenter" />
+    </dji.pilot2.widget.ratio.RatioFrameLayout>
+    <ScrollView style="@style/MineScrollerStyle">
+        <LinearLayout style="@style/MineRowContainerStyle">
+            <dji.pilot2.mine.view.MeRowView android:id="@id/store" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_store_icon" app:me_row_text="@string/mine_dji_store_text" app:me_row_new_show="true" />
+            <dji.pilot2.mine.view.MeRowView android:id="@id/circle" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_circle_icon" app:me_row_text="@string/mine_dji_circle_text" app:me_row_new_show="false" />
+            <dji.pilot2.mine.view.MeRowView android:id="@id/fly_record" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/flight_record_icon" app:me_row_text="@string/v2_mine_flight_record" app:me_row_new_show="false" />
+            <dji.pilot2.mine.view.MeRowView android:id="@id/forum" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_forum_icon" app:me_row_text="@string/mine_dji_bbs" app:me_row_new_show="false" />
+            <dji.pilot2.mine.view.MeRowView android:id="@id/support" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_support_icon" app:me_row_text="@string/mine_assistant_text" app:me_row_new_show="false" />
+            <dji.pilot2.mine.view.MeRowView android:id="@id/more" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_more_icon" app:me_row_text="@string/mine_setting_more" app:me_row_new_show="false" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

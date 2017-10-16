@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/offline_map_dp_44_in_sw320dp">
+        <ImageView android:id="@id/offline_map_head_first_back" android:padding="@dimen/offline_map_dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offline_map_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/offline_map_title_size" android:textColor="@color/offline_map_text_color" android:gravity="center" android:id="@id/offline_map_head_first_context" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/offline_map_download_title" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/offline_map_manager_title_size" android:textColor="@color/offline_map_text_color" android:id="@id/offline_map_head_first_manager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/offline_map_dp_10_in_sw320dp" android:text="@string/offline_map_manager" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_110_in_sw320dp" android:layout_centerInParent="true">
+        <ImageView android:id="@id/v2_smlt_last_tip_img" android:background="@drawable/v2_smlt_phantom_rc_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/txt_eight" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12_in_sw320dp" android:text="@string/manual_gimbal_dial" android:layout_toLeftOf="@id/v2_smlt_last_tip_img" />
+        <TextView android:textSize="@dimen/txt_eight" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_smlt_tip_28_in_sw320dp" android:text="@string/manual_recording" android:layout_toLeftOf="@id/v2_smlt_last_tip_img" />
+        <TextView android:textSize="@dimen/txt_eight" android:textColor="@color/black" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_45_in_sw320dp" android:text="@string/manual_flight_mode_switch" android:layout_toLeftOf="@id/v2_smlt_last_tip_img" />
+        <TextView android:textSize="@dimen/txt_eight" android:textColor="@color/black" android:id="@id/tip_shoot_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_smlt_tip_28_in_sw320dp" android:text="@string/manual_shutter" android:layout_toRightOf="@id/v2_smlt_last_tip_img" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/txt_eight" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_14_in_sw320dp" android:text="@string/manual_playback" android:layout_toRightOf="@id/v2_smlt_last_tip_img" android:layout_above="@id/tip_shoot_btn" />
+        <TextView android:textSize="@dimen/txt_eight" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_60_in_sw320dp" android:text="@string/manual_camera_setting_dial" android:layout_toRightOf="@id/v2_smlt_last_tip_img" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

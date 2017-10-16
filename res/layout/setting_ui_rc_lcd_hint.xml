@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="fill_parent" android:layout_height="@dimen/dp_200" android:src="@drawable/setting_ui_rc_lcd" />
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_80" android:layout_marginTop="@dimen/dp_50" android:layout_marginRight="@dimen/dp_80">
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_flight_speed" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_camera_status" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_flight_mode" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_exposure_compensation" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_gps_signal" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_micro_sd_placement" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_aircraft_battery" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_sport_mode" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_rc_signal" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_distance" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_motor_rotation" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_flight_altitude" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_system_status" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_ascend_descend" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_rc_battery" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_flight_distance" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_vision_system" android:layout_weight="1.0" />
+                    <dji.setting.ui.widget.DJIHtmlTextView android:textColor="@color/white" android:gravity="left" android:visibility="invisible" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_flight_altitude" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+            </dji.publics.DJIUI.DJILinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

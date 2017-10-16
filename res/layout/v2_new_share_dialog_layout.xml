@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dialog_root" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/v2_share_to_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIRelativeLayout android:padding="@dimen/dp_15_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/share_dialog_thumbnail" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/dp_60_in_sw320dp" android:src="@drawable/v2_native_explore_item_placeholder" android:scaleType="fitCenter" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/txt_eighteen" android:textColor="@color/v2_share_dialog_text_color" android:ellipsize="end" android:id="@id/share_dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:maxLines="1" android:layout_toRightOf="@id/share_dialog_thumbnail" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/txt_ten" android:textColor="@color/v2_share_dialog_text_color" android:ellipsize="end" android:id="@id/share_dialog_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5_in_sw320dp" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:maxLines="2" android:layout_toRightOf="@id/share_dialog_thumbnail" android:layout_below="@id/share_dialog_title" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <View android:background="@color/grey_not_selected" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/share_button_layout" android:paddingLeft="@dimen/dp_5_in_sw320dp" android:paddingTop="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_5_in_sw320dp" android:paddingBottom="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <Button android:textColor="@color/v2_share_dialog_text_color" android:id="@id/v2_share_to_cancel_btn" android:background="@drawable/v2_share_cancel_btn" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45_in_sw320dp" android:text="@string/v2_share_cancel" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</LinearLayout>

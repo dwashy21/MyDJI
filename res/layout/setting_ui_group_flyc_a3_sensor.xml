@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.flyc.A3SensorViewGroup setting_ui:titleText="@string/setting_ui_flyc" style="@style/setting_ui_items_scrollview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/setting_ui_items_linearlayout">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/setting_ui_flyc_a3_sensor_tab_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:id="@id/setting_ui_flyc_a3_sensor_imu_tab" android:text="@string/setting_ui_redundancy_sensor_imu_label" style="@style/setting_ui_tab_left" />
+            <TextView android:id="@id/setting_ui_flyc_a3_sensor_compass_tab" android:text="@string/setting_ui_redundancy_sensor_compass_label" style="@style/setting_ui_tab_right" />
+        </LinearLayout>
+        <FrameLayout android:id="@id/setting_ui_flyc_a3_sensor_imu_ly" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.setting.ui.flyc.A3SensorView setting_ui:showDivider="false" style="@style/setting_ui_item" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/setting_ui_flyc_a3_sensor_compass_ly" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.setting.ui.flyc.A3CompassView setting_ui:showDivider="false" style="@style/setting_ui_item" />
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <TextView android:layout_marginRight="@dimen/dp_10" android:text="@string/setting_ui_redundancy_sensor_imu_desc_cur_use" android:drawableLeft="@drawable/setting_ui_flyc_circle_selected" style="@style/setting_ui_txt" />
+            <ProgressBar android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_7" android:layout_marginRight="@dimen/dp_10" android:max="100" android:progress="100" android:progressDrawable="@drawable/setting_ui_status_pgb_green" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:layout_marginRight="@dimen/dp_10" android:text="@string/setting_ui_redundancy_sensor_imu_desc_good" style="@style/setting_ui_txt" />
+            <ProgressBar android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_7" android:layout_marginRight="@dimen/dp_10" android:max="100" android:progress="100" android:progressDrawable="@drawable/setting_ui_status_pgb_yellow" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:layout_marginRight="@dimen/dp_10" android:text="@string/setting_ui_redundancy_sensor_imu_desc_normal" style="@style/setting_ui_txt" />
+            <ProgressBar android:layout_width="@dimen/dp_20" android:layout_height="@dimen/dp_7" android:layout_marginRight="@dimen/dp_10" android:max="100" android:progress="100" android:progressDrawable="@drawable/setting_ui_status_pgb_red" style="?android:attr/progressBarStyleHorizontal" />
+            <TextView android:layout_marginRight="@dimen/dp_10" android:text="@string/setting_ui_redundancy_sensor_imu_desc_bad" style="@style/setting_ui_txt" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</dji.setting.ui.flyc.A3SensorViewGroup>

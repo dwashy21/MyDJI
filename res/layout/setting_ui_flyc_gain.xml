@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/setting_ui_flyc_gain_title" android:layout_centerVertical="true" style="@style/setting_ui_item_sub_title" />
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_gain_tilt" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/fpv_rc_gain_tilt_range" android:layout_marginRight="@dimen/dp_12" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/fpv_rc_gain_tilt" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_gain_brake" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/fpv_flyc_gain_brake_range" android:layout_marginRight="@dimen/dp_12" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/fpv_flyc_gain_brake" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" android:id="@id/fpv_flyc_yaw_endpoint_layout" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:id="@id/setting_ui_item_title" android:text="@string/setting_ui_flyc_gain_yaw_endpoint" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/fpv_flyc_yaw_endpoint_range" android:layout_marginRight="@dimen/dp_12" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/fpv_flyc_yaw_endpoint" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <dji.setting.ui.flyc.FlycYawAtSportView style="@style/setting_ui_item" />
+    <dji.setting.ui.gimbal.AdvFollowSmoothView setting_ui:titleText="@string/setting_ui_gimbal_follow_smooth" style="@style/setting_ui_item" />
+</LinearLayout>

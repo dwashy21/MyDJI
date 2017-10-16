@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="@dimen/setting_ui_cirsw_height" android:width="@dimen/setting_ui_cirsw_width" />
+    <corners android:topLeftRadius="@dimen/setting_ui_cirsw_half_height" android:topRightRadius="@dimen/setting_ui_cirsw_half_height" android:bottomLeftRadius="@dimen/setting_ui_cirsw_half_height" android:bottomRightRadius="@dimen/setting_ui_cirsw_half_height" />
+    <solid android:color="@android:color/transparent" />
+    <stroke android:width="1.0dip" android:color="@color/setting_ui_cirsw_hover" />
+</shape>

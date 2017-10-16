@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.music.local.MusicItemView android:id="@id/music_item_view" android:layout_width="@dimen/dp_50_in_sw320dp" android:layout_height="@dimen/dp_50_in_sw320dp" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/music_item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_15_in_sw320dp" android:singleLine="true" android:layout_toLeftOf="@id/music_duration" android:layout_toRightOf="@id/music_item_view" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/white" android:ellipsize="end" android:id="@id/music_author_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignLeft="@id/music_item_name" android:layout_alignRight="@id/music_item_name" android:layout_alignBottom="@id/music_item_view" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:id="@id/music_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

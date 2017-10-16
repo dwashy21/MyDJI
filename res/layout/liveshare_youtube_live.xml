@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/liveshare_youtube_live_title_bar_layout" android:background="@color/liveshare_title_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/liveshare_head_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/active_txt_sixth" android:textStyle="bold" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_title_bar_text" android:layout_centerInParent="true" />
+        <Button android:textSize="@dimen/active_txt_sixth" android:textStyle="bold" android:textColor="@color/liveshare_blue" android:id="@id/liveshare_youtube_live_btn_done" android:background="@color/liveshare_title_bar_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:text="@string/liveshare_youtube_live_btn_done_label" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJIImageView android:background="@color/account_txt_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <include android:id="@id/liveshare_youtube_live_logo_layout" android:layout_width="fill_parent" android:layout_height="@dimen/liveshare_question_logo_height" android:layout_below="@id/liveshare_youtube_live_title_bar_layout" layout="@layout/liveshare_youtube_logo_bar" />
+    <ScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/liveshare_youtube_live_logo_layout">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp">
+                <ImageView android:background="@drawable/livestream_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" />
+                <ImageView android:layout_gravity="top" android:background="@drawable/live_stream_signal_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_40_in_sw320dp" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp">
+                    <TextView android:id="@id/liveshare_youtube_live_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:id="@id/liveshare_youtube_live_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" />
+                    <TextView android:id="@id/liveshare_youtube_live_start_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5_in_sw320dp">
+                <LinearLayout android:orientation="vertical" android:id="@id/step_01_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20_in_sw320dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="@dimen/dp_20_in_sw320dp" android:text="@string/liveshare_youtube_live_step1" />
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/dp_45_in_sw320dp">
+                        <Button android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/white" android:id="@id/liveshare_youtube_live_step1_btn" android:background="@drawable/selector_live_btn" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="@dimen/dp_45_in_sw320dp" android:text="@string/liveshare_youtube_live_step1_btn_title" android:drawableLeft="@drawable/btn_playback_ic_play" android:drawablePadding="@dimen/dp_5_in_sw320dp" />
+                        <ImageView android:id="@id/live_progress_img" android:background="@drawable/progress_animation_list" android:layout_width="@dimen/dp_25_in_sw320dp" android:layout_height="@dimen/dp_25_in_sw320dp" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@id/step_02_ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_50_in_sw320dp" android:layout_toRightOf="@id/step_01_ly">
+                    <TextView android:layout_width="wrap_content" android:layout_height="@dimen/dp_20_in_sw320dp" android:text="@string/liveshare_youtube_live_step2" />
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/dp_45_in_sw320dp">
+                        <Button android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/white" android:id="@id/liveshare_youtube_live_step2_btn" android:background="@drawable/selector_live_btn" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="@dimen/dp_45_in_sw320dp" android:text="@string/liveshare_youtube_live_step2_btn_title" />
+                        <ImageView android:id="@id/live_progress_img_2" android:background="@drawable/progress_animation_list" android:layout_width="@dimen/dp_25_in_sw320dp" android:layout_height="@dimen/dp_25_in_sw320dp" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:id="@id/live_streaming_txt_ly" android:background="@drawable/live_streaming_btn_bg" android:layout_width="wrap_content" android:layout_height="@dimen/dp_45_in_sw320dp" android:layout_marginLeft="@dimen/dp_50_in_sw320dp" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:layout_marginRight="@dimen/dp_15_in_sw320dp" android:layout_toRightOf="@id/step_02_ly">
+                    <TextView android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/black" android:paddingLeft="@dimen/dp_8_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_youtube_live_step3_btn_title" />
+                    <TextView android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/red" android:id="@id/live_streaming_time_txt" android:paddingLeft="@dimen/dp_8_in_sw320dp" android:paddingRight="@dimen/dp_8_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00:00" />
+                </LinearLayout>
+            </RelativeLayout>
+            <TextView android:id="@id/liveshare_youtube_live_stream_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:text="@string/liveshare_youtube_live_stream_status_label" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_horizontal" android:id="@id/liveshare_youtube_live_share_link_url" android:background="@drawable/live_gray_btn_bg" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_25_in_sw320dp" android:layout_marginRight="@dimen/dp_25_in_sw320dp" android:layout_weight="2.0" android:textIsSelectable="true" />
+                <Button android:textColor="@color/white" android:id="@id/liveshare_youtube_live_share_link_btn" android:background="@drawable/live_blue_btn_bg" android:visibility="visible" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_marginRight="@dimen/dp_20_in_sw320dp" android:text="@string/liveshare_youtube_live_share_link_btn_title" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</dji.publics.DJIUI.DJIRelativeLayout>

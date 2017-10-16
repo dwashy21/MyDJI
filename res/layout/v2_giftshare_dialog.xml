@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a90e2" android:gravity="center" android:id="@id/v2_coupon_giftshare_txt1" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/v2_coupon_send" />
+    <dji.publics.DJIUI.DJITextView android:textSize="10.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/v2_coupon_giftshare_txt2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/v2_coupon_giftshare_txt2" />
+    <HorizontalScrollView android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/v2_coupon_giftshare_txt2" />
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/v2_coupon_giftshare_layout" android:paddingLeft="@dimen/dp_5_in_sw320dp" android:paddingTop="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_5_in_sw320dp" android:paddingBottom="@dimen/dp_10_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="3.0" android:layout_below="@id/v2_coupon_giftshare_txt2" />
+</RelativeLayout>

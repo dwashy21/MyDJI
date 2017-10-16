@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_gain_yaw_at_sport" style="@style/setting_ui_item_title" />
+    <TextView android:id="@id/fpv_flyc_yaw_at_sport_range" android:layout_marginRight="@dimen/dp_12" style="@style/setting_ui_item_desc" />
+    <EditText android:id="@id/fpv_flyc_yaw_at_sport_et" android:text="0" style="@style/setting_ui_item_edittext" />
+</LinearLayout>

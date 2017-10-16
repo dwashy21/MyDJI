@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.in2.smallfpv.In2SmallFpvFrameView android:id="@id/in2_fpv_small_frame" android:background="@color/black" android:padding="1.0px" android:visibility="gone" android:layout_width="@dimen/dp_240" android:layout_height="@dimen/dp_180" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <dji.pilot.in2.smallfpv.In2SmallFpvMinBtn android:id="@id/in2_fpv_small_btn" android:background="@drawable/in2_small_fpv_min_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</merge>

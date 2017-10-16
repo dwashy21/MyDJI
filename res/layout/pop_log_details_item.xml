@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_85" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/pop_logs_detail_item_title" android:layout_width="fill_parent" android:layout_height="@dimen/dp_20" android:layout_marginTop="@dimen/dp_10" android:text="17-08-2016 title" />
+    <TextView android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/setting_white_80p" android:gravity="center|left" android:id="@id/pop_logs_detail_item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10" android:text="detail" android:layout_below="@id/pop_logs_detail_item_title" android:layout_alignParentBottom="true" />
+    <ImageView android:background="@color/setting_ui_exp_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+</RelativeLayout>

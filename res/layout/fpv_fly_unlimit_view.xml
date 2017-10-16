@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.general.DJIFlyUnlimitView android:orientation="vertical" android:paddingLeft="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_50">
+        <TextView android:text="@string/fpv_fly_unlimit_hardware_num_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/setting_ui_txt" />
+        <TextView android:id="@id/fpv_fly_unlimit_hardware_num" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_txt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/setting_ui_divider_horization" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/fpv_fly_unlimit_switch_ly" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50">
+        <dji.publics.DJIUI.DJITextView android:text="@string/fpv_fly_unlimit_switch_label" android:layout_centerVertical="true" style="@style/setting_ui_txt" />
+        <Switch android:id="@id/fpv_fly_unlimit_switch" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_switch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/setting_ui_divider_horization" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/fpv_fly_unlimit_fresh_list_ly" android:background="@drawable/setting_ui_common_bg" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50">
+        <dji.publics.DJIUI.DJITextView android:text="@string/fpv_fly_unlimit_fresh_list_label" android:layout_centerInParent="true" style="@style/setting_ui_txt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/setting_ui_divider_horization" />
+    <ListView android:id="@id/fpv_fly_unlimit_area_list" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+</dji.setting.ui.general.DJIFlyUnlimitView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="41.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="50.0dip">
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/img_exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:src="@drawable/editor_title_close" android:layout_centerVertical="true" />
+        <dji.pilot2.commonwidget.DJIStateTextView android:textSize="18.0sp" android:textColor="#ff32bfff" android:id="@id/img_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="14.0dip" android:text="@string/editor_edit_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/vp_feature_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/free_eye_feature_bar" android:layout_below="@id/video_view" />
+    <dji.pilot2.freeEye.widget.EditorFeatureBar android:id="@id/free_eye_feature_bar" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true" />
+    <dji.pilot2.freeEye.widget.FreeEyeVideoView android:id="@id/video_view" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="216.0dip" android:layout_below="@id/rl_title" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/vv_player_fullscreen" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_fullscreen" android:scaleType="centerInside" android:layout_alignTop="@id/video_view" android:layout_alignRight="@id/video_view" />
+    <RelativeLayout android:id="@id/full_screen_rl_title" android:background="@drawable/preview_header_graident_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <dji.pilot2.commonwidget.DJIStateImageView android:gravity="center" android:id="@id/full_screen_img_exit" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:src="@drawable/editor_title_close" android:scaleType="centerCrop" />
+    </RelativeLayout>
+</RelativeLayout>

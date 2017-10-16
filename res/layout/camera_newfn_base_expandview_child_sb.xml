@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/black_light" android:paddingTop="@dimen/fpv_top_mid_margin" android:paddingBottom="@dimen/fpv_top_mid_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_ten" android:layout_gravity="center_horizontal" android:id="@id/camera_newfn_exlv_child_sb_tv" style="@style/GenCenterWrapTxt" />
+        <SeekBar android:id="@id/camera_newfn_exlv_child_sb" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/camera_simple_marginleft" android:layout_marginRight="@dimen/camera_simple_marginright" android:maxHeight="@dimen/fpv_top_min_margin" android:max="80" android:progress="0" android:progressDrawable="@drawable/fpv_playback_video_progress" android:minHeight="@dimen/fpv_top_min_margin" android:thumb="@drawable/fpv_advanced_slider_normal_icon" android:thumbOffset="0.0dip" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</FrameLayout>

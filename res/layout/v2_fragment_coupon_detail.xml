@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/v2_coupon_detail" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/v2_coupon_header" layout="@layout/v2_coupon_header" />
+    <ScrollView android:id="@id/v2_coupon_scroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/v2_coupon_detail_mt" android:layout_below="@id/v2_coupon_header">
+        <include layout="@layout/v2_coupon_mailpic" />
+    </ScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/v2_coupon_detail_ml" android:layout_marginTop="@dimen/v2_coupon_detail_mt" android:layout_marginRight="@dimen/v2_coupon_detail_mr" android:layout_below="@id/v2_coupon_header" android:layout_alignBottom="@id/v2_coupon_scroll">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v2_coupon_header" layout="@layout/v2_coupon_loading" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/v2_no_net" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/v2_net_error" />
+    </RelativeLayout>
+</RelativeLayout>

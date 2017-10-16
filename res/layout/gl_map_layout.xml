@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/explore_back" android:layout_width="@dimen/v2_topbar_height" android:layout_height="fill_parent" android:src="@drawable/gl_back_selector" android:scaleType="centerInside" android:onClick="onNavBack" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="14.0sp" android:ellipsize="end" android:layout_gravity="center" android:id="@id/location_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_nativeexplore_gl_title" android:maxLines="1" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.gs.views.EventView android:layout_gravity="center_horizontal" android:id="@id/gl_map" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <Button android:textSize="14.0sp" android:textColor="@color/grey_not_selected" android:gravity="center" android:id="@id/style_st" android:background="@drawable/gl_mapbutton_selector" android:paddingLeft="@dimen/dp_4_in_sw320dp" android:paddingRight="@dimen/dp_4_in_sw320dp" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginTop="@dimen/dp_8_in_sw320dp" android:layout_marginRight="@dimen/dp_5_in_sw320dp" android:text="@string/v2_map_st" android:layout_alignParentRight="true" android:onClick="onSwitchToSatellite" />
+        <Button android:textSize="14.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/style_nr" android:background="@drawable/gl_mapbutton_selector" android:paddingLeft="@dimen/dp_4_in_sw320dp" android:paddingRight="@dimen/dp_4_in_sw320dp" android:layout_width="wrap_content" android:layout_height="32.0dip" android:layout_marginRight="-0.5dip" android:text="@string/v2_map_nr" android:layout_toLeftOf="@id/style_st" android:layout_alignTop="@id/style_st" android:onClick="onSwitchToMap" />
+        <include layout="@layout/v2_library_menu" />
+    </RelativeLayout>
+</LinearLayout>

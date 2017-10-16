@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="48.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="12.0sp" android:textColor="@color/v2_upload_indicator_text_color" android:gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_upload_progress" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:layout_width="0.0dip" android:layout_height="4.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:max="100" android:indeterminate="false" android:layout_weight="1.0" style="@style/UploadIndicatorProgressStyle" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="12.0sp" android:textColor="@color/v2_upload_indicator_text_color" android:gravity="center" android:id="@id/upload_cancel" android:background="@drawable/v2_explore_follow_button_background" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/cancel" />
+</LinearLayout>

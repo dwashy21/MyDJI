@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:id="@id/setting_ui_item_title" android:text="@string/setting_ui_rc_aircraft_type" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/setting_ui_item_spinner_btn" android:minWidth="@dimen/dp_200" android:text="720p" style="@style/setting_ui_item_spinner_btn" />
+    </LinearLayout>
+    <TextView android:layout_marginTop="-10.0dip" android:layout_marginBottom="@dimen/setting_ui_item_padding" android:text="@string/setting_ui_rc_aircraft_type_desc" style="@style/setting_ui_item_desc" />
+</LinearLayout>

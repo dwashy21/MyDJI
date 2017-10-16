@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.account.sign.ForgetSwitchView android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.account.sign.AccountTitleBar android:id="@id/account_switch_title" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/account_switch_title">
+        <RelativeLayout android:orientation="horizontal" android:id="@id/switch_forget_email" android:layout_width="fill_parent" android:layout_height="@dimen/dp_35_in_sw320dp">
+            <TextView android:gravity="center" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/home_account_reset_by_email" />
+            <ImageView android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/profile_arrow_right" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/switch_forget_phone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_35_in_sw320dp">
+            <TextView android:gravity="center" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/home_account_reset_by_phone" />
+            <ImageView android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/profile_arrow_right" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</dji.pilot2.account.sign.ForgetSwitchView>

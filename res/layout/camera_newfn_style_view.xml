@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.DJICameraStyleView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/camera_other_divider" android:showDividers="end|middle" android:dividerPadding="0.0dip">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/txt_ten" android:paddingRight="@dimen/txt_ten" android:layout_width="fill_parent" android:layout_height="@dimen/fn_new_item_height" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJITextView android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <dji.publics.DJIUI.DJIImageView android:padding="@dimen/fpv_top_min_margin" android:layout_width="@dimen/fn_new_style_item" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fpv_top_min_margin" android:layout_marginRight="@dimen/fpv_top_min_margin" android:src="@drawable/advanced_more_sharpness" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJIImageView android:padding="@dimen/fpv_top_min_margin" android:layout_width="@dimen/fn_new_style_item" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fpv_top_min_margin" android:layout_marginRight="@dimen/fpv_top_min_margin" android:src="@drawable/advanced_more_contrast" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJIImageView android:padding="@dimen/fpv_top_min_margin" android:layout_width="@dimen/fn_new_style_item" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fpv_top_min_margin" android:layout_marginRight="@dimen/fpv_top_min_margin" android:src="@drawable/advanced_more_saturation" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <include android:id="@id/camera_newfn_style_standard" layout="@layout/camera_newfn_style_item" />
+        <include android:id="@id/camera_newfn_style_landscape" layout="@layout/camera_newfn_style_item" />
+        <include android:id="@id/camera_newfn_style_soft" layout="@layout/camera_newfn_style_item" />
+        <include android:id="@id/camera_newfn_style_cunstom" layout="@layout/camera_newfn_style_item" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/camera_newfn_style_custom_ly" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/fn_new_style_item" android:paddingRight="@dimen/fn_new_style_item" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fn_new_item_height">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/camera_newfn_style_custom_min_img" android:padding="@dimen/fpv_top_mid_margin" android:layout_width="@dimen/fn_new_item_height" android:layout_height="fill_parent" android:src="@drawable/fpv_camera_minus" android:scaleType="centerInside" android:adjustViewBounds="true" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/camera_newfn_style_custom_max_img" android:padding="@dimen/fpv_top_mid_margin" android:layout_width="@dimen/fn_new_item_height" android:layout_height="fill_parent" android:src="@drawable/fpv_camera_plus" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentRight="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.fpv.camera.newfn.DJICameraStyleView>

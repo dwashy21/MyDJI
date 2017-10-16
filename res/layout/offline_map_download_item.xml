@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="#ffffffff" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="?android:listPreferredItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/offline_map_download_item_left" android:paddingTop="@dimen/offline_map_dp_10_in_sw320dp" android:paddingBottom="@dimen/offline_map_dp_10_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/offline_map_title_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/offline_map_dp_20_in_sw320dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/offline_map_text_color" android:ellipsize="end" android:id="@id/offline_map_download_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="北京市" android:singleLine="true" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/offline_map_text_color" android:gravity="center" android:id="@id/offline_map_download_progress" android:paddingLeft="@dimen/offline_map_dp_10_in_sw320dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="fffffffffffffffffffffff" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/offline_map_dp_20_in_sw320dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:textSize="12.0sp" android:textColor="@color/offline_map_text_color" android:id="@id/offline_map_download_item_flow_size" android:paddingRight="@dimen/offline_map_dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100MB" />
+                <dji.offlinemap.OfflineMapRL android:gravity="center" android:id="@id/offline_map_download_ly" android:padding="@dimen/offline_map_dp_10_in_sw320dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="@color/offline_map_text_color" android:gravity="center" android:id="@id/offline_map_download_item_state" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/offline_map_dp_50_in_sw320dp" android:layout_height="@dimen/offline_map_dp_30_in_sw320dp" android:layout_centerInParent="true" />
+                    <ImageView android:id="@id/offline_map_download_item_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/offline_map_arrow_down" android:layout_centerInParent="true" />
+                </dji.offlinemap.OfflineMapRL>
+            </LinearLayout>
+        </RelativeLayout>
+        <ProgressBar android:id="@id/offline_map_download_progressbar" android:background="@color/offline_divider_gray" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/offline_map_dp_7_in_sw320dp" android:maxHeight="@dimen/offline_map_dp_7_in_sw320dp" android:max="100" android:progress="0" android:indeterminate="false" android:indeterminateOnly="false" android:progressDrawable="@drawable/offline_map_download_progress_horizontal" android:minHeight="@dimen/offline_map_dp_7_in_sw320dp" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/offline_map_download_item_right" android:background="@color/offline_map_item_delete_red" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/offline_map_download_item_right_iv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/offline_map_item_delet" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

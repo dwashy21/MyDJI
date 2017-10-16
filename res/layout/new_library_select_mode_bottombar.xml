@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/v2_bottombar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#ffd5d5d5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:enabled="false" android:textSize="@dimen/new_library_top_text_size_normal" android:textColor="@android:color/white" android:gravity="center" android:id="@id/library_bottom_opv" android:background="@drawable/new_library_select_mode_btn_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/delete" android:layout_centerInParent="true" />
+</RelativeLayout>

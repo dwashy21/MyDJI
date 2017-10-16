@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activate_statement" style="@style/activate_rlayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJITextView android:id="@id/activate_statement_product_name" android:layout_marginTop="@dimen/dp_85_in_sw320dp" android:text="@string/activate_statement_title" phantom:djiTextFace="demi" style="@style/activate_des_title" />
+    <TextView android:id="@id/activate_statement_product_desc" android:text="@string/activate_statement_content" android:layout_below="@id/activate_statement_product_name" style="@style/activate_des_content" />
+    <TextView android:textColor="@color/blue" android:id="@id/activate_statement_gimbal_desc" android:visibility="visible" android:layout_marginTop="@dimen/dp_18" android:text="@string/v2_active_kumquat_desc" android:layout_below="@id/activate_statement_product_desc" android:layout_centerHorizontal="true" style="@style/activate_des_content_pad" />
+    <Button android:gravity="center" android:id="@id/btn_activate_statement_continue" android:text="@string/next" android:singleLine="true" android:layout_alignParentBottom="true" style="@style/activate_button_style" />
+    <ImageView android:id="@id/activate_statement_product_img" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_35_in_sw320dp" android:layout_marginBottom="@dimen/dp_20_in_sw320dp" android:src="@drawable/n3_app_v4_no_led" android:scaleType="centerInside" android:layout_above="@id/btn_activate_statement_continue" android:layout_below="@id/activate_statement_gimbal_desc" android:layout_centerHorizontal="true" />
+</RelativeLayout>

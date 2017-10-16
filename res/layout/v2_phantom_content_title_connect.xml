@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.5">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ve_phantom_20_phone_sp" android:textStyle="bold" android:textColor="@color/v2_phant_black" android:gravity="center_horizontal" android:id="@id/v2_phantom_connect_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phantom_dji_phantom" phantom:djiTextFace="demi" />
+    </LinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/v2_phantom_connect_img" android:background="@drawable/power_by_xt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fpv_top_max_margin" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ve_phantom_14_phone_sp" android:textColor="@color/v2_phant_gray" android:gravity="center|top" android:id="@id/v2_phantom_connect_subtitle" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/phantom_dji_advanced" android:layout_weight="1.5" phantom:djiTextFace="demi" />
+</LinearLayout>

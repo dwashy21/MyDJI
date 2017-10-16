@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/liveshare_checkin_title_ly" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@id/liveshare_checkin_back_btn" android:background="@drawable/setting_ui_common_bg" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/setting_ui_root_back" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/liveshare_subview_title_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_checkin_select_title" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/liveshare_subview_btn_text_color_blue" android:id="@id/liveshare_checkin_done_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_20" android:text="@string/liveshare_base_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/liveshare_checkin_fetching_view" android:paddingLeft="@dimen/dp_15" android:paddingRight="@dimen/dp_15" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:layout_below="@id/liveshare_checkin_title_ly">
+        <dji.publics.DJIUI.DJIImageView android:background="@color/white_20P" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentTop="true" android:layout_centerInParent="true">
+            <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_5" style="?android:attr/progressBarStyleSmall" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/liveshare_facebook_checkin_fetch_text" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_checkin_fetching" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJIImageView android:background="@color/white_20P" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/liveshare_checkin_fetch_failed_view" android:paddingLeft="@dimen/dp_15" android:paddingRight="@dimen/dp_15" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_50" android:layout_below="@id/liveshare_checkin_title_ly">
+        <dji.publics.DJIUI.DJIImageView android:background="@color/white_20P" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/liveshare_facebook_checkin_fetch_text" android:layout_gravity="top" android:id="@id/liveshare_checkin_fetch_failed_reason_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_checkin_fetch_failed_unknown" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJIImageView android:background="@color/white_20P" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.pilot.liveshare.base.widget.LiveCheckInListView android:id="@id/liveshare_checkin_place_list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/liveshare_checkin_title_ly" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+</RelativeLayout>

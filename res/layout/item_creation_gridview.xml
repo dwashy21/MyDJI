@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.newlibrary.widget.SquareRelativeLayout android:id="@id/creation_root" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/creation_thumb" android:background="@color/gray_dark" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:id="@id/creation_item_black_cover" android:background="#33000000" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/creation_item_cover" android:background="#1effffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/creation_item_new" android:visibility="gone" android:layout_width="@dimen/dp_40_in_sw320dp" android:layout_height="17.0dip" android:src="@drawable/creation_item_new" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/creation_item_select" android:padding="@dimen/dp_10_in_sw320dp" android:visibility="gone" android:layout_width="@dimen/dp_45_in_sw320dp" android:layout_height="@dimen/dp_45_in_sw320dp" android:src="@drawable/new_library_itemselect_true" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:textSize="18.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center" android:id="@id/creation_title" android:paddingLeft="@dimen/dp_12_in_sw320dp" android:paddingRight="@dimen/dp_12_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dp_60_in_sw320dp" android:text="Untitle File" android:maxLines="4" android:shadowColor="@color/v2_library_text_shadow_color" android:shadowDx="1.0" android:shadowDy="1.0" android:shadowRadius="2.0" android:layout_centerInParent="true" />
+</dji.pilot2.newlibrary.widget.SquareRelativeLayout>

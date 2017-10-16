@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/divider_dialog_bottom_sheet" android:showDividers="middle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="45.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/creation_select_type_title" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJIStateImageView android:id="@id/dialog_creation_select_close" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:src="@drawable/dialog_creation_select_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:divider="@drawable/divider_dialog_bottom_sheet" android:showDividers="middle">
+        <dji.pilot2.copy.widget.DJIStateLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_creation_select_editor" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="240.0dip" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialog_creation_select_editor" />
+            <TextView android:textColor="#ff1088f2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/creation_editor_type_name" />
+            <TextView android:textColor="#ff4a4a4a" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/creation_editor_type_desc" />
+        </dji.pilot2.copy.widget.DJIStateLinearLayout>
+        <dji.pilot2.copy.widget.DJIStateLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_creation_select_auto_edit" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="240.0dip" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialog_creation_select_auto_edit" />
+            <TextView android:textColor="#ff1088f2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/creation_auto_edit_type_name" />
+            <TextView android:textColor="#ff4a4a4a" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/creation_auto_edit_type_desc" />
+        </dji.pilot2.copy.widget.DJIStateLinearLayout>
+        <dji.pilot2.copy.widget.DJIStateLinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/dialog_creation_select_free_eye" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="240.0dip" android:layout_height="wrap_content">
+            <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/dialog_creation_select_free_eye" />
+            <TextView android:textColor="#ff1088f2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/creation_free_eye_type_name" />
+            <TextView android:textColor="#ff4a4a4a" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/creation_free_eye_type_desc" />
+        </dji.pilot2.copy.widget.DJIStateLinearLayout>
+    </LinearLayout>
+</LinearLayout>

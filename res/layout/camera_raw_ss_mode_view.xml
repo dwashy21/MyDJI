@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:paddingBottom="@dimen/setting_ui_item_padding" android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" style="@style/setting_ui_item">
+        <dji.publics.DJIUI.DJITextView android:gravity="center|left" android:id="@id/setting_ui_item_title" android:layout_width="fill_parent" android:text="@string/fpv_camera_sdmode" style="@style/setting_ui_item_title" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJISengmentedGroup android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/setting_ui_item_radiogroup" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_10_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textSize="@dimen/txt_twelve" android:id="@id/setting_ui_group_h264" android:layout_width="0.0dip" android:text="@string/camera_encode_h264" android:maxLines="1" android:layout_weight="1.0" style="@style/SGRadioButton" />
+        <RadioButton android:textSize="@dimen/txt_twelve" android:id="@id/setting_ui_group_h265" android:layout_width="0.0dip" android:text="@string/camera_encode_h265" android:maxLines="1" android:layout_weight="1.0" style="@style/SGRadioButton" />
+    </dji.publics.DJIUI.DJISengmentedGroup>
+</dji.publics.DJIUI.DJILinearLayout>

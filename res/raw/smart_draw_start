@@ -1,0 +1,22 @@
+{
+    "mode":"draw",
+    "view":"view_draw_start",
+    "title":"",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://smartmode/hide",
+    "hidebottombar":true,
+    "lefttop":{
+        "color":"#ffffff",
+        "title":"gsnew_gs_hide",
+        "jumpto":"gs://smartmode/hide"
+    },
+    "righttop":{
+            "img":"gs_terrain_tracking_help_btn",
+            "jumpto":"gs://smartmode/draw/help"
+    }
+}

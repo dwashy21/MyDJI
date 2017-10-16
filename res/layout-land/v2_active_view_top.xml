@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/v2_active_view_top" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/activate_top_content" android:layout_width="fill_parent" android:layout_height="@dimen/activate_top_height_land" android:layout_alignParentTop="true">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/activate_top_previous" android:padding="@dimen/dp_10_in_sw320dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="@dimen/v2_active_main_title" android:textColor="@color/v2_active_main_next" android:gravity="center" android:id="@id/activate_top_continue" android:layout_width="wrap_content" android:layout_height="@dimen/activate_top_height_land" android:layout_marginRight="@dimen/dp_28_in_sw320dp" android:text="@string/activate_top_next" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <dji.publics.DJIUI.DJIView android:background="@color/activate_top_divider_land" android:layout_width="fill_parent" android:layout_height="@dimen/dp_1" android:layout_marginTop="@dimen/activate_top_height_land" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/activate_process_view" android:layout_width="wrap_content" android:layout_height="@dimen/dp_35_in_sw320dp" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/comment_headimage" android:layout_width="@dimen/dp_40_in_sw320dp" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_marginLeft="@dimen/dp_15_in_sw320dp" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_marginBottom="@dimen/dp_5_in_sw320dp" android:src="@drawable/v2_avatar_default" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_marginRight="@dimen/dp_15_in_sw320dp" android:layout_toRightOf="@id/comment_headimage">
+        <TextView android:textColor="@color/standard3_0_primary_color" android:gravity="center_vertical" android:id="@id/comment_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/dp_152_in_sw320dp" android:singleLine="true" />
+        <TextView android:textColor="@color/standard3_0_secondary_text_color" android:gravity="center_vertical" android:id="@id/comment_time" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:singleLine="true" android:layout_toRightOf="@id/comment_name" />
+        <TextView android:textColor="@color/standard3_0_primary_text_color" android:gravity="left" android:id="@id/comment_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_below="@id/comment_name" />
+    </RelativeLayout>
+</RelativeLayout>

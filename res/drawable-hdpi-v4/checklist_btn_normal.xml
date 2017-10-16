@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="@dimen/txt_ten" android:top="@dimen/fpv_top_min_margin" android:right="@dimen/txt_ten" android:bottom="@dimen/fpv_top_min_margin" />
+    <stroke android:width="@dimen/dp_1_in_sw320dp" android:color="@color/white" />
+    <corners android:radius="@dimen/gen_corner_radius" />
+</shape>

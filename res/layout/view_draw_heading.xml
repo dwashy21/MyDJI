@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.dji_groundstation.ui.views.DrawHeadingView android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.dji_groundstation.ui.widget.StateTextView android:textSize="12.0dip" android:textColor="@color/spinner_text2" android:gravity="center" android:id="@id/gs_draw_forward_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_draw_forward" android:drawableTop="@drawable/selector_draw_forward" android:drawablePadding="5.0dip" android:contentDescription="@string/app_name" />
+    <dji.pilot.dji_groundstation.ui.widget.StateTextView android:textSize="12.0dip" android:textColor="@color/spinner_text2" android:gravity="center" android:id="@id/gs_draw_free_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/gsnew_gs_draw_free" android:drawableTop="@drawable/selector_draw_free" android:drawablePadding="5.0dip" android:contentDescription="@string/app_name" />
+</dji.pilot.dji_groundstation.ui.views.DrawHeadingView>

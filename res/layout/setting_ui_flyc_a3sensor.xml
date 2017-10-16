@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_items_linearlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="@dimen/dp_60" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_acc_label" android:layout_weight="1.0" style="@style/setting_ui_txt" />
+        <View android:layout_width="@dimen/dp_60" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_gryo_label" android:layout_weight="1.0" style="@style/setting_ui_txt" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="@dimen/dp_60" android:layout_height="1.0dip" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_bias" android:layout_weight="1.0" style="@style/setting_ui_txt_small_gray" />
+        <View android:layout_width="@dimen/dp_60" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_bias" android:layout_weight="1.0" style="@style/setting_ui_txt_small_gray" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_ui_flyc_imu_ly1" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45">
+        <TextView android:id="@id/setting_ui_flyc_acc_0_title" android:layout_width="@dimen/dp_60" android:text="@string/setting_ui_a3sensor_acc0" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/setting_ui_flyc_imu_acc_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_ui_item_padding" android:layout_weight="1.0" />
+        <TextView android:id="@id/setting_ui_flyc_gyro_0_title" android:layout_width="@dimen/dp_60" android:text="@string/setting_ui_a3sensor_gyro0" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/setting_ui_flyc_imu_gyr_1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_ui_item_padding" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_ui_flyc_imu_ly2" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45">
+        <TextView android:id="@id/setting_ui_flyc_acc_1_title" android:layout_width="@dimen/dp_60" android:text="@string/setting_ui_a3sensor_acc1" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/setting_ui_flyc_imu_acc_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_ui_item_padding" android:layout_weight="1.0" />
+        <TextView android:id="@id/setting_ui_flyc_gyro_1_title" android:layout_width="@dimen/dp_60" android:text="@string/setting_ui_a3sensor_gyro1" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/setting_ui_flyc_imu_gyr_2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_ui_item_padding" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_ui_flyc_imu_ly3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45">
+        <TextView android:id="@id/setting_ui_flyc_acc_2_title" android:layout_width="@dimen/dp_60" android:text="@string/setting_ui_a3sensor_acc2" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/setting_ui_flyc_imu_acc_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_ui_item_padding" android:layout_weight="1.0" />
+        <TextView android:id="@id/setting_ui_flyc_gyro_2_title" android:layout_width="@dimen/dp_60" android:text="@string/setting_ui_a3sensor_gyro2" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/setting_ui_flyc_imu_gyr_3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/setting_ui_item_padding" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_marginTop="@dimen/dp_20" style="@style/setting_ui_item">
+        <Button android:id="@id/setting_ui_flyc_cal_btn" android:text="@string/setting_ui_redundancy_sensor_imu_calc" style="@style/setting_ui_item_btn_big" />
+    </LinearLayout>
+</LinearLayout>

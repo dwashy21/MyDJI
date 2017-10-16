@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/activefirstlinear1" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        <ImageView android:id="@id/activefirstimageView1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="-200.0dip" android:src="@drawable/v2_p3a_icon" android:scaleType="centerCrop" android:layout_weight="6.5" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ve_active_title_1" android:textColor="@color/v2_active_title_01" android:gravity="center_vertical" android:id="@id/activefirsteditText1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/ve_active_edage" android:layout_marginRight="@dimen/ve_active_edage" android:text="@string/activate_statement_title" android:layout_weight="1.0" phantom:djiTextFace="demi" />
+        <TextView android:textSize="@dimen/activate_desc" android:textColor="@color/v2_active_title_03" android:id="@id/activate_statement_product_desc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/ve_active_edage" android:layout_marginRight="@dimen/ve_active_edage" android:text="@string/activate_statement_content" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/active_txt_forteen" android:textColor="@color/white" android:gravity="center" android:id="@id/activefirsteditText3" android:background="@drawable/v2_main_plantom_buttom_camera_blue_selector" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/ve_active_edage" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ve_active_edage" android:layout_marginBottom="30.0dip" android:text="@string/continue_" android:singleLine="true" android:layout_weight="1.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

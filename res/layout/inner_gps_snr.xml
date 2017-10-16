@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:id="@id/inner_tool_enable_gps_desc_tv" android:text="GPS" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/inner_tool_enable_gps_switch" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_toRightOf="@id/inner_tool_enable_gps_desc_tv" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/inner_tool_gps" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" style="@style/FpvGenRadiusItemLy">
+            <dji.publics.DJIUI.DJITextView android:id="@id/inner_tool_gps_snr_desc_tv" android:text="SNR" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/inner_tool_gps_snr_switch" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_toRightOf="@id/inner_tool_gps_snr_desc_tv" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+            <dji.pilot.publics.widget.DJIEditText android:id="@id/inner_tool_snr_average_num_et" android:visibility="gone" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/FpvGenSettingEtview" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/inner_tool_snr_average_desc_tv" android:visibility="gone" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:text="@string/inner_tool_gps_snr_average" android:layout_toLeftOf="@id/inner_tool_snr_average_num_et" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_gravity="center_vertical" android:id="@id/inner_tool_gps_snr_ly" android:visibility="gone" android:layout_width="wrap_content" style="@style/FpvGenRadiusItemLy">
+            <dji.pilot.fpv.inner.DJISnrView android:id="@id/inner_tool_gps_snr_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fpv_hd_setting_freq_height" android:layout_marginTop="@dimen/fpv_top_mid_margin" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/inner_tool_gps_max_txt" android:background="@drawable/corner_white_bg" android:paddingLeft="@dimen/fpv_top_mid_margin" android:paddingRight="@dimen/fpv_top_mid_margin" android:minWidth="@dimen/dp_50_in_sw320dp" android:text="0.0" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0dip" android:textColor="@color/red" android:gravity="center" android:id="@id/inner_tool_gps_aver_txt" android:background="@drawable/corner_white_bg" android:paddingLeft="@dimen/fpv_top_mid_margin" android:paddingRight="@dimen/fpv_top_mid_margin" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:minWidth="@dimen/dp_50_in_sw320dp" android:text="0.0" android:layout_toRightOf="@id/inner_tool_gps_max_txt" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/inner_tool_gps_use_txt" android:background="@drawable/corner_white_bg" android:paddingLeft="@dimen/fpv_top_mid_margin" android:paddingRight="@dimen/fpv_top_mid_margin" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:minWidth="@dimen/dp_30_in_sw320dp" android:layout_toRightOf="@id/inner_tool_gps_aver_txt" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

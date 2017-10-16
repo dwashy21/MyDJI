@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/setting_ui_item_noPadding"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/setting_ui_color_blue_txt" android:id="@id/flyfrb_refresh_btn" android:text="@string/nfz_license_refresh_txt" style="@style/setting_ui_item_btn_big" />
+    <ProgressBar android:id="@id/flyfrb_refreshing_loading_pgb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" android:scaleX="1.5" android:scaleY="1.5" style="@android:style/Widget.Holo.Light.ProgressBar.Small" />
+</RelativeLayout>

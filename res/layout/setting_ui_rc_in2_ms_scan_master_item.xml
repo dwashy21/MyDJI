@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:minHeight="?android:listPreferredItemHeight" style="@style/setting_ui_rc_ms_detail_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/in2_master_scan_master_id" android:layout_width="wrap_content" android:text="master id" style="@style/setting_ui_item_title" />
+    <TextView android:id="@id/in2_master_scan_rssi" android:layout_width="wrap_content" android:text="rssi" android:layout_centerInParent="true" style="@style/setting_ui_item_title" />
+    <TextView android:textColor="@color/setting_ui_txt_color" android:id="@id/in2_master_scan_connect_btn" android:padding="@dimen/dp_5" android:layout_width="wrap_content" android:text="@string/setting_ui_rc_in2_scan_master_connect" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/setting_ui_item_title" />
+    <TextView android:id="@id/in2_master_scan_connectted_tip" android:padding="@dimen/dp_5" android:visibility="invisible" android:layout_width="wrap_content" android:text="@string/setting_ui_rc_in2_scan_master_connected" android:layout_alignParentRight="true" android:layout_centerInParent="true" style="@style/setting_ui_item_title" />
+    <View android:layout_alignParentBottom="true" style="@style/setting_ui_divider_horization" />
+</RelativeLayout>

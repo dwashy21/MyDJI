@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/academy_banner_item_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/academy_banner_new" android:background="@drawable/academy_banner_new_bg" android:visibility="gone" android:layout_width="75.0dip" android:layout_height="35.0dip" android:layout_marginTop="8.0dip" android:text="NEW" android:layout_alignParentTop="true" />
+</RelativeLayout>

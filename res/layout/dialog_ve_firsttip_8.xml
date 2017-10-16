@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ve_tip_dialog" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.widget.DJIFirstTipCover android:id="@id/v2_first_tip_ringview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:v2_radius="14.0dip" app:v2_ringEraserLeft="0.0dip" app:v2_ringEraserTop="0.0dip" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/v2_first_tip_dialog_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip">
+        <RelativeLayout android:background="@drawable/v2_first_tip_background" android:layout_width="@dimen/v2_first_tip_background_w_216dp" android:layout_height="wrap_content">
+            <RelativeLayout android:padding="@dimen/v2_first_tip_margin_10dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/v2_first_tip_margin_5dp" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/v2_first_tip_txt_size_12dp" android:textColor="@color/account_txt_gray" android:gravity="left" android:id="@id/ve_tip_title" android:paddingTop="@dimen/v2_first_tip_margin_5dp" android:paddingBottom="@dimen/v2_first_tip_margin_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/v2_first_tip_margin_10dp" android:maxWidth="@dimen/v2_first_tip_background_w_216dp" android:text="@string/v2_first_tip_explore_favourite" android:singleLine="false" />
+                <ImageView android:id="@id/divide_tip" android:background="@color/profile_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/v2_first_tip_margin_2dp" android:layout_marginRight="@dimen/v2_first_tip_margin_10dp" android:layout_marginBottom="@dimen/v2_first_tip_margin_2dp" android:layout_below="@id/ve_tip_title" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/v2_first_tip_txt_size_12dp" android:textColor="@color/account_txt_blue" android:gravity="left" android:id="@id/ve_tip_btn" android:paddingTop="@dimen/v2_first_tip_margin_5dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/v2_first_tip_margin_10dp" android:text="@string/ve_beginners_guide_done" android:layout_below="@id/divide_tip" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <dji.publics.DJIUI.DJIImageView android:id="@id/v2_first_tip_arrow_downward" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/v2_first_tip_arrow_downward" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</RelativeLayout>

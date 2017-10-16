@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:orientation="vertical" android:id="@id/v2_active_main" android:background="@color/white" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="phone"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.usercenter.activate.wm100.ActivateViewPager android:id="@id/pager_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/v2_activate_top" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/dp_35_in_sw320dp" layout="@layout/v2_active_view_top" />
+</dji.publics.DJIUI.DJIOriLayout>

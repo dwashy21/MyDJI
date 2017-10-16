@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/rl_del_seg" android:background="#b2000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/timeline_trashcan_height">
+        <ImageView android:id="@id/img_trashcan" android:background="@drawable/editor_trashcan" android:layout_width="70.0dip" android:layout_height="70.0dip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView android:id="@id/rv_timeline_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rl_del_seg" />
+    <ImageView android:visibility="gone" android:layout_width="fill_parent" android:layout_height="33.0dip" android:src="@drawable/editor_timeline_shadow_bottom" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+</RelativeLayout>

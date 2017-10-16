@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#b2000000" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/in2_rc_connect_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_35" android:text="@string/setting_ui_rc_in2_connect_desc" style="@style/setting_ui_item_title" />
+    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <EditText android:id="@id/in2_rc_connect_auth_code_et" android:layout_centerInParent="true" style="@style/setting_ui_item_edittext" />
+        <ProgressBar android:id="@id/in2_rc_connecting_pg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:scaleX="0.5" android:scaleY="0.5" style="@android:style/Widget.Holo.Light.ProgressBar.Large" />
+    </RelativeLayout>
+    <View android:background="@color/setting_ui_dialog_standard_divider_color" android:layout_width="fill_parent" android:layout_height="@dimen/dp_5" />
+    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/setting_ui_txt_white_can_press_color" android:gravity="center" android:id="@id/in2_rc_connect_master_cancel" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_electriciry_go_home_cancel" android:layout_weight="1.0" android:layout_alignParentLeft="true" style="@style/setting_ui_item_title" />
+        <View android:id="@id/nfz_confirm_divider" android:background="@color/setting_ui_dialog_standard_divider_color" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <TextView android:textColor="@color/setting_ui_txt_white_can_press_color" android:gravity="center" android:id="@id/in2_rc_connect_master_connect" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/setting_ui_rc_in2_scan_master_connect" android:layout_weight="1.0" android:layout_alignParentRight="true" style="@style/setting_ui_item_title" />
+    </LinearLayout>
+</LinearLayout>

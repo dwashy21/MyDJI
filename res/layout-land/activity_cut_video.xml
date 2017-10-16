@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="pad" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cut_save_view" android:background="@color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:gravity="center" android:background="@color/black" android:layout_width="@dimen/save_dialog_width" android:layout_height="@dimen/save_dialog_height" android:layout_centerInParent="true">
+            <ImageView android:id="@id/cut_saving_progress_img" android:background="@drawable/saving_progress" android:layout_width="@dimen/save_loading_lenth" android:layout_height="@dimen/save_loading_lenth" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/save_loading_txt_size" android:textColor="@color/white" android:id="@id/cut_saving_progress_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/cut_saving_progress_img" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@layout/editor_header" />
+    <dji.pilot2.ui.widget.CutVideoView android:id="@id/editor_cutvideoview" android:background="@color/white" android:layout_width="@dimen/cut_pager_video_width" android:layout_height="@dimen/cut_pager_video_height" android:layout_below="@id/editor_header" android:layout_centerHorizontal="true" />
+    <dji.pilot2.widget.CutSegmentBar android:id="@id/editor_cutBar" android:layout_width="fill_parent" android:layout_height="@dimen/cut_pager_segment_bar_height" android:layout_marginTop="28.0dip" android:layout_below="@id/editor_cutvideoview" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/editor_makefilm" android:background="#ff32bfff" android:layout_width="fill_parent" android:layout_height="@dimen/cut_btn_makefilm_height" android:text="@string/editor_mf_txt" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/editor_cutvideoview" android:layout_below="@id/editor_header" android:layout_alignBottom="@id/editor_cutvideoview">
+        <dji.pilot2.commonwidget.DJIStateImageView android:textSize="18.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/editor_cutbutton" android:background="@drawable/drawable_editor_cut" android:layout_width="@dimen/cut_pager_cut_lenth" android:layout_height="@dimen/cut_pager_cut_lenth" android:layout_centerInParent="true" />
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/editor_del" android:visibility="gone" android:layout_width="@dimen/cut_pager_cross_lenth" android:layout_height="@dimen/cut_pager_cross_lenth" android:layout_marginTop="@dimen/cut_pager_cross_mt" android:src="@drawable/drawable_editor_del" android:scaleType="centerCrop" android:layout_below="@id/editor_cutbutton" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/layout_statusbar" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/explore_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_marginBottom="@dimen/dp_2_in_sw320dp" android:src="@drawable/gl_back_selector" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/explore_share" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:layout_marginBottom="@dimen/dp_2_in_sw320dp" android:src="@drawable/gl_share_selector" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/explore_collect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_25_in_sw320dp" android:layout_marginBottom="@dimen/dp_2_in_sw320dp" android:src="@drawable/gl_collect_selector" android:scaleType="centerInside" android:layout_toLeftOf="@id/explore_share" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/explore_like" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_25_in_sw320dp" android:src="@drawable/gl_like_selector" android:scaleType="centerInside" android:layout_toLeftOf="@id/explore_collect" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/standard3_0_background_color1" android:layout_width="fill_parent" android:layout_height="1.0px" />
+"
+\"
+\\\"
+\\\\\\\"
+  \\\\\\\"\\\\u0009\\\"\\u0009\"\u0009"	<RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+        <ScrollView android:id="@id/layout_scroller" android:visibility="invisible" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.pilot2.nativeexplore.view.ExploreGLView android:id="@id/glexplore" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

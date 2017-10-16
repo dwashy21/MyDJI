@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:home="http://schemas.android.com/apk/res-auto">
+    <dji.pilot.home.cs.view.CsMainBottomBtn android:id="@id/cs_main_bottom_btn_phantom" home:drawableTop="@drawable/cs_main_bottom_btn_ic_equipment" home:textBottom="@string/v2_tabhost_equipment" style="@style/cs_main_bottom_button" />
+    <dji.pilot.home.cs.view.CsMainBottomBtn android:id="@id/cs_main_bottom_btn_editor" home:drawableTop="@drawable/cs_main_bottom_btn_ic_editor" home:textBottom="@string/v2_tabhost_library" style="@style/cs_main_bottom_button" />
+    <dji.pilot.home.cs.view.CsMainBottomBtn android:id="@id/cs_main_bottom_btn_album" home:drawableTop="@drawable/cs_main_bottom_btn_ic_ablum" home:textBottom="@string/rc_main_album" style="@style/cs_main_bottom_button" />
+    <dji.pilot.home.cs.view.CsMainBottomBtn android:id="@id/cs_main_bottom_btn_skypixel" home:drawableTop="@drawable/cs_main_bottom_btn_ic_skypixel" home:textBottom="@string/v2_tabhost_discovery" style="@style/cs_main_bottom_button" />
+    <dji.pilot.home.cs.view.CsMainBottomBtn android:id="@id/cs_main_bottom_btn_me" home:drawableTop="@drawable/cs_main_bottom_btn_ic_me" home:textBottom="@string/v2_tabhost_me" style="@style/cs_main_bottom_button" />
+</LinearLayout>

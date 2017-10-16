@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/creation_placeholder_pad" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/creation_btn_create_pad" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/dp_80_in_sw320dp" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:src="@drawable/item_creation_gridview_add_black" android:scaleType="centerInside" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:textColor="#ff424242" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_home_createfilm" />
+</LinearLayout>
