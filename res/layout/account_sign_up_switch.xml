@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.account.sign.SignUpSwitchView android:orientation="vertical" android:background="@color/white" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.account.sign.AccountTitleBar android:id="@id/account_switch_title" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height" />
+    <dji.publics.DJIUI.DJIStateImageView android:id="@id/account_switch_refresh_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp_10" android:src="@drawable/lp_refresh" android:layout_centerInParent="true" android:layout_centerVertical="true" />
+    <TextView android:gravity="center" android:id="@id/account_switch_tips" android:paddingTop="@dimen/dp_80" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/account_need_network" android:layout_centerInParent="true" />
+</dji.pilot2.account.sign.SignUpSwitchView>

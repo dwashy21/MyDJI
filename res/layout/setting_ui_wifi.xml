@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/black_light" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.setting.ui.wifi.WifiFreqModeView android:id="@id/setting_ui_wifi_freq_mode_view" style="@style/setting_ui_item_noPadding" />
+    <include android:id="@id/wifi_snr_view" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/setting_include_snr_sdr_view" />
+    <View style="@style/setting_ui_divider_horization" />
+    <dji.setting.ui.wifi.WifiChannelIndexView android:id="@id/setting_ui_wifi_channel_index_view" style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.wifi.WifiResetView style="@style/setting_ui_item_noPadding" />
+    <LinearLayout android:id="@id/fpv_wifi_ssid_and_pwd_block" style="@style/setting_ui_items_linearlayout">
+        <LinearLayout android:gravity="center_vertical" android:padding="0.0dip" style="@style/setting_ui_item">
+            <TextView android:textColor="@color/white" android:gravity="center|right" android:paddingRight="@dimen/setting_ui_item_padding" android:layout_width="@dimen/dp_100" android:layout_height="fill_parent" android:text="@string/setting_ui_wifi_ssid_desc" style="@style/setting_ui_txt" />
+            <EditText android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/white" android:id="@id/fpv_wifi_setting_ssid_et" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/setting_ui_item_padding" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/white_half" android:gravity="center_vertical" android:paddingRight="@dimen/setting_ui_item_padding" android:layout_width="150.0dip" android:layout_height="fill_parent" android:text="@string/setting_ui_ssid_limit" />
+        </LinearLayout>
+        <ImageView style="@style/setting_ui_divider_horization" />
+        <LinearLayout android:gravity="center_vertical" android:padding="0.0dip" style="@style/setting_ui_item">
+            <TextView android:gravity="center|right" android:paddingRight="@dimen/setting_ui_item_padding" android:layout_width="@dimen/dp_100" android:layout_height="fill_parent" android:text="@string/setting_ui_wifi_pwd_desc" style="@style/setting_ui_txt" />
+            <EditText android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/white" android:id="@id/fpv_wifi_setting_pwd_et" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/setting_ui_item_padding" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/white_half" android:gravity="center_vertical" android:paddingRight="@dimen/setting_ui_item_padding" android:layout_width="150.0dip" android:layout_height="fill_parent" android:text="@string/setting_ui_wifi_pwd_tip" />
+        </LinearLayout>
+        <View style="@style/setting_ui_divider_horization" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" style="@style/setting_ui_item_noPadding">
+            <Button android:gravity="center" android:id="@id/fpv_wifi_setting_apply_tv" android:text="@string/setting_ui_wifi_apply" style="@style/setting_ui_item_btn_big" />
+            <View style="@style/setting_ui_divider_horization" />
+        </LinearLayout>
+    </LinearLayout>
+    <dji.setting.ui.wifi.WifiChannelSelectView android:id="@id/fpv_wifi_channel_select_view" setting_ui:titleText="@string/setting_ui_wifi_channel_text" style="@style/setting_ui_item_noPadding" />
+</LinearLayout>

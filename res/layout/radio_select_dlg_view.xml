@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/stroke_dlg_dark_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dlg_titlebar_view" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/fpv_gensetting_item_hover" android:layout_width="fill_parent" android:layout_height="1.0px" android:contentDescription="@string/app_name" />
+    <ListView android:id="@id/dlg_list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dp_10_in_sw320dp" android:divider="@null" android:dividerHeight="@dimen/dp_3_in_sw320dp" />
+</LinearLayout>

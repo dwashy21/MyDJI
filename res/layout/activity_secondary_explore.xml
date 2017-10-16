@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:id="@id/root_content_layout" android:background="@color/v2_topbar_white_bg" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/sec_explore_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.pilot2.share.LoadingView android:id="@id/v2_share_loding_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/popup_more_mask_iv" android:background="@color/black_half" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/popup_more_ly" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_scan" android:background="@drawable/main_app_change_bg" android:layout_width="fill_parent" android:layout_height="65.0dip">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/popup_more_scan" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_scan" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_tutorial" android:background="@drawable/main_app_change_bg" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_below="@id/popup_more_scan">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/popup_more_tutorial" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_tutorial" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_offlinemap" android:background="@drawable/main_app_change_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_below="@id/popup_more_tutorial">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/popup_more_map" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_map" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_flightrecord" android:background="@drawable/main_app_change_bg" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_below="@id/popup_more_offlinemap">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/popup_more_fr" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_flightrecord" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_store" android:background="@drawable/main_app_change_bg" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_below="@id/popup_more_flightrecord">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/popup_more_store" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_store" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_findmydrone" android:background="@drawable/main_app_change_bg" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_below="@id/popup_more_store">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/popup_more_findmydrone" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_findmydrone" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/popup_more_no_fly_zone" android:background="@drawable/main_app_change_bg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_below="@id/popup_more_findmydrone">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/phantom_selector_noflyzone" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/popup_more_no_fly_zone" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/popup_more_close" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="65.0dip" android:src="@drawable/popup_more_close" android:scaleType="center" android:layout_alignParentRight="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

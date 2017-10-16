@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/vp_feature_container" android:background="#ff1a1a1a" android:layout_width="@dimen/editor_feature_container_width" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/editor_feature_container_ml" android:layout_toRightOf="@id/rl_feature_list" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/vp_feature_container" android:layout_toEndOf="@id/vp_feature_container">
+        <dji.pilot2.ui.widget.VideoView android:id="@id/vv_player_view" android:layout_width="@dimen/editor_videoview_width" android:layout_height="@dimen/editor_videoview_height" android:layout_marginTop="78.0dip" android:layout_centerHorizontal="true" />
+        <FrameLayout android:layout_width="@dimen/editor_videoview_width" android:layout_height="@dimen/editor_videoview_height" android:layout_alignLeft="@id/vv_player_view" android:layout_alignTop="@id/vv_player_view" android:layout_alignRight="@id/vv_player_view" android:layout_alignBottom="@id/vv_player_view" android:layout_centerHorizontal="true">
+            <dji.publics.DJIUI.DJIImageView android:layout_gravity="center" android:id="@id/editor_header_play_btn" android:padding="4.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_video_view_play_small" android:scaleType="centerInside" />
+        </FrameLayout>
+        <dji.publics.DJIUI.DJIImageView android:id="@id/vv_player_fullscreen" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_fullscreen" android:scaleType="centerInside" android:layout_alignTop="@id/vv_player_view" android:layout_alignRight="@id/vv_player_view" />
+        <dji.pilot2.widget.EditorProgressBar android:id="@id/epb_progress" android:layout_width="fill_parent" android:layout_height="16.0dip" android:layout_marginTop="17.0dip" android:layout_below="@id/vv_player_view" android:layout_alignLeft="@id/vv_player_view" android:layout_alignRight="@id/vv_player_view" />
+        <dji.pilot2.widget.SegmentTimeline android:id="@id/tl_segment_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="78.0dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <View android:id="@id/full_screen_editor_touch_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/full_screen_editor_header" android:background="@drawable/preview_header_graident_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <dji.pilot2.commonwidget.DJIStateImageView android:gravity="center" android:id="@id/full_screen_editor_header_back_left" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:src="@drawable/editor_title_close" android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/full_screen_editor_bottom" android:visibility="invisible" android:clickable="false" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_alignParentBottom="true">
+        <View android:background="#50000000" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="20.0dip" />
+        <SeekBar android:id="@id/full_screen_editor_seekbar" android:paddingLeft="1.0dip" android:paddingTop="5.0dip" android:paddingRight="1.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:maxHeight="5.0dip" android:progress="0" android:progressDrawable="@drawable/layer_preview_progress" android:minHeight="5.0dip" android:thumb="@drawable/layer_preview_sb_drawable" android:thumbOffset="1.0dip" />
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/editor_pause_button" android:paddingRight="25.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_video_view_play_small" android:layout_below="@id/full_screen_editor_seekbar" android:layout_alignParentLeft="true" />
+        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/full_screen_editor_video_time_tv" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_toRightOf="@id/editor_pause_button" android:layout_below="@id/full_screen_editor_seekbar" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_feature_list" android:background="#ff1f1f1f" android:layout_width="50.0dip" android:layout_height="fill_parent" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_feature_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/rl_title" android:layout_width="fill_parent" android:layout_height="48.0dip">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/img_exit" android:padding="14.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/editor_title_close" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff32bfff" android:gravity="center" android:id="@id/img_share" android:paddingLeft="14.0dip" android:paddingRight="14.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/editor_edit_finish" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/img_save_project" android:paddingTop="14.0dip" android:paddingBottom="14.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="19.0dip" android:src="@drawable/editor_title_save" android:layout_toLeftOf="@id/img_share" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

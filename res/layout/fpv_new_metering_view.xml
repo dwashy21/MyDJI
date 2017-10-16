@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/fpv_camera_metering" android:visibility="visible" android:layout_width="@dimen/d_120_dp" android:layout_height="@dimen/d_90_dp" android:src="@drawable/fpv_spot_metering_lock" android:scaleType="centerInside" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/fpv_camera_metering_cancel" android:visibility="visible" android:layout_width="@dimen/d_25_dp" android:layout_height="@dimen/d_25_dp" android:layout_marginRight="@dimen/d_10_dp" android:layout_alignRight="@id/fpv_camera_metering" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/fpv_camera_metering_aelock" android:layout_width="@dimen/d_25_dp" android:layout_height="@dimen/d_25_dp" android:layout_centerInParent="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

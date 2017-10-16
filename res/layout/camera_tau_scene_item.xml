@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/txt_ten" android:paddingRight="@dimen/txt_ten" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_ten" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/camera_tau_scene_item_desc_tv" android:paddingBottom="@dimen/dp_2_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_ten" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/camera_tau_scene_item_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/camera_tau_scene_item_desc_tv" android:layout_alignParentRight="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <SeekBar android:id="@id/camera_tau_scene_item_sb" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/fpv_top_min_margin" android:max="80" android:progress="0" android:progressDrawable="@drawable/fpv_playback_video_progress" android:minHeight="@dimen/fpv_top_min_margin" android:thumb="@drawable/fpv_advanced_slider_normal_icon" android:thumbOffset="0.0dip" />
+</dji.publics.DJIUI.DJILinearLayout>

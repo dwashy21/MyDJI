@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="@dimen/dp_2_in_sw320dp">
+        <shape>
+            <solid android:color="@color/system_tab_select_color" />
+"
+\"
+\\\"
+\\\\\\\" />
+\\\\\\\"\\\\u0009\\\"\\u0009\"\u0009"	</shape>
+    </item>
+    <item android:bottom="4.0dip">
+        <shape>
+            <solid android:color="@color/white" />
+"
+\"
+\\\"
+\\\\\\\" />
+\\\\\\\"\\\\u0009\\\"\\u0009\"\u0009"	</shape>
+    </item>
+</layer-list>

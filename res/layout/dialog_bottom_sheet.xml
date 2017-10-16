@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bottom_sheet_container" android:background="@drawable/dialog_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/divider_dialog_bottom_sheet" android:showDividers="middle" />
+    <TextView android:textColor="@color/selector_bottom_sheet_dialog_text_color" android:gravity="center" android:id="@id/bottom_sheet_cancel" android:background="@drawable/dialog_bottom_sheet_background" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/cancel" />
+</LinearLayout>

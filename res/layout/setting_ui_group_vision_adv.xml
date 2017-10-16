@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView setting_ui:titleText="@string/setting_ui_vision_adv_desc" style="@style/setting_ui_items_scrollview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout">
+        <dji.setting.ui.vision.VisionDownSensorViewGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:visibility="gone" android:text="@string/setting_ui_vision_down_title" style="@style/setting_ui_item_sub_title" />
+            <dji.setting.ui.vision.VisionDownVPSView style="@style/setting_ui_item_bottom" />
+        </dji.setting.ui.vision.VisionDownSensorViewGroup>
+        <dji.setting.ui.vision.VisionSmartLandViewGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <TextView android:visibility="gone" android:text="@string/setting_ui_vision_smartland_title" style="@style/setting_ui_item_sub_title" />
+            <dji.setting.ui.vision.VisionFlatCheckView style="@style/setting_ui_item_bottom" />
+            <dji.setting.ui.vision.PreciseLandingSwitchView style="@style/setting_ui_item_bottom" />
+        </dji.setting.ui.vision.VisionSmartLandViewGroup>
+        <TextView android:visibility="gone" android:text="@string/setting_ui_vision_ghass_title" style="@style/setting_ui_item_sub_title" />
+        <dji.setting.ui.vision.VisionGHAssView style="@style/setting_ui_item_bottom" />
+        <dji.setting.ui.vision.VisionHomingSenseView style="@style/setting_ui_item_bottom" />
+    </LinearLayout>
+</ScrollView>

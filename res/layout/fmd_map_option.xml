@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/fmd_map_option_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_15_dp" android:layout_marginRight="@dimen/d_4_dp" android:layout_marginBottom="@dimen/d_5_dp">
+        <ImageView android:id="@id/fmd_map_option_type" android:src="@drawable/fmd_map_option_type" style="@style/fmd_map_icon" />
+        <FrameLayout android:id="@id/fmd_map_opiton_compass" android:background="@drawable/fmd_map_option_compass" style="@style/fmd_map_icon">
+            <ImageView android:layout_gravity="center" android:id="@id/fmd_map_opiton_compass_lock" android:layout_width="@dimen/d_18_dp" android:layout_height="@dimen/d_18_dp" android:src="@drawable/fmd_map_option_compass_lock" />
+        </FrameLayout>
+        <ImageView android:id="@id/fmd_map_option_location" android:src="@drawable/fmd_map_option_location" style="@style/fmd_map_icon" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fmd_map_option_loc_layout" android:background="@drawable/fmd_map_option_bg2" android:paddingLeft="@dimen/d_6_dp" android:visibility="gone" android:layout_width="@dimen/d_109_dp" android:layout_height="@dimen/d_36_dp" android:layout_marginTop="@dimen/d_90_dp" android:layout_toRightOf="@id/fmd_map_option_bar">
+        <ImageView android:id="@id/fmd_map_option_loc_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fmd_map_option_loc_home" android:layout_weight="1.0" />
+        <ImageView android:id="@id/fmd_map_option_loc_drone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fmd_map_option_loc_drone" android:layout_weight="1.0" />
+    </LinearLayout>
+    <RadioGroup android:orientation="horizontal" android:id="@id/fmd_map_option_type_group" android:background="@drawable/fmd_map_bg_grey" android:paddingLeft="@dimen/d_10_dp" android:paddingTop="@dimen/d_8_dp" android:paddingRight="@dimen/d_10_dp" android:paddingBottom="@dimen/d_8_dp" android:visibility="gone" android:layout_width="@dimen/d_174_dp" android:layout_height="wrap_content" android:layout_toRightOf="@id/fmd_map_option_bar">
+        <RadioButton android:id="@id/fmd_map_option_type_standard" android:checked="true" android:text="@string/fmd_map_standard" android:drawableTop="@drawable/fmd_map_option_standard_focus" style="@style/fmd_map_type_item" />
+        <RadioButton android:id="@id/fmd_map_option_type_satellite" android:text="@string/fmd_map_satellite" android:drawableTop="@drawable/fmd_map_option_satellite" style="@style/fmd_map_type_item" />
+        <RadioButton android:id="@id/fmd_map_option_type_hybrid" android:text="@string/fmd_map_hybrid" android:drawableTop="@drawable/fmd_map_option_hybrid" style="@style/fmd_map_type_item" />
+    </RadioGroup>
+</merge>

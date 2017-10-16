@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:id="@id/toast_hint_relative_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d_14_dp" android:textStyle="bold" android:id="@id/toast_hint_text_view" android:paddingLeft="@dimen/dp_10" android:paddingTop="@dimen/dp_2" android:paddingRight="@dimen/dp_10" android:paddingBottom="@dimen/dp_2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.commonwidget.NotFlingHorizontalScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/music_wave_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </dji.pilot2.commonwidget.NotFlingHorizontalScrollView>
+    <ImageView android:id="@id/music_wave_pointer" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/music_wave_pointer" />
+</merge>

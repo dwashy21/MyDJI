@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ve_phantom_30_pad_sp" android:textColor="@color/v2_active_title_01" android:gravity="center_horizontal" android:id="@id/v2_phantom_title_noconnect_introdution" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_centerInParent="true" />
+    <Spinner android:gravity="center" android:id="@id/v2_aircraft_type_spinner" android:background="@color/transparent" android:layout_width="@dimen/dp_284_in_sw320dp" android:layout_height="@dimen/dp_50_in_sw320dp" android:layout_below="@id/v2_phantom_title_noconnect_introdution" android:layout_centerInParent="true" android:dropDownWidth="@dimen/dp_284_in_sw320dp" />
+</RelativeLayout>

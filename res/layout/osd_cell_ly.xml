@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:id="@id/osd_cell_ly" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/title_ly" android:paddingLeft="@dimen/dp_2" android:paddingRight="@dimen/dp_2" android:layout_width="wrap_content" android:layout_height="@dimen/osd_cell_title_height">
+        <ImageView android:id="@id/cell_title_image" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitStart" />
+        <TextView android:textSize="@dimen/osd_cell_title_size" android:textColor="@color/white_80P" android:id="@id/cell_title_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center|left" android:orientation="horizontal" android:id="@id/content_ly" android:paddingLeft="@dimen/dp_2" android:paddingRight="@dimen/dp_2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/cell_content_image" android:layout_width="wrap_content" android:layout_height="@dimen/osd_cell_title_height" android:layout_marginTop="@dimen/dp_5" android:scaleType="fitCenter" />
+        <TextView android:textSize="@dimen/osd_cell_content_size" android:textColor="@color/selector_camera_info" android:id="@id/cell_content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="content" />
+    </LinearLayout>
+</merge>

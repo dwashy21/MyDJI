@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.general.FlyfrbUnlockLicenseView android:orientation="vertical" android:paddingLeft="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/flyfrb_fetch_server_data_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="fetch server data" />
+        <Button android:id="@id/flyfrb_upload_data_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="upload to uav" />
+        <Button android:id="@id/flyfrb_sync_from_uav_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="sync from uav" />
+    </LinearLayout>
+    <ListView android:id="@id/flyfrb_unlock_license_lv" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:visibility="gone" style="@style/setting_ui_item_noPadding">
+        <Button android:id="@id/flyfrb_refresh_btn" android:text="@string/nfz_license_refresh_txt" style="@style/setting_ui_item_btn_big" />
+        <ProgressBar android:id="@id/flyfrb_refreshing_loading_pgb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true" android:scaleX="1.5" android:scaleY="1.5" style="@android:style/Widget.Holo.Light.ProgressBar.Small" />
+    </RelativeLayout>
+</dji.setting.ui.general.FlyfrbUnlockLicenseView>

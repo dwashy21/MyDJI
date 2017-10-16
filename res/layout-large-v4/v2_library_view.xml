@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.library.DJILibraryView android:id="@id/ve_library" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ve_library_topbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_eighteen" android:textColor="@color/v2_topbar_select" android:id="@id/ve_tab_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_library_title_num" android:layout_centerInParent="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_forteen" android:textColor="@color/v2_topbar_select" android:id="@id/ve_tab_cancel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5_in_sw320dp" android:text="@string/v2_library_title_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_forteen" android:textColor="@color/red" android:id="@id/ve_tab_delete" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_5_in_sw320dp" android:text="@string/delete" android:singleLine="true" android:layout_toLeftOf="@id/ve_tab_title" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:marqueeRepeatLimit="0" />
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/v2_topbar_tab" android:layout_width="@dimen/dp_240_in_sw320dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/txt_forteen" android:textColor="@color/v2_new_text_color" android:gravity="center" android:id="@id/ve_tab_video" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/v2_library_tab_video" android:layout_weight="1.0" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/txt_forteen" android:textColor="@color/v2_new_text_color" android:gravity="center" android:id="@id/ve_tab_photo" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/v2_library_tab_photo" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/v2_tab_tabline" android:padding="@dimen/dp_3_in_sw320dp" android:layout_width="@dimen/dp_240_in_sw320dp" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+                <RelativeLayout android:id="@id/cursor" android:layout_width="0.0dip" android:layout_height="@dimen/dp_2_in_sw320dp" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+                    <View android:background="@color/black" android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="@dimen/dp_3_in_sw320dp" android:layout_marginLeft="@dimen/dp_8_in_sw320dp" android:layout_marginRight="@dimen/dp_8_in_sw320dp" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+                <View android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="@dimen/dp_2_in_sw320dp" android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <View android:background="@color/v2_new_text_color" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/v2_library_topbar_syc" android:paddingLeft="@dimen/v2_topbar_right_btn_leftright_pd" android:paddingRight="@dimen/v2_topbar_right_btn_leftright_pd" android:layout_width="@dimen/dp_22_in_sw320dp" android:layout_height="@dimen/dp_22_in_sw320dp" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:src="@drawable/v2_synchronization" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.pilot.support.DJINonViewPager android:id="@id/ve_library_viewpage" android:background="@color/white" android:paddingTop="@dimen/dp_2_in_sw320dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/v2_topbar_height" />
+        <include layout="@layout/v2_library_menu" />
+        <include layout="@layout/layout_menus_ipad" />
+        <FrameLayout android:id="@id/fragment_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </dji.pilot2.library.DJILibraryView>
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzRetryView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:gravity="left" android:id="@id/nfz_retry_content_tv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/dp_40_in_sw320dp" android:text="@string/nfz_retry_txt" android:layout_weight="1.0" style="@style/FlightForbidTv" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20_in_sw320dp">
+        <dji.pilot.publics.widget.DJIStateTextView android:gravity="center" android:id="@id/nfz_retry_cancel_tv" android:background="@drawable/fly_unlimit_round_btn_bg" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/fly_unlimit_btn_height" android:layout_marginLeft="@dimen/dp_40_in_sw320dp" android:text="@string/app_cancel" android:layout_alignParentLeft="true" style="@style/FlightForbidTv" />
+        <dji.pilot.publics.widget.DJIStateTextView android:gravity="center" android:id="@id/nfz_retry_do_tv" android:background="@drawable/fly_unlimit_round_btn_bg" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/fly_unlimit_btn_height" android:layout_marginRight="@dimen/dp_40_in_sw320dp" android:text="@string/app_retry" android:layout_alignParentRight="true" style="@style/FlightForbidTv" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.flyunlimit.view.NfzRetryView>

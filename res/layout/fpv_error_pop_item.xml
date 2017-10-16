@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:background="@color/fpv_gen_normal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/fpv_error_pop_item_icon" android:layout_width="@dimen/dp_28_in_sw320dp" android:layout_height="@dimen/dp_28_in_sw320dp" android:src="@drawable/osd_error_tips_notify_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:paddingRight="@dimen/dp_5_in_sw320dp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:baselineAligned="false" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/fpv_error_pop_item_title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fpv_top_min_margin" android:maxLines="5" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_ten" android:textColor="@color/white" android:id="@id/fpv_error_pop_item_desc_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_5_in_sw320dp" android:maxLines="5" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/fpv_error_pop_item_close_img" android:visibility="gone" android:layout_width="@dimen/dp_28_in_sw320dp" android:layout_height="@dimen/dp_28_in_sw320dp" android:src="@drawable/fpv_errorpop_close_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.pilot2.scan.view.ViewfinderView android:id="@id/viewfinder_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/capture_title" android:layout_width="fill_parent" android:layout_height="50.0dip" layout="@layout/scan_qr_header" />
+    <RadioGroup android:gravity="center" android:layout_gravity="top" android:orientation="horizontal" android:id="@id/rg_activate" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/capture_title">
+        <RadioButton android:textColor="@drawable/scan_qr_select_text_color" android:gravity="center" android:id="@id/rb_activate" android:background="@drawable/scan_qr_select_radio_line" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:checked="true" android:button="@null" android:text="@string/scan_qr_activate" />
+        <RadioButton android:textColor="@drawable/scan_qr_select_text_color" android:gravity="center" android:id="@id/rb_wifi" android:background="@drawable/scan_qr_select_radio_line" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:button="@null" android:text="@string/scan_qr_link" />
+    </RadioGroup>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="5.0" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+            <LinearLayout android:orientation="horizontal" android:id="@id/scan_verification_message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <ImageView android:id="@id/scan_msg_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/scan_confirm_icon" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/scan_msg_desc" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text="@string/scan_qr_identity_confirmed" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/input_sn_message" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+                <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="40.0dip" android:src="@drawable/scan_confirm_icon" android:text="@string/scan_qr_activate_tips" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/blue" android:gravity="center" android:autoLink="all" android:id="@id/tv_input_sn" android:paddingLeft="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:text=" " />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

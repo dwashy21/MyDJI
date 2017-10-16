@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/fmd_empty_space" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fmd_menu_content_layout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/d_90_dp">
+            <TextView android:gravity="center_horizontal" android:id="@id/fmd_menu_play_sound" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fmd_menu_play_sound_open" android:drawableTop="@drawable/fmd_menu_play_sound" android:drawablePadding="@dimen/d_7_dp" android:layout_weight="1.0" style="@style/d_txt" />
+            <TextView android:gravity="center_horizontal" android:id="@id/fmd_menu_play_light" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fmd_menu_play_light_open" android:drawableTop="@drawable/fmd_menu_play_light" android:drawablePadding="@dimen/d_7_dp" android:layout_weight="1.0" style="@style/d_txt" />
+        </LinearLayout>
+        <View style="@style/fmd_divider" />
+        <LinearLayout android:id="@id/fmd_menu_drone_loc_layout" style="@style/fmd_item_layout">
+            <TextView android:text="@string/fmd_item_drone_loc" android:layout_weight="1.0" style="@style/d_txt" />
+            <TextView android:textColor="#ff1088f2" android:id="@id/fmd_menu_drone_loc" android:text="0, 0" android:layout_weight="0.0" style="@style/d_txt" />
+        </LinearLayout>
+        <View android:id="@id/fmd_menu_divder_rectification" style="@style/fmd_divider" />
+        <LinearLayout android:id="@id/fmd_menu_rectification_layout" style="@style/fmd_item_layout">
+            <TextView android:text="@string/fmd_item_map_rectification" android:layout_weight="1.0" style="@style/d_txt" />
+            <com.sevenheaven.iosswitch.ShSwitchView android:id="@id/fmd_menu_rectification_switch" style="@style/fmd_item_switch" />
+        </LinearLayout>
+        <View android:id="@id/fmd_menu_divder_4g" android:visibility="gone" style="@style/fmd_divider" />
+        <LinearLayout android:id="@id/fmd_menu_4g_layout" android:visibility="gone" style="@style/fmd_item_layout">
+            <TextView android:text="@string/fmd_item_4g" android:layout_weight="1.0" style="@style/d_txt" />
+            <com.sevenheaven.iosswitch.ShSwitchView android:id="@id/fmd_menu_4g_switch" style="@style/fmd_item_switch" />
+        </LinearLayout>
+    </LinearLayout>
+</merge>

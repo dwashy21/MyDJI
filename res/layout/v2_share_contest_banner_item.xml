@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/banner_image" android:background="@color/v2_explore_no_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/txt_forteen" android:textColor="@color/white" android:gravity="center" android:id="@id/v2_share_contest_learn_more" android:padding="@dimen/dp_10_in_sw320dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_share_contest_banner_item_learn_more" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/v2_share_contest_submit" android:background="@drawable/v2_share_contest_share_item_submit_selector" android:paddingLeft="@dimen/dp_20_in_sw320dp" android:paddingTop="@dimen/dp_5_in_sw320dp" android:paddingRight="@dimen/dp_20_in_sw320dp" android:paddingBottom="@dimen/dp_5_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_marginBottom="30.0dip" android:layout_alignBottom="@id/banner_image" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/txt_forteen" android:textColor="@color/white" android:id="@id/v2_share_contest_banner_item_submit_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_share_contest_banner_item_submit" />
+    </RelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/v2_explore_banner_new" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:src="@drawable/v2_explore_banner_new" android:layout_alignRight="@id/banner_image" android:layout_alignBottom="@id/banner_image" />
+</RelativeLayout>

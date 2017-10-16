@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.rc.RcIn2MSErrorView android:orientation="vertical" android:paddingLeft="@dimen/dp_20" android:paddingRight="@dimen/dp_20" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/rc_in2_error_not_auth_ly" style="@style/setting_ui_rc_ms_detail_item">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_in2_ms_error_auth" style="@style/setting_ui_item_title" />
+        <View style="@style/setting_ui_divider_horization" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rc_in2_error_wifi_mac_ly" style="@style/setting_ui_rc_ms_detail_item">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_in2_ms_error_wifi_mac" style="@style/setting_ui_item_title" />
+        <View style="@style/setting_ui_divider_horization" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rc_in2_error_channel_ly" style="@style/setting_ui_rc_ms_detail_item">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_in2_ms_error_channel" style="@style/setting_ui_item_title" />
+        <View style="@style/setting_ui_divider_horization" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rc_in2_error_country_code_ly" style="@style/setting_ui_rc_ms_detail_item">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_in2_ms_error_country_code" style="@style/setting_ui_item_title" />
+        <View style="@style/setting_ui_divider_horization" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rc_in2_error_country_not_support_ly" style="@style/setting_ui_rc_ms_detail_item">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_in2_ms_error_country_not_support" style="@style/setting_ui_item_title" />
+        <View style="@style/setting_ui_divider_horization" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/rc_in2_error_not_relate_ly" style="@style/setting_ui_rc_ms_detail_item">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_in2_ms_error_not_relate" style="@style/setting_ui_item_title" />
+        <View style="@style/setting_ui_divider_horization" />
+    </LinearLayout>
+</dji.setting.ui.rc.RcIn2MSErrorView>

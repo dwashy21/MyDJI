@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/MineScrollerStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:showDividers="middle" style="@style/MineRowContainerStyle">
+        <TextView android:paddingLeft="@dimen/dp_16_in_sw320dp" android:paddingTop="@dimen/dp_2_in_sw320dp" android:paddingRight="@dimen/dp_16_in_sw320dp" android:paddingBottom="@dimen/dp_8_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_dji_product_feedback" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/bug_reporting" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_bug_reporting_icon" app:me_row_text="@string/mine_dji_bug_reporting_text" app:me_row_new_show="false" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/feedback" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_feedback_icon" app:me_row_text="@string/mine_dji_feedback_text" app:me_row_new_show="false" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/product_quality" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_product_quality_icon" app:me_row_text="@string/mine_dji_product_quality_text" app:me_row_new_show="false" />
+        <TextView android:paddingLeft="@dimen/dp_16_in_sw320dp" android:paddingTop="@dimen/dp_18_in_sw320dp" android:paddingRight="@dimen/dp_16_in_sw320dp" android:paddingBottom="@dimen/dp_8_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_assistant_text" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/repair_history" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_repair_history_icon" app:me_row_text="@string/mine_contact_dji_repair" app:me_row_new_show="false" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/repair" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_repair_icon" app:me_row_text="@string/v2_6_mine_repair" app:me_row_new_show="false" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/online_service" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_online_service_icon" app:me_row_text="@string/mine_contact_dji_live_800" app:me_row_new_show="false" />
+        <dji.pilot2.mine.view.MeRowView android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_email_icon" app:me_row_text="@string/mine_contact_dji_mail" app:me_row_new_show="false" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/standard3_0_secondary_text_color" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tel" android:paddingLeft="@dimen/dp_32_in_sw320dp" android:paddingRight="@dimen/dp_32_in_sw320dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="42.0dip" android:text="400-7000-303" android:drawablePadding="@dimen/dp_8_in_sw320dp" />
+    </LinearLayout>
+</ScrollView>

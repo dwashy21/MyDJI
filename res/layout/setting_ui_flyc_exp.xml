@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/setting_ui_flyc_mode_ly" style="@style/setting_ui_item">
+        <TextView android:gravity="center" android:id="@id/setting_ui_item_title" android:text="@string/setting_ui_flyc_mode" style="@style/setting_ui_item_title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/setting_ui_txt_small" android:layout_marginTop="10.0dip" android:text="@string/setting_ui_flyc_exp_up" style="@style/setting_ui_exp_title" />
+                <dji.setting.ui.widget.DJITouchCurveView android:id="@id/fpv_rc_gain_thr_curve" android:layout_width="@dimen/setting_ui_exp_width" android:layout_height="@dimen/setting_ui_exp_width" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/setting_ui_txt_small" android:layout_marginBottom="10.0dip" android:text="@string/setting_ui_flyc_exp_down" style="@style/setting_ui_exp_title" />
+                <EditText android:id="@id/fpv_rc_gain_thr_edit" android:text="0.10" android:inputType="numberDecimal" style="@style/setting_ui_item_edittext" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/setting_ui_txt_small" android:layout_marginTop="10.0dip" android:text="@string/setting_ui_flyc_exp_turnright" style="@style/setting_ui_exp_title" />
+                <dji.setting.ui.widget.DJITouchCurveView android:id="@id/fpv_rc_gain_yaw_curve" android:layout_width="@dimen/setting_ui_exp_width" android:layout_height="@dimen/setting_ui_exp_width" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/setting_ui_txt_small" android:layout_marginBottom="10.0dip" android:text="@string/setting_ui_flyc_exp_turnleft" style="@style/setting_ui_exp_title" />
+                <EditText android:id="@id/fpv_rc_gain_yaw_edit" android:text="0.10" android:inputType="numberDecimal" style="@style/setting_ui_item_edittext" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/fpv_rc_gain_tiltly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/setting_ui_txt_small" android:layout_marginTop="10.0dip" android:text="@string/setting_ui_flyc_exp_forwardright" style="@style/setting_ui_exp_title" />
+                <dji.setting.ui.widget.DJITouchCurveView android:id="@id/fpv_rc_gain_tilt_curve" android:layout_width="@dimen/setting_ui_exp_width" android:layout_height="@dimen/setting_ui_exp_width" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/setting_ui_txt_small" android:layout_marginBottom="10.0dip" android:text="@string/setting_ui_flyc_exp_backwardleft" style="@style/setting_ui_exp_title" />
+                <EditText android:id="@id/fpv_rc_gain_tilt_edit" android:text="0.10" android:inputType="numberDecimal" style="@style/setting_ui_item_edittext" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/setting_ui_exp_desc_tv" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/setting_ui_flyc_exp_description" android:singleLine="false" style="@style/setting_ui_item_sub_title" />
+    </LinearLayout>
+</LinearLayout>

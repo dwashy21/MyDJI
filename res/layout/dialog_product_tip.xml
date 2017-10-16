@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/dialog_product_tip_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.newlibrary.dialog.FixedRatioImageView android:id="@id/dialog_product_tip_img" android:layout_width="@dimen/dialog_product_tip_width" android:layout_height="0.0dip" android:scaleType="centerCrop" app:w="16.0" app:h="9.0" />
+    <ImageView android:id="@id/dialog_product_tip_cross" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/dialog_product_tip_cross" android:scaleType="fitCenter" android:layout_alignParentRight="true" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/dialog_product_tip_txt1" android:background="@android:color/white" android:padding="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_product_tip_txt1" android:layout_below="@id/dialog_product_tip_img" />
+    <View android:id="@id/dialog_product_tip_space" android:background="#fff1f1f2" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_below="@id/dialog_product_tip_txt1" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:textSize="16.0sp" android:textColor="#ff1088f2" android:gravity="center" android:id="@id/dialog_product_tip_txt2" android:background="@android:color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/dialog_product_tip_txt2" android:layout_below="@id/dialog_product_tip_space" />
+</RelativeLayout>

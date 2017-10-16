@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:id="@id/layout_menus" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@android:color/black" android:gravity="center" android:id="@id/view_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:text="@string/v2_lib_input_title" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/import_sd" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <ImageView android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/v2_library_menu_download" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_50_in_sw320dp" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/v2_library_menu_sd" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/import_local_photo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <ImageView android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/v2_library_menu_pic" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_50_in_sw320dp" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/v2_library_menu_ph" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@id/import_local_video" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip">
+            <ImageView android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/v2_library_menu_video" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+            <TextView android:textColor="@android:color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_50_in_sw320dp" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/v2_library_menu_vd" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <android.support.v4.widget.Space android:layout_width="fill_parent" android:layout_height="@dimen/dp_20_in_sw320dp" />
+    </LinearLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

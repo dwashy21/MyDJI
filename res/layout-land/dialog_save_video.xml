@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/background" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/image_container" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.pilot2.widget.RectangleProgressImageView android:id="@id/image_thumb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@color/white" android:scaleType="centerCrop" />
+        <View android:id="@id/dialog_cover" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <TextView android:textColor="@color/white" android:id="@id/saving_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="30.0dip" android:text="@string/editor_saving_text" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.0" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="#ff1088f2" android:id="@id/tv_cancel" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="@string/cancel" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

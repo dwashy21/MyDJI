@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/video_view_surface_view" android:background="@color/grey_not_selected" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/autoeditor_videoview_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_alignTop="@id/video_view_surface_view" android:layout_alignBottom="@id/video_view_surface_view" />
+    <ImageView android:id="@id/img_empty_mask" android:background="#ff000000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/video_view_play_button" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="70.0dip" android:layout_height="70.0dip" android:src="@drawable/ic_play_arrow_play" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/video_view_time_tv" android:background="@drawable/txt_bg_video_view" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:singleLine="true" android:layout_alignTop="@id/video_view_surface_view" android:layout_centerHorizontal="true" />
+</merge>

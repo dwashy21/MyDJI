@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp_58"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/flyfrb_license_detail_ly" android:paddingTop="@dimen/dp_10" android:paddingBottom="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <TextView android:id="@id/flyfrb_license_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="desc" style="@style/setting_ui_txt" />
+        <TextView android:id="@id/flyfrb_license_white_list_tip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_flyfrb_unlock_license_white_list_mark" android:layout_toRightOf="@id/flyfrb_license_desc" style="@style/setting_ui_txt" />
+        <TextView android:textColor="@color/red" android:id="@id/flyfrb_license_invalid" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:text="@string/setting_ui_flyfrb_unlock_license_invalid" android:layout_below="@id/flyfrb_license_desc" style="@style/setting_ui_txt" />
+    </RelativeLayout>
+    <Switch android:id="@id/flyfrb_license_open_sw" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_switch" />
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/visual_finger_fly_preview_inly" android:background="@drawable/selector_tapfly_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/txt_twenty" android:textColor="@color/white" android:gravity="center" android:id="@id/visual_finger_fly_preview_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visual_go" android:shadowColor="@color/black" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_ten" android:textColor="@color/white" android:gravity="center" android:id="@id/visual_finger_fly_preview_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fpv_top_min_margin" android:text="@string/visual_tap_to_go" android:shadowColor="@color/black" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+</merge>

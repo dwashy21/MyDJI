@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fmd_ic_bar_open" android:layout_width="@dimen/d_30_dp" android:layout_height="@dimen/d_30_dp" android:src="@drawable/fmd_osd_bar_open" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fmd_osd" android:background="#7f000000" android:paddingRight="@dimen/d_10_dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp" android:layout_toRightOf="@id/fmd_ic_bar_open" android:layout_alignTop="@id/fmd_ic_bar_open">
+        <dji.pilot.findmydrone.view.osd.GPSView style="@style/fmd_status_item" />
+        <dji.pilot.findmydrone.view.osd.HDView style="@style/fmd_status_item" />
+        <dji.pilot.findmydrone.view.osd.BatteryView android:id="@id/fmd_status_battery" style="@style/fmd_status_item" />
+        <dji.pilot.findmydrone.view.osd.BatteryIn2View android:id="@id/fmd_status_battery_in2" style="@style/fmd_status_item" />
+    </LinearLayout>
+</LinearLayout>

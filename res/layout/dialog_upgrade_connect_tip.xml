@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="@dimen/dp_300_in_sw320dp" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/v2_phant_black" android:layout_gravity="center_horizontal" android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_23" />
+    <TextView android:textColor="@color/v2_phant_black" android:id="@id/content1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_26" android:layout_marginTop="@dimen/dp_23" android:layout_marginRight="@dimen/dp_26" android:layout_marginBottom="@dimen/dp_23" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/img1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pic_link_inspire2_1" android:layout_weight="1.0" />
+    <TextView android:textColor="@color/v2_phant_black" android:id="@id/content2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_26" android:layout_marginTop="@dimen/dp_23" android:layout_marginRight="@dimen/dp_26" android:layout_marginBottom="@dimen/dp_23" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/img2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:src="@drawable/pic_link_inspire2_2" android:layout_weight="1.0" />
+    <View android:background="#fff1f1f2" android:layout_width="fill_parent" android:layout_height="5.0dip" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textStyle="bold" android:textColor="@color/blue_fly" android:gravity="center" android:id="@id/confirm_button" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40_in_sw320dp" />
+</LinearLayout>

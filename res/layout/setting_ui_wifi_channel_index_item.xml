@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/setting_ui_wifi_channel_index_item_color" android:gravity="center" android:layout_gravity="center" android:paddingLeft="@dimen/dp_15" android:paddingRight="@dimen/dp_15" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="1"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

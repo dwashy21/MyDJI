@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateDjiCare android:id="@id/activate_dji_care" android:layout_marginTop="0.0dip" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/txt_forteen" android:textColor="@color/blue" android:gravity="center|right" android:id="@id/active_dji_care_skip" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:layout_marginRight="@dimen/dp_20_in_sw320dp" android:layout_marginBottom="@dimen/dp_40_in_sw320dp" android:text="@string/v2_active_skip" android:layout_weight="0.5" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/activate_dji_care_title" android:layout_marginBottom="0.0dip" android:text="@string/v2_activate_dji_care_title_keep_flying" style="@style/activate_des_title" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+        <ImageView android:layout_gravity="center" android:id="@id/activate_dji_care_img" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/v2_activate_dji_care" android:layout_weight="2.0" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:layout_weight="2.0">
+            <TextView android:id="@id/active_dji_care_desc" android:text="@string/v2_active_dji_care_desc_drone" style="@style/activate_des_content" />
+            <TextView android:textSize="12.0sp" android:textStyle="bold" android:id="@id/active_dji_care_tip" android:text="@string/v2_active_dji_care_desc_drone" style="@style/activate_des_content" />
+            <dji.pilot.publics.widget.DJIStateButton android:textSize="@dimen/txt_forteen" android:textColor="@android:color/white" android:id="@id/active_dji_care_btn" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="@dimen/dp_200_in_sw320dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:layout_marginRight="@dimen/dp_20_in_sw320dp" android:minHeight="0.0dip" android:text="@string/v2_active_dji_care_learn_more" style="@style/activate_button_style" />
+        </LinearLayout>
+    </LinearLayout>
+</dji.pilot2.usercenter.activate.ActivateDjiCare>

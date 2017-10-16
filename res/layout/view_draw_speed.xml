@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.dji_groundstation.ui.views.DrawSpeedView android:orientation="vertical" android:background="@color/black_half" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="24.0dip" android:textColor="@color/white" android:id="@id/gs_draw_speed_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/white_60P" android:id="@id/gs_draw_speed_unit_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_weight="1.0" />
+        <include android:visibility="gone" layout="@layout/gs_view_draw_mode" />
+    </LinearLayout>
+    <SeekBar android:id="@id/gs_draw_speed_sb" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxHeight="4.0dip" android:max="90" android:progressDrawable="@drawable/gs_draw_speed_pgb" android:minHeight="4.0dip" android:thumb="@drawable/selector_battery_thumb" android:layout_weight="1.0" />
+</dji.pilot.dji_groundstation.ui.views.DrawSpeedView>

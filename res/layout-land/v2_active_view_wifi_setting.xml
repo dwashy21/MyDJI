@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateWifiSettingView android:id="@id/active_wifi_setting_root" android:background="@null" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:text="@string/v2_active_wifi_setting_title" style="@style/activate_des_title_land" />
+    <TextView android:textSize="@dimen/ve_active_title_2" android:text="@string/v2_active_wifi_setting_desc" style="@style/activate_des_content" />
+    <RadioGroup android:id="@id/activate_set_wifi_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20_in_sw320dp">
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/activate_title" android:textColor="@color/activate_text" android:gravity="center|left" android:id="@id/activate_wifi_setting_radio_2dot4g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/activate_control_mode_box_style" android:text="2.4G" />
+        <View android:id="@id/activate_wifi_setting_radio_2dot4g_line" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" style="@style/activate_divider_line" />
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/activate_title" android:textColor="@color/activate_text" android:gravity="center|left" android:id="@id/activate_wifi_setting_radio_5g" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/activate_control_mode_box_style" android:text="5G" />
+        <View android:id="@id/activate_wifi_setting_radio_5g_line" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" style="@style/activate_divider_line" />
+    </RadioGroup>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ve_active_title_1" android:textColor="@color/v2_active_title_01" android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@id/activate_wifi_setting_detect_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_40_in_sw320dp" android:text="@string/v2_active_wifi_setting_detect_mobile_2dot4g" />
+</dji.pilot2.usercenter.activate.ActivateWifiSettingView>

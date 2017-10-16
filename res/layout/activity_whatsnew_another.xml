@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_54_in_sw320dp" android:src="@drawable/v2_whatsnew_text" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/activity_video" android:layout_width="@dimen/dp_300_in_sw320dp" android:layout_height="@dimen/dp_200_in_sw320dp" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:scaleType="centerCrop" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20_in_sw320dp">
+            <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/activity_step1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_60_in_sw320dp" android:text="@string/v2_whatnew_detail2" android:drawableLeft="@drawable/v2_whatsnew_step2" android:drawablePadding="@dimen/dp_10_in_sw320dp" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:text="@string/v2_whatnew_detail1" android:drawableLeft="@drawable/v2_whatsnew_step1" android:drawablePadding="@dimen/dp_10_in_sw320dp" android:layout_alignLeft="@id/activity_step1" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/black" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/another_join_in" android:background="@drawable/v2_whatsnew_experience_button_bg" android:layout_width="@dimen/dp_152_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:layout_marginTop="@dimen/dp_54_in_sw320dp" android:text="@string/v2_whatnew_join" />
+        <TextView android:textColor="@color/blue_fly" android:layout_gravity="center_horizontal" android:id="@id/another_skip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:text="@string/v2_whatnew_skip" android:drawableRight="@drawable/v2_whatsnew_detail" android:drawablePadding="@dimen/dp_10_in_sw320dp" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="land_only">true</bool>
+    <bool name="portrait_only">false</bool>
+    <bool name="is_large_crystal">false</bool>
+    <bool name="is_small_crystal">false</bool>
+    <bool name="is_tablet">true</bool>
+</resources>

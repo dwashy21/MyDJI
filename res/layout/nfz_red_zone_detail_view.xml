@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzRedZoneDetailView android:orientation="vertical" android:layout_width="@dimen/fpv_fly_unlimit_dialog_width" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textStyle="bold" android:layout_gravity="center" android:id="@id/flight_forbid_desc_zone_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:text="@string/flight_forbid_red_zone_desc_title" style="@style/GeoTitleTv" />
+        <ScrollView android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:gravity="left" android:id="@id/flight_forbid_desc_tv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/dp_15_in_sw320dp" android:text="@string/flight_forbid_red_zone_desc_txt" android:layout_weight="1.0" style="@style/FlightForbidTv" />
+        </ScrollView>
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/noflyzone_introduction_img" />
+    </LinearLayout>
+    <View android:layout_marginTop="@dimen/dp_15_in_sw320dp" style="@style/GeoDlgHorDivider" />
+    <dji.pilot.publics.widget.DJIStateTextView android:gravity="center" android:id="@id/nfz_red_zone_desc_ok" android:text="@string/ok" style="@style/GeoDlgBottomBtn" />
+</dji.pilot.flyunlimit.view.NfzRedZoneDetailView>

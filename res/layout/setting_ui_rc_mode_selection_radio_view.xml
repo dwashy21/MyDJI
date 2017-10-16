@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/black" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/setting_ui_item_title" android:text="@string/setting_ui_rc_stick" style="@style/setting_ui_item_title" />
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/setting_ui_item_radiogroup" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp_20">
+        <RadioButton android:id="@id/rc_american_mode" android:checked="true" android:button="@null" android:text="@string/setting_ui_hd_channel_auto" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        <RadioButton android:id="@id/rc_japanese_mode" android:button="@null" android:text="@string/setting_ui_hd_channel_custom" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        <RadioButton android:id="@id/rc_chiese_mode" android:button="@null" android:text="@string/setting_ui_hd_channel_custom" android:singleLine="false" style="@style/setting_ui_item_btn" />
+    </RadioGroup>
+</LinearLayout>

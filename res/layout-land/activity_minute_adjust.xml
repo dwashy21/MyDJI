@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/minute_adjust_bottom" android:background="#ff1f1f1f" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_alignParentBottom="true">
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/minute_adjust_bottom_cross" android:padding="5.0dip" android:layout_width="@dimen/minute_adjust_exit_width" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:src="@drawable/drawable_minute_adjust_cross" />
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/minute_adjust_bottom_tick" android:padding="3.0dip" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginRight="5.0dip" android:src="@drawable/drawable_minute_adjust_tick" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/minute_adjust_line" android:layout_width="fill_parent" android:layout_height="@dimen/minute_adjust_line_height" android:layout_marginLeft="30.0dip" android:layout_marginTop="@dimen/dp_16_in_sw320dp">
+        <dji.pilot2.ui.widget.AdjustVideoView android:id="@id/minute_adjust_video_view" android:layout_width="@dimen/minute_adjust_videoview_width" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip">
+            <dji.pilot2.ui.minuteAdjustSeg.MyViewPager android:id="@id/minute_adjust_viewpager" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <HorizontalScrollView android:layout_gravity="center" android:id="@id/minute_adjust_hs" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="30.0dip">
+                <RadioGroup android:orientation="horizontal" android:id="@id/minute_adjust_radiogroup" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:id="@id/minute_adjust_center" android:layout_width="fill_parent" android:layout_height="@dimen/minute_adjust_hs_bar_height" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:layout_above="@id/minute_adjust_bottom">
+        <dji.pilot2.ui.minuteAdjustSeg.MinuteAdjustHorizonalScrollView android:id="@id/minute_adjust_hs_bar" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="@dimen/minute_adjust_hs_bar_height">
+            <RelativeLayout android:id="@id/minute_adjust_hs_container" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        </dji.pilot2.ui.minuteAdjustSeg.MinuteAdjustHorizonalScrollView>
+        <dji.pilot2.commonwidget.DJIStateImageView android:id="@id/minute_adjust_time_line" android:layout_width="12.0dip" android:layout_height="fill_parent" android:layout_marginLeft="39.0dip" android:src="@drawable/progressbar_frame_pointer" android:scaleType="centerCrop" />
+    </FrameLayout>
+</RelativeLayout>

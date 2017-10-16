@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/dp_4_in_sw320dp" android:paddingBottom="@dimen/dp_4_in_sw320dp" android:layout_width="wrap_content" android:layout_height="@dimen/v2_bottombar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/v2maintabimage" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <ImageView android:id="@id/libraryshow" android:background="@drawable/v2_main_tab_library_anintion" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/dp_14_in_sw320dp" android:layout_height="@dimen/dp_14_in_sw320dp" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="@dimen/dp_8_in_sw320dp" android:textColor="@color/white" android:gravity="center" android:id="@id/main_redpoint" android:background="@drawable/v2_tab_redpoint_view" android:visibility="gone" android:layout_width="@dimen/dp_5_in_sw320dp" android:layout_height="@dimen/dp_5_in_sw320dp" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/txt_twelve" android:textColor="@drawable/v2_main_tab_textview_selector" android:id="@id/v2maintabtextview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.joystick.DJIJoyStickViewMammoth android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.joystick.BaseVirtualStick android:id="@id/left_joystick" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginLeft="@dimen/dp_80_in_sw320dp" android:layout_marginBottom="@dimen/dp_40_in_sw320dp" android:layout_alignParentBottom="true" />
+    <dji.pilot.joystick.BaseVirtualStick android:id="@id/right_joystick" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="240.0dip" android:layout_marginRight="@dimen/dp_80_in_sw320dp" android:layout_marginBottom="@dimen/dp_40_in_sw320dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <RelativeLayout android:id="@id/joystick_control_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/joystick_cover_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/left_joystick_cover" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45" android:layout_marginLeft="@dimen/dp_140_in_sw320dp" android:layout_marginBottom="@dimen/dp_130_in_sw320dp" android:src="@drawable/joystick_cover_circle" android:layout_alignParentBottom="true" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/right_joystick_cover" android:layout_width="@dimen/dp_45" android:layout_height="@dimen/dp_45" android:layout_marginRight="@dimen/dp_140_in_sw320dp" android:layout_marginBottom="@dimen/dp_130_in_sw320dp" android:src="@drawable/joystick_cover_circle" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</dji.pilot.joystick.DJIJoyStickViewMammoth>

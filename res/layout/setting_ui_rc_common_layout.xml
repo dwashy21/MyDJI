@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.setting.ui.rc.CalibrationGroupView setting_ui:titleText="@string/setting_ui_rc_calibration" setting_ui:subLayout="@layout/setting_ui_group_rc_calibration" style="@style/setting_ui_item" />
+    <dji.setting.ui.rc.OriginCalibrationGroupView setting_ui:titleText="@string/setting_ui_rc_calibration" setting_ui:subLayout="@layout/setting_ui_group_rc_origin_calibration" style="@style/setting_ui_item" />
+    <dji.setting.ui.rc.RcFixWingSettingView android:visibility="gone" style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.MavicRemoteControllerMonitorView setting_ui:titleText="@string/setting_ui_rc_monitor" setting_ui:subLayout="@layout/setting_ui_rc_lcd_hint" style="@style/setting_ui_item" />
+    <dji.setting.ui.rc.RcStickModeViewEntrance setting_ui:titleText="@string/setting_ui_rc_stick" setting_ui:subLayout="@layout/setting_ui_rc_mode_contain_view" style="@style/setting_ui_item" />
+    <dji.setting.ui.rc.RCConfigSeekBar setting_ui:titleText="@string/setting_ui_rc_mammoth_speed" style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.RcCoachView style="@style/setting_ui_item_bottom" />
+    <dji.setting.ui.rc.RcStickMasterView style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.RcStickSlaveView style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.C1C2View style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.FnCView style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.Rc5DButtonView style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.RcNewRoleView setting_ui:titleText="@string/setting_ui_rc_role_title" style="@style/setting_ui_item" />
+    <dji.setting.ui.rc.FrequencyView setting_ui:titleText="@string/setting_ui_rc_freq" style="@style/setting_ui_item_noPadding" />
+    <dji.setting.ui.rc.RcAdvSettingView setting_ui:titleText="@string/setting_ui_flyc_adv_setting" setting_ui:subLayout="@layout/setting_ui_group_rc_adv" style="@style/setting_ui_item" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/ve_blight_yellow_semitransparent" />
+    <stroke android:width="@dimen/dp_1_in_sw320dp" android:color="@color/ve_blight_yellow" />
+    <corners android:radius="0.0dip" />
+</shape>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/autoeditor_root" android:background="@color/black" android:focusable="true" android:focusableInTouchMode="true" android:fitsSystemWindows="@bool/is_fix_system" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/autoeditor_header" android:layout_width="fill_parent" android:layout_height="42.0dip" android:translationY="-42.0dip">
+        <dji.pilot2.commonwidget.DJIStateImageView android:gravity="center" android:id="@id/autoeditor_left" android:padding="10.0dip" android:layout_width="42.0dip" android:layout_height="fill_parent" android:src="@drawable/ic_back_gray" />
+        <dji.pilot2.commonwidget.DJIStateTextView android:textSize="14.0sp" android:textColor="#ff1c8cef" android:gravity="center" android:layout_gravity="right" android:id="@id/autoeditor_right" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerCrop" android:text="@string/editor_edit_finish" />
+        <View android:layout_gravity="bottom" android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/autoeditor_bottom" android:layout_width="fill_parent" android:layout_height="@dimen/autoedit_bottom_height" android:layout_alignParentBottom="true" android:translationY="@dimen/autoedit_bottom_height">
+        <View android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <dji.pilot2.commonwidget.DJIStateTextView android:textSize="16.0sp" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/autoeditor_regenerate" android:background="@drawable/shape_autoedit_rectangle_bg" android:layout_width="150.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/autoedit_regenerate" />
+        <dji.pilot2.commonwidget.DJIStateImageView android:layout_gravity="right" android:id="@id/autoeditor_del" android:padding="@dimen/autoedit_bottom_action_padding" android:layout_width="@dimen/autoedit_bottom_action_width" android:layout_height="fill_parent" android:src="@drawable/drawable_autoedit_delete" android:scaleType="fitCenter" />
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="100.0dip" android:paddingRight="100.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/autoeditor_bottom" android:layout_below="@id/autoeditor_header">
+        <dji.pilot2.ui.widget.AutoEditVideoView android:id="@id/autoeditor_videoview" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_weight="1.0" />
+        <FrameLayout android:id="@id/autoedit_music" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="49.0dip" android:layout_marginBottom="20.0dip">
+            <View android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+            <HorizontalScrollView android:layout_gravity="center" android:id="@id/autoeditor_hs" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="48.0dip" android:fillViewport="true">
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/autoeditor_hs_line" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+            </HorizontalScrollView>
+            <View android:layout_gravity="bottom" android:background="@color/v2_new_divider_line_color" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        </FrameLayout>
+        <FrameLayout android:id="@id/autoeditor_rcc_parent" android:background="@drawable/shape_autoedit_edge" android:padding="2.0dip" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/autoedit_recycle_height" android:layout_marginBottom="16.0dip">
+            <dji.pilot2.ui.autoEdite.AutoEditRecycleView android:id="@id/autoeditor_recycleview" android:paddingRight="100.0dip" android:visibility="visible" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:id="@id/autoeditor_redline" android:background="#fff90105" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/autoedit_redline_margin" />
+        </FrameLayout>
+    </LinearLayout>
+    <dji.pilot2.newlibrary.widget.TwoLineLoadingView android:id="@id/loading" android:layout_width="@dimen/dp_70_in_sw320dp" android:layout_height="@dimen/dp_70_in_sw320dp" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:left="@dimen/fpv_top_mid_margin" android:top="@dimen/fpv_top_min_margin" android:right="@dimen/fpv_top_mid_margin" android:bottom="@dimen/fpv_top_min_margin" />
+    <solid android:color="@color/check_upgrade" />
+    <corners android:radius="@dimen/gen_corner_radius" />
+</shape>

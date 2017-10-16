@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.raw.DJICameraRawPhotoView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto" xmlns:sengment="http://schemas.android.com/apk/res-auto">
+    <dji.setting.ui.hd.HdCustomScrollView android:background="@color/black_80P" android:paddingLeft="0.0dip" android:paddingRight="0.0dip" style="@style/setting_ui_items_scrollview">
+        <LinearLayout style="@style/setting_ui_items_linearlayout">
+            <View android:background="@color/divider_darker_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <dji.pilot.fpv.camera.raw.photo.DJIRawPhotoModeDetailsView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.pilot.fpv.camera.raw.photo.DJIRawPhotoModeView android:layout_height="@dimen/dp_58" sengment:titleText="@string/fpv_camera_photo_mode" sengment:showDivider="false" style="@style/setting_ui_item" />
+                <dji.publics.DJIUI.DJISengmentedGroup android:id="@id/continuous_sg" android:visibility="gone" sengment:sg_child_ar="@array/in2_camera_burst_values" sengment:sg_child_text_size="@dimen/txt_twelve" style="@style/camera_segment_group" />
+                <dji.publics.DJIUI.DJISengmentedGroup android:id="@id/aeb_continuous_sg" android:visibility="gone" sengment:sg_child_ar="@array/in2_camera_aeb_burst_values" sengment:sg_child_text_size="@dimen/txt_twelve" style="@style/camera_segment_group" />
+                <dji.publics.DJIUI.DJISengmentedGroup android:id="@id/photo_timing_sg_group1" android:visibility="gone" sengment:sg_child_ar="@array/in2_camera_timing_values_group1" sengment:sg_child_text_size="@dimen/txt_twelve" style="@style/camera_segment_group" />
+                <dji.publics.DJIUI.DJISengmentedGroup android:id="@id/photo_timing_sg_group2" android:visibility="gone" sengment:sg_child_ar="@array/in2_camera_timing_values_group2" sengment:sg_child_text_size="@dimen/txt_twelve" style="@style/camera_segment_group" />
+                <dji.publics.DJIUI.DJISengmentedGroup android:id="@id/photo_raw_burst_sg" android:visibility="gone" sengment:sg_child_ar="@array/in2_camera_raw_burst_values" sengment:sg_child_text_size="@dimen/txt_twelve" style="@style/camera_segment_group" />
+                <include android:id="@id/raw_burst_tips_ly" layout="@layout/camera_rawburst_tips_ly" />
+            </dji.pilot.fpv.camera.raw.photo.DJIRawPhotoModeDetailsView>
+            <View android:background="@color/divider_darker_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.pilot.fpv.camera.raw.photo.DJIRawPhotoRatioView android:layout_width="fill_parent" android:layout_height="@dimen/dp_58">
+                    <TextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpv_camera_picturesize" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <dji.publics.DJIUI.DJISengmentedGroup android:orientation="horizontal" android:id="@id/photo_ratio_rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                        <RadioButton android:textSize="@dimen/setting_ui_txt_small" android:id="@id/photo_ratio_rg_4_3_btn" android:text="4:3" style="@style/SGRadioButton" />
+                        <RadioButton android:textSize="@dimen/setting_ui_txt_small" android:id="@id/photo_ratio_rg_16_9_btn" android:text="16:9" style="@style/SGRadioButton" />
+                    </dji.publics.DJIUI.DJISengmentedGroup>
+                </dji.pilot.fpv.camera.raw.photo.DJIRawPhotoRatioView>
+                <View android:background="@color/divider_darker_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+                <dji.pilot.fpv.camera.raw.photo.DJIRawPhotoFormatView sengment:titleText="@string/fpv_camera_photoformat" style="@style/setting_ui_item" />
+                <dji.pilot.fpv.camera.raw.video.DJISDFilterView sengment:titleText="@string/fpv_camera_filter" style="@style/setting_ui_item" />
+                <dji.pilot.fpv.camera.raw.photo.DJIRawStyleView sengment:titleText="@string/fpv_camera_picture_style" style="@style/setting_ui_item_noPadding" />
+            </LinearLayout>
+            <View android:background="@color/divider_darker_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <dji.pilot.fpv.camera.raw.photo.DJIRawWhiteBalanceView sengment:titleText="@string/fpv_camera_whitebalance" sengment:showDivider="false" style="@style/setting_ui_item_noPadding" />
+            <View android:background="#77979797" android:layout_width="fill_parent" android:layout_height="1.0px" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout">
+                <dji.pilot.fpv.camera.raw.video.DJIRawFormatSSDView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" sengment:titleText="@string/fpv_gensetting_format_ssd" sengment:showDivider="false" />
+                <View android:background="@color/white_20P" android:layout_width="@dimen/dp_1" android:layout_height="fill_parent" />
+                <dji.pilot.fpv.camera.raw.video.DJIRawFormatSDView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" sengment:titleText="@string/fpv_gensetting_format_sdcard" sengment:showDivider="false" />
+            </LinearLayout>
+            <View android:background="@color/divider_darker_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        </LinearLayout>
+    </dji.setting.ui.hd.HdCustomScrollView>
+</dji.pilot.fpv.camera.raw.DJICameraRawPhotoView>

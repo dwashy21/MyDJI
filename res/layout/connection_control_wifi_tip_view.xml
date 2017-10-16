@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/connection_control_tip_btn_operation" android:background="@drawable/bg_btn_blue" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height" android:text="@string/connection_control_drone_btn_reset" android:layout_weight="0.0" android:layout_alignParentBottom="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/connection_control_tip_btn_operation">
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <dji.publics.DJIUI.DJITextView android:textSize="18.0sp" android:gravity="center" android:id="@id/connection_control_tip_title" android:padding="@dimen/dp_20_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/connection_control_drone_tip_title" />
+                <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/connection_control_tip_iv" android:layout_width="@dimen/s_300_dp" android:layout_height="wrap_content" android:src="@drawable/connection_control_drone_tip" android:scaleType="center" />
+                <dji.publics.DJIUI.DJILinearLayout android:padding="@dimen/dp_5_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_20_dp" android:layout_marginRight="@dimen/d_20_dp">
+                    <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/upgrade_blue" android:gravity="center" android:background="@drawable/bg_oval_num" android:layout_width="@dimen/dp_20_in_sw320dp" android:layout_height="@dimen/dp_20_in_sw320dp" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:text="1" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/connection_control_tip_desc1" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_control_drone_tip_description_1" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:padding="@dimen/dp_5_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_20_dp" android:layout_marginRight="@dimen/d_20_dp">
+                    <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/upgrade_blue" android:gravity="center" android:background="@drawable/bg_oval_num" android:layout_width="@dimen/dp_20_in_sw320dp" android:layout_height="@dimen/dp_20_in_sw320dp" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:text="2" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/connection_control_tip_desc2" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_control_drone_tip_description_2" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:id="@id/connection_control_tip_ly_desc4" android:padding="@dimen/dp_5_in_sw320dp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/d_20_dp" android:layout_marginRight="@dimen/d_20_dp">
+                    <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/upgrade_blue" android:gravity="center" android:background="@drawable/bg_oval_num" android:layout_width="@dimen/dp_20_in_sw320dp" android:layout_height="@dimen/dp_20_in_sw320dp" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:text="3" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/connection_control_tip_desc3" android:padding="@dimen/d_10_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_control_rc_tip_description_3" />
+                </dji.publics.DJIUI.DJILinearLayout>
+            </dji.publics.DJIUI.DJILinearLayout>
+            <LinearLayout android:gravity="bottom|center" android:paddingTop="@dimen/connection_control_bottom_tip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/spinner">
+                <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/connection_control_drone_tip_help" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/s_10_dp">
+                    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/s_20_dp" android:layout_height="@dimen/s_20_dp" android:src="@drawable/connection_control_wifi_help" />
+                        <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:gravity="center" android:padding="@dimen/s_5_dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/connection_control_drone_tip_help" />
+                    </dji.publics.DJIUI.DJILinearLayout>
+                </dji.publics.DJIUI.DJIRelativeLayout>
+            </LinearLayout>
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </ScrollView>
+</dji.publics.DJIUI.DJIRelativeLayout>

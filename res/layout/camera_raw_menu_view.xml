@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.raw.DJICameraRawView android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/txt_sixth" android:textColor="@color/battery_yellow" android:gravity="center" android:id="@id/camera_raw_menu_broadcast_title" android:background="@color/black_60P" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/fn_new_tab_height" android:text="@string/fpv_broadcast_raw_view_title" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/title" android:background="@color/black_80P" android:layout_width="fill_parent" android:layout_height="@dimen/fn_new_tab_height">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="@dimen/dp_240_in_sw320dp" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/white" android:gravity="center" android:id="@id/camera_raw_tab_video" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ssd_video" android:layout_weight="1.0" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/white" android:gravity="center" android:id="@id/camera_raw_tab_photo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ssd_photo" android:layout_weight="1.0" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/v2_tab_tabline" android:visibility="visible" android:layout_width="@dimen/dp_240_in_sw320dp" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerInParent="true">
+            <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cursor" android:layout_width="0.0dip" android:layout_height="@dimen/dp_2_in_sw320dp" android:layout_weight="1.0" android:layout_alignParentBottom="true">
+                <View android:background="@color/setting_ui_common_checked" android:layout_width="@dimen/dp_30_in_sw320dp" android:layout_height="@dimen/dp_2_in_sw320dp" android:layout_marginLeft="@dimen/dp_8_in_sw320dp" android:layout_marginRight="@dimen/dp_8_in_sw320dp" android:layout_centerHorizontal="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <View android:background="@color/transparent" android:layout_width="0.0dip" android:layout_height="@dimen/dp_2_in_sw320dp" android:layout_weight="1.0" android:layout_alignParentBottom="true" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cancel_iv" android:padding="@dimen/dp_10" android:layout_width="wrap_content" android:layout_height="@dimen/fn_new_tab_height" android:src="@drawable/leftmenu_gohome_cancel_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+    <dji.pilot.support.DJINonViewPager android:id="@id/camera_raw_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title" />
+    <RelativeLayout android:id="@id/raw_ssd_status_ly" android:background="@color/black_80P" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:id="@id/raw_ssd_status_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="?android:attr/progressBarStyle" />
+        <TextView android:textSize="@dimen/txt_fourteen" android:textColor="@color/white" android:id="@id/raw_ssd_status_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ssd_status_init" android:layout_below="@id/raw_ssd_status_bar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</dji.pilot.fpv.camera.raw.DJICameraRawView>

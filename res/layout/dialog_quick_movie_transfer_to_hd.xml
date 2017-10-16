@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="#50000000" android:layout_width="300.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:post="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="@string/quick_movie_transTo_hd" />
+    <dji.pilot2.widget.CircleProgressView android:id="@id/quick_movie_progress" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="15.0dip" post:postmax="100" post:postprogress="0" post:poststartAngle="270" post:postringWidth="2.0dip" />
+    <View android:background="#0affffff" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="15.0dip" />
+    <dji.pilot2.commonwidget.DJIStateTextView android:textColor="#ff1fa3f6" android:gravity="center" android:id="@id/quick_movie_transTo_hd_cancel" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/cancel" />
+</LinearLayout>

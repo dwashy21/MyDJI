@@ -1,0 +1,33 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: MyDJI.apk
+compressionType: false
+doNotCompress:
+- arsc
+- data
+- assets/build
+- json
+- webp
+- h264
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '19'
+  targetSdkVersion: '21'
+sharedLibrary: false
+unknownFiles:
+  com/fasterxml/jackson/core/json/VERSION.txt: '8'
+  com/google/api/client/googleapis/google.jks: '8'
+  com/sina/weibo/sdk/net/cacert_cn.cer: '8'
+  com/sina/weibo/sdk/net/cacert_com.cer: '8'
+  it/sauronsoftware/ftp4j/extrecognizers/textualexts: '8'
+  tae_sdk_plugins/man.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.0
+versionInfo:
+  versionCode: '1024454'
+  versionName: 4.1.3

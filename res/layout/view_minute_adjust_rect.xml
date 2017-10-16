@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/minute_adjust_cover" android:background="@color/editor_minuteadjust_select_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/minute_adjust_rect_left_edge" android:background="@drawable/progressbar_cut_mark" android:layout_width="@dimen/minute_adjust_rect_edge_width" android:layout_height="fill_parent" android:layout_alignParentLeft="true" />
+    <ImageView android:id="@id/minute_adjust_rect_right_edge" android:background="@drawable/progressbar_cut_mark" android:layout_width="@dimen/minute_adjust_rect_edge_width" android:layout_height="fill_parent" />
+    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/minute_adjust_rect_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+</RelativeLayout>

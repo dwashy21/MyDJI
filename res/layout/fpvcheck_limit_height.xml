@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" style="@style/FpvStatusItem"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fpvcheck_limit_height" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/setting_ui_item_title" android:paddingLeft="@dimen/fpv_top_mid_margin" android:text="@string/setting_ui_flyc_limit_height" style="@style/FpvGenSettingDescTxt" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    <EditText android:textSize="@dimen/txt_twelve" android:layout_gravity="center_vertical" android:id="@id/setting_ui_item_edittext" android:paddingTop="@dimen/fpv_top_min_margin" android:paddingBottom="@dimen/fpv_top_min_margin" android:layout_height="wrap_content" android:text="30" style="@style/setting_ui_item_edittext" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/setting_ui_item_desc" android:visibility="visible" android:layout_marginLeft="@dimen/fpv_top_mid_margin" style="@style/FpvGenSettingDescTxt" />
+    <TextView android:layout_gravity="center_vertical" android:id="@id/setting_ui_item_value" android:visibility="gone" style="@style/setting_ui_item_value" />
+</LinearLayout>

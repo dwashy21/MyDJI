@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:background="@color/v2_topbar_bg" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="pad"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_eighteen" android:textColor="@color/black" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height" android:layout_marginTop="@dimen/dp_5_in_sw320dp" android:text="@string/fly_unlimit_legal_agreement_title" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/v2_mine_backgound" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/dp_30_in_sw320dp" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:layout_marginRight="@dimen/dp_30_in_sw320dp" android:layout_marginBottom="@dimen/dp_20_in_sw320dp" android:layout_weight="1.0">
+                <WebView android:id="@id/fly_unlimit_legal_agreement_content" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </ScrollView>
+            <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20_in_sw320dp">
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/white" android:gravity="center" android:id="@id/fly_unlimit_legal_agreement_disagree" android:background="@drawable/fly_unlimit_legal_disagree_bg" android:clickable="true" android:layout_width="@dimen/dp_130_in_sw320dp" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:text="@string/fly_unlimit_legal_agreement_disagree" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/white" android:gravity="center" android:id="@id/fly_unlimit_legal_agreement_agree" android:background="@drawable/fly_unlimit_legal_agree_bg" android:clickable="true" android:layout_width="@dimen/dp_130_in_sw320dp" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:text="@string/fly_unlimit_legal_agreement_agree" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJIOriLayout>

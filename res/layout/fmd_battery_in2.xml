@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/fmd_battery_img_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fmd_osd_battery_double_nor" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_8_dp" android:textStyle="bold" android:textColor="#ff4bd663" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/fmd_battery1_power_tv" android:layout_width="@dimen/d_20_dp" android:layout_height="wrap_content" android:text="100%" />
+        </LinearLayout>
+        <View android:layout_width="1.0dip" android:layout_height="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/d_8_dp" android:textStyle="bold" android:textColor="#ff4bd663" android:gravity="right" android:layout_gravity="center_vertical" android:id="@id/fmd_battery2_power_tv" android:layout_width="@dimen/d_20_dp" android:layout_height="wrap_content" android:text="100%" />
+        </LinearLayout>
+        <View android:layout_width="1.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

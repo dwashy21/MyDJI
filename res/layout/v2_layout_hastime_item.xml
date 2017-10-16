@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/playing_icon" android:visibility="invisible" android:layout_width="@dimen/dp_32_in_sw320dp" android:layout_height="@dimen/dp_32_in_sw320dp" android:layout_marginLeft="@dimen/dp_5_in_sw320dp" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:src="@drawable/v2_audio_playing_icon" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_5_in_sw320dp" android:layout_toRightOf="@id/playing_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/dp_15_in_sw320dp" android:textColor="@color/v2_audio_text_color" android:id="@id/audio_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name" android:singleLine="true" />
+        <TextView android:textSize="@dimen/dp_10_in_sw320dp" android:textColor="@color/v2_audio_text_color" android:id="@id/audio_singer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="singer" />
+    </LinearLayout>
+    <TextView android:textColor="@color/v2_audio_text_color" android:id="@id/audio_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dp_5_in_sw320dp" android:text="--:--" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

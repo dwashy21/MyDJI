@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/gs_normal_font_size" android:textColor="@color/white" android:gravity="center|left" android:id="@id/gs_way_point_collection_item_title" android:clickable="false" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45_in_sw320dp" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" />
+</dji.publics.DJIUI.DJILinearLayout>

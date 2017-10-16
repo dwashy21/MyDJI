@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/d_30_dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/fmd_battery_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fmd_osd_battery_nor" />
+    <TextView android:textSize="@dimen/d_14_dp" android:gravity="left" android:layout_gravity="center_vertical" android:id="@id/fmd_battery_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpv_default_str" />
+</merge>

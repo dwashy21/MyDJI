@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.view.DJITrackCircleView android:gravity="center_vertical" android:visibility="gone" android:layout_width="@dimen/dp_300_in_sw320dp" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_90_in_sw320dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/visual_track_cw_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_track_cw_big" />
+    <dji.pilot.visual.view.DJICircleSeekBar android:id="@id/visual_track_circle_sb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_8_in_sw320dp" android:layout_marginRight="@dimen/dp_8_in_sw320dp" android:layout_marginBottom="@dimen/txt_twelve" android:layout_weight="1.0" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/visual_track_ccw_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_track_ccw_big" />
+</dji.pilot.visual.view.DJITrackCircleView>
