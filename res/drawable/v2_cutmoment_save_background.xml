@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <solid android:color="@color/v2_multimoment_save_background" />
-    <corners android:topLeftRadius="@dimen/dp_5_in_sw320dp" android:topRightRadius="@dimen/dp_5_in_sw320dp" android:bottomLeftRadius="@dimen/dp_5_in_sw320dp" android:bottomRightRadius="@dimen/dp_5_in_sw320dp" />
-    <stroke android:width="0.5dip" android:color="@color/v2_multimoment_save_background_border" />
-</shape>

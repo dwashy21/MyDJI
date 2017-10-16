@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/creation_loading" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <android.support.v4.widget.Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <dji.pilot2.newlibrary.widget.TwoLineLoadingView android:layout_width="@dimen/dp_70_in_sw320dp" android:layout_height="@dimen/dp_70_in_sw320dp" />
-    <dji.publics.DJIUI.DJITextView android:textColor="@color/v2_creation_title_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/library_loading" />
-    <dji.publics.DJIUI.DJITextView android:textColor="@color/v2_creation_desc_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/creation_loading_tip" />
-    <android.support.v4.widget.Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-</LinearLayout>

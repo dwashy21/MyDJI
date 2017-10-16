@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/v2_coupon_msg_childheight"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIImageView android:id="@id/v2_coupon_cardtype" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:src="@drawable/v2_coupon_aircraftpic" android:scaleType="centerInside" android:layout_centerVertical="true" />
-    <dji.pilot.publics.widget.DJIStateTextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:gravity="center|left" android:id="@id/v2_couponmsg_childitem_txt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_toLeftOf="@id/v2_couponmsg_childitem_txt2" android:layout_toRightOf="@id/v2_coupon_cardtype" android:layout_centerVertical="true" />
-    <dji.pilot.publics.widget.DJIStateTextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/v2_couponmsg_childitem_txt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <View android:background="#ff9b9b9b" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
-</RelativeLayout>

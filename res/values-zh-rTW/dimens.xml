@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="gs_normal_font_size">14.0dip</dimen>
-    <dimen name="gs_value_label_font_size">10.0dip</dimen>
-    <dimen name="gs_favorite_tips_font_size">16.0dip</dimen>
-</resources>

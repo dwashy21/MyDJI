@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot2.usercenter.activate.ActivateTermsOfUseView android:orientation="vertical" android:background="@color/v2_topbar_bg" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/btn_active_terms_return" android:paddingLeft="@dimen/dp_14_in_sw320dp" android:paddingTop="@dimen/dp_35_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/v2_phant_black" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_25_in_sw320dp" android:text="@string/v2_activate_agreement_title" />
-    <dji.publics.DJIUI.DJIImageView android:layout_marginTop="@dimen/dp_35_in_sw320dp" style="@style/HorizontalGrayDivider" />
-    <FrameLayout android:id="@id/webview_fragment_container" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/activate_btn_agree_uas" android:clickable="true" android:layout_width="@dimen/dp_290_in_sw320dp" android:layout_height="@dimen/dp_44_in_sw320dp" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:layout_marginBottom="@dimen/dp_15_in_sw320dp" android:text="@string/activate_i_agree" style="@style/activate_button_style" />
-</dji.pilot2.usercenter.activate.ActivateTermsOfUseView>

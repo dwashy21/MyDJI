@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="phone" xmlns:phantom="http://schemas.android.com/apk/res-auto"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/v2re" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40_in_sw320dp">
-        <dji.publics.DJIUI.DJIImageView android:id="@id/v2learnback" android:background="@drawable/v2_close_icon" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_margin="5.0dip" android:layout_alignTop="@id/v2learntext" android:layout_alignBottom="@id/v2learntext" android:layout_alignParentLeft="true" />
-        <dji.publics.DJIUI.DJITextView android:textColor="@color/white" android:id="@id/v2learntext" android:padding="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/college_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
-    </dji.publics.DJIUI.DJIRelativeLayout>
-    <WebView android:id="@id/v2learnwebview" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/v2re" android:overScrollMode="ifContentScrolls" />
-</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/header_default" android:paddingTop="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/avatar_default" android:layout_width="@dimen/dp_55_in_sw320dp" android:layout_height="@dimen/dp_55_in_sw320dp" android:layout_marginBottom="24.0dip" android:src="@drawable/v2_default_icon" />
-    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/v2_me_header_button_spacing" android:paddingRight="@dimen/v2_me_header_button_spacing" android:layout_width="fill_parent" android:layout_height="42.0dip">
-        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/white" android:gravity="center" android:id="@id/login" android:background="@drawable/v2_login_bg" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/v2_me_header_button_spacing" android:text="@string/mine_login_text" android:layout_weight="1.0" />
-        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/white" android:gravity="center" android:id="@id/register" android:background="@drawable/v2_follow_gl_buttonbg" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/mine_register_text" android:layout_weight="1.0" />
-    </LinearLayout>
-</LinearLayout>

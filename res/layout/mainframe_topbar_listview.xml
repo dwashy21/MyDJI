@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="@dimen/dp_135_in_sw320dp" android:layout_height="@dimen/dp_45" android:minWidth="@dimen/dp_135_in_sw320dp" android:minHeight="@dimen/dp_45"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIListView android:id="@id/mainframe_topbar_listview" android:background="@drawable/bg_shadow" android:padding="@dimen/dp_5" android:scrollbars="vertical" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@null" android:drawSelectorOnTop="false" android:cacheColorHint="@color/transparent" android:divider="@color/camera_bg" android:dividerHeight="1.0px" android:overScrollMode="ifContentScrolls" />
-</dji.publics.DJIUI.DJILinearLayout>

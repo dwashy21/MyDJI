@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <ImageView android:id="@id/explore_item_placeholder" android:background="@color/v2_explore_no_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/v2_native_explore_item_placeholder" android:scaleType="center" android:layout_alignTop="@id/banner_image" android:layout_alignBottom="@id/banner_image" />
-    <dji.pilot2.mine.view.FixRatioImageView android:id="@id/banner_image" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:width_weight="2048.0" app:height_weight="683.0" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/v2_explore_banner_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:src="@drawable/v2_explore_banner_new" android:layout_alignRight="@id/banner_image" android:layout_alignBottom="@id/banner_image" />
-</RelativeLayout>

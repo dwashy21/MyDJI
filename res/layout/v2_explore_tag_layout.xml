@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/v2_explore_tag_color" android:background="@drawable/v2_explore_item_tag_background" android:paddingLeft="@dimen/dp_10_in_sw320dp" android:paddingTop="@dimen/dp_2_in_sw320dp" android:paddingRight="@dimen/dp_10_in_sw320dp" android:paddingBottom="@dimen/dp_2_in_sw320dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

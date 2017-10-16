@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/white" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/login_title_bar" layout="@layout/v2_account_title_bar" />
-    <TextView android:id="@id/activate_account_title" android:layout_marginLeft="@dimen/activate_edge" android:layout_marginTop="@dimen/dp_85_in_sw320dp" android:layout_marginRight="@dimen/activate_edge" android:text="@string/check_device_desc" style="@style/activate_des_content" />
-    <TextView android:textSize="@dimen/activate_title" android:textColor="@color/white" android:gravity="center" android:id="@id/check_device_continue_activate" android:layout_height="@dimen/dp_44_in_sw320dp" android:layout_marginLeft="@dimen/activate_edge" android:layout_marginRight="@dimen/activate_edge" android:text="@string/check_device_valid_continue" android:layout_alignParentBottom="true" style="@style/activate_button_style" />
-    <TextView android:textSize="@dimen/activate_title" android:textColor="@color/white" android:gravity="center" android:id="@id/check_device_go_check_in" android:layout_width="fill_parent" android:layout_height="@dimen/dp_44_in_sw320dp" android:layout_marginLeft="@dimen/activate_edge" android:layout_marginRight="@dimen/activate_edge" android:text="@string/check_device_go_check_in" android:layout_above="@id/check_device_continue_activate" style="@style/activate_button_style" />
-    <WebView android:id="@id/check_device_webview" android:visibility="gone" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/login_title_bar" android:overScrollMode="ifContentScrolls" />
-</RelativeLayout>

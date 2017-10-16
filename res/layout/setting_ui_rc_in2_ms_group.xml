@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
-    <dji.setting.ui.rc.RcIn2MasterSlaveView android:id="@id/rc_in2_type_set_view" style="@style/setting_ui_item_noPadding" />
-    <dji.setting.ui.widget.ItemViewGroup android:id="@id/rc_in2_ms_error_entry" setting_ui:titleText="@string/setting_ui_rc_in2_ms_error_entry" setting_ui:subLayout="@layout/setting_ui_rc_in2_ms_error_detail" setting_ui:titleColor="@color/red" style="@style/setting_ui_item" />
-    <dji.setting.ui.rc.RcIn2MSSimpleInfoView android:id="@id/rc_in2_ms_simple_info_view" style="@style/setting_ui_item_noPadding" />
-    <View style="@style/setting_ui_divider_horization" />
-    <dji.setting.ui.rc.RcIn2ScanMasterBtn android:id="@id/rc_in2_ms_scan_master_btn" setting_ui:titleText="@string/setting_ui_rc_in2_scan_master" style="@style/setting_ui_item_noPadding" />
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/dp_14_in_sw320dp" android:textColor="@color/white" android:id="@id/camera_osd_wb_quick_tv" android:paddingLeft="3.0dip" android:paddingTop="@dimen/dp_3_in_sw320dp" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

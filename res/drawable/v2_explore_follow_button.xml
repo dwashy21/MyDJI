@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector android:visible="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="false" android:color="@color/v2_new_explore_follow_border_color" />
-    <item android:state_selected="true" android:color="@color/v2_new_explore_follow_border_color" />
-</selector>

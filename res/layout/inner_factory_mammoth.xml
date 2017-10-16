@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot.fpv.inner.MammothFactoryInnerView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-        <dji.pilot.fpv.inner.DJIInnerVisionView android:id="@id/mammoth_inner_tool_vision_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-        <dji.pilot.fpv.inner.DJIInnerGPSView android:id="@id/mammoth_inner_tool_gps_snr_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    </dji.publics.DJIUI.DJILinearLayout>
-</dji.pilot.fpv.inner.MammothFactoryInnerView>

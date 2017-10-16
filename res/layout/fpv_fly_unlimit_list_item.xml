@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/white" android:id="@id/fpv_fly_unlimit_list_name" android:paddingTop="@dimen/dp_5" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/setting_ui_txt_small" android:textColor="@color/white" android:id="@id/fpv_fly_unlimit_list_date" android:paddingBottom="@dimen/dp_5" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/fpv_fly_unlimit_list_name" android:layout_centerVertical="true" />
-    <ImageView android:layout_below="@id/fpv_fly_unlimit_list_date" style="@style/setting_ui_divider_horization" />
-</LinearLayout>

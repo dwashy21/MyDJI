@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:gravity="center" android:layout_width="@dimen/editor_minute_animate_width" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/minute_adjust_fragment_animation_item_img" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/selector_minute_adjust_animation_enlarge" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
-    <TextView android:textSize="8.0sp" android:textColor="@color/black" android:gravity="center" android:id="@id/minute_adjust_fragment_animation_item_duration" android:background="@drawable/shape_circle_pic_animation_txtbg" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginLeft="60.0dip" android:layout_marginTop="60.0dip" android:layout_alignLeft="@id/minute_adjust_fragment_animation_item_img" android:layout_alignTop="@id/minute_adjust_fragment_animation_item_img" />
-    <dji.pilot2.commonwidget.DJIStateTextView android:textSize="12.0sp" android:textColor="@color/selector_minute_animation_txt" android:gravity="center_horizontal" android:id="@id/minute_adjust_fragment_animation_item_txt" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_marginTop="12.0dip" android:text="@string/minute_adjust_animation_vertical" android:layout_below="@id/minute_adjust_fragment_animation_item_img" android:layout_centerHorizontal="true" />
-</RelativeLayout>

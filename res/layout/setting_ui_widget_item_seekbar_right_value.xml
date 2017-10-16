@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout style="@style/setting_ui_item"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
-    <TextView android:id="@id/setting_ui_item_title" android:text="Title" style="@style/setting_ui_item_title" />
-    <dji.setting.ui.widget.DJISeekbarRightValue android:gravity="center" android:id="@id/setting_ui_item_seekbar" android:layout_width="@dimen/setting_ui_progress_common_width" android:layout_height="fill_parent" />
-</LinearLayout>

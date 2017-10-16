@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/white" android:paddingLeft="@dimen/dp_16_in_sw320dp" android:paddingRight="@dimen/dp_16_in_sw320dp" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/icon" android:layout_width="@dimen/dp_22_in_sw320dp" android:layout_height="@dimen/dp_22_in_sw320dp" />
-    <TextView android:textSize="14.0sp" android:textColor="@color/v2_new_text_color" android:gravity="center_vertical" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_16_in_sw320dp" android:layout_marginRight="@dimen/dp_16_in_sw320dp" />
-    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/new_label" android:background="@drawable/v2_coupon_new_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="new" android:textAlignment="center" />
-    <Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_arrow_right" android:scaleType="centerCrop" />
-</LinearLayout>

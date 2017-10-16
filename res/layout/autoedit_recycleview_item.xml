@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_gravity="center_vertical" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/autoeditor_rcc_imageview" android:background="@drawable/selector_autoeditor_rcc_itembg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
-    <View android:id="@id/autoeditor_rcc_select" android:background="@drawable/selector_autoeditor_rcc_selector" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <TextView android:textSize="20.0sp" android:textColor="@color/white" android:id="@id/autoeditor_rcc_segnum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
-    <View android:id="@id/autoeditor_redline" android:background="#fff90105" android:visibility="invisible" android:layout_width="2.0dip" android:layout_height="fill_parent" />
-</RelativeLayout>

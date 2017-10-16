@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/txt_ten" android:paddingRight="@dimen/fpv_top_mid_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pilot="http://schemas.android.com/apk/res-auto">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:ellipsize="end" android:id="@id/warn_type_item_title" android:layout_height="@dimen/fn_new_item_height" android:maxWidth="@dimen/dp_100_in_sw320dp" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/warn_type_item_arrow" android:background="@drawable/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:textColor="@color/line_gray" android:ellipsize="end" android:id="@id/warn_type_item_value_tv" android:layout_height="@dimen/fn_new_item_height" android:layout_marginRight="@dimen/fpv_top_max_margin" android:maxWidth="@dimen/dp_130_in_sw320dp" android:layout_toLeftOf="@id/camera_newfn_first_item_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
-</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/selector_fn_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJILinearLayout android:id="@id/camera_newfn_baselv_item_ly" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/txt_ten" android:paddingRight="@dimen/txt_ten" android:layout_width="fill_parent" android:layout_height="@dimen/fn_new_item_height">
-        <dji.publics.DJIUI.DJIImageView android:id="@id/camera_newfn_baselv_item_img" android:padding="@dimen/fpv_top_mid_margin" android:layout_width="@dimen/fn_new_item_height" android:layout_height="@dimen/fn_new_item_height" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:textColor="@color/white" android:ellipsize="end" android:gravity="center|left" android:id="@id/camera_newfn_baselv_item_tv" android:paddingLeft="@dimen/txt_ten" android:layout_width="0.0dip" android:layout_height="@dimen/fn_new_item_height" android:maxLines="2" android:layout_weight="1.0" />
-        <dji.publics.DJIUI.DJIImageView android:id="@id/camera_newfn_baselv_item_rimg" android:padding="@dimen/fpv_top_mid_margin" android:duplicateParentState="false" android:layout_width="@dimen/fn_new_item_height" android:layout_height="@dimen/fn_new_item_height" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
-    </dji.publics.DJIUI.DJILinearLayout>
-</dji.publics.DJIUI.DJILinearLayout>

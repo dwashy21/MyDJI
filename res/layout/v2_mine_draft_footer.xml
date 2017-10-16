@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:padding="@dimen/dp_20_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/txt_twelve" android:textColor="@color/black_light" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_draft_footer_text" android:layout_centerInParent="true" />
-</RelativeLayout>

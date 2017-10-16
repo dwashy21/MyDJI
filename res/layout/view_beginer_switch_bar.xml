@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/flightmode_beginner_mode_ly" android:background="@color/black" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_alignParentBottom="true">
-        <TextView android:textSize="14.0dip" android:textColor="@color/white" android:id="@id/flightmode_full_beginner_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:text="@string/gsnew_fpv_gensetting_beginner_toggle_desc" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
-        <Switch android:id="@id/flightmode_full_beginner_switch" android:layout_marginRight="25.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gs_setting_ui_item_switch" />
-        <TextView android:textSize="14.0dip" android:textColor="@color/white_60P" android:id="@id/flightmode_full_beginner_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="5.0dip" android:text="@string/setting_ui_flyc_beginner_desc" android:layout_toLeftOf="@id/flightmode_full_beginner_switch" android:layout_below="@id/flightmode_full_beginner_title" />
-    </RelativeLayout>
-</merge>

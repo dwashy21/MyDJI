@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/dp_58" android:minHeight="?android:listPreferredItemHeight"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/white" android:gravity="center|left" android:id="@id/pop_logs_dirs_item_name" android:layout_width="@dimen/dp_200_in_sw320dp" android:layout_height="@dimen/dp_20" android:text="17-08-2016" android:layout_centerVertical="true" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/pop_logs_item_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    <ImageView android:background="@color/setting_ui_exp_gray" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
-</RelativeLayout>

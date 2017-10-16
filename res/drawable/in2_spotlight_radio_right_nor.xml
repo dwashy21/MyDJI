@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<shape android:shape="rectangle"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <corners android:topRightRadius="@dimen/in2_spotlight_radio_radius" android:bottomRightRadius="@dimen/in2_spotlight_radio_radius" />
-    <stroke android:width="@dimen/in2_spotlight_radio_radius_stroke" android:color="@color/white" />
-    <solid android:color="@android:color/transparent" />
-</shape>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:id="@id/rl_del_seg" android:background="#b2000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/editor_videoview_height" android:layout_centerHorizontal="true">
-        <ImageView android:id="@id/img_trashcan" android:background="@drawable/editor_trashcan" android:layout_width="64.0dip" android:layout_height="64.0dip" android:layout_centerInParent="true" />
-    </RelativeLayout>
-    <android.support.v7.widget.RecyclerView android:id="@id/rv_timeline_content" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginBottom="18.0dip" android:layout_alignParentBottom="true" />
-</RelativeLayout>

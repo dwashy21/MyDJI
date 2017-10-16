@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot.fpv.navigation.newbeehint.TrackingNewBeeHintView android:orientation="vertical" android:background="@color/gs_base_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_100_in_sw320dp" android:text="@string/quick_movie_hint_description" android:layout_centerHorizontal="true" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/quick_movie_finger_hint" android:visibility="visible" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/dp_80_in_sw320dp" android:src="@drawable/tracking_finger" />
-</dji.pilot.fpv.navigation.newbeehint.TrackingNewBeeHintView>

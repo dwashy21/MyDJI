@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:SegmentedGroup="http://schemas.android.com/apk/res-auto">
-    <dji.publics.DJIUI.DJISengmentedGroup android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/config_name_radio_group" android:layout_width="0.0dip" android:layout_height="@dimen/dp_30" android:layout_weight="1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" SegmentedGroup:sg_unchecked_tint_color="@color/setting_ui_transparent">
-        <RadioButton android:textSize="@dimen/setting_ui_txt_normal" android:id="@id/fpv_broadcast_radio_pal" android:text="PAL" android:layout_weight="1.0" style="@style/SGRadioButton" />
-        <RadioButton android:textSize="@dimen/setting_ui_txt_normal" android:id="@id/fpv_broadcast_radio_ntsc" android:text="NTSC" android:layout_weight="1.0" style="@style/SGRadioButton" />
-    </dji.publics.DJIUI.DJISengmentedGroup>
-    <ImageView android:layout_gravity="center_vertical" android:id="@id/gimbal_adv_edit_config_name_iv" android:background="@drawable/setting_ui_item_edittext" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:layout_marginLeft="@dimen/dp_14" android:src="@drawable/gimbal_adv_config_name_edit_src" />
-</LinearLayout>

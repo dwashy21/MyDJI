@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@color/transparent" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height" android:layout_alignParentTop="true" layout="@layout/new_library_select_mode_topbar" />
-    <include android:layout_width="fill_parent" android:layout_height="@dimen/v2_bottombar_height" android:layout_alignParentBottom="true" layout="@layout/new_library_select_mode_bottombar" />
-</RelativeLayout>

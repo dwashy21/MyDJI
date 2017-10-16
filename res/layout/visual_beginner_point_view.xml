@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot.visual.beginner.DJIBeginnerPointGuideView android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIImageView android:id="@id/visual_beginner_point_circle_img" android:background="@drawable/visual_beginner_dash_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/visual_beginner_point_hand_img" android:background="@drawable/visual_beginner_hand_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_20_in_sw320dp" android:layout_marginTop="@dimen/dp_35_in_sw320dp" android:contentDescription="@string/app_name" />
-</dji.pilot.visual.beginner.DJIBeginnerPointGuideView>

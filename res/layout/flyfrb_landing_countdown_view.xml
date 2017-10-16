@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/nfz_dg_bg" android:layout_width="@dimen/fpv_fly_unlimit_dialog_width" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/txt_sixth" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/flyfrb_landing_cd_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20_in_sw320dp" android:text="@string/nfz_landing_cd_title" android:layout_centerHorizontal="true" />
-    <TextView android:gravity="left" android:id="@id/flyfrb_landing_cd_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_25_in_sw320dp" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_marginRight="@dimen/dp_25_in_sw320dp" android:text="@string/nfz_landing_cd_content" android:layout_weight="1.0" android:layout_below="@id/flight_forbid_alert_title" style="@style/FlightForbidTv" />
-    <View android:layout_marginTop="@dimen/dp_50_in_sw320dp" style="@style/GeoDlgHorDivider" />
-    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/aelock_text" android:gravity="center" android:id="@id/flyfrb_landing_cd_hide_btn" android:layout_width="fill_parent" android:layout_height="@dimen/dp_45_in_sw320dp" android:text="@string/gsnew_gs_hide" style="@style/FlightForbidTv" />
-</LinearLayout>

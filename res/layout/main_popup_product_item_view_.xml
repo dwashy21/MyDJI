@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/main_app_change_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="65.0dip" android:layout_centerInParent="true">
-        <dji.publics.DJIUI.DJITextView android:textSize="19.0sp" android:textColor="#ffff0000" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/popup_item_product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-        <dji.publics.DJIUI.DJITextView android:textSize="19.0sp" android:textColor="#ff0b0b0b" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/popup_item_product_subname" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-    </dji.publics.DJIUI.DJILinearLayout>
-</dji.publics.DJIUI.DJIRelativeLayout>

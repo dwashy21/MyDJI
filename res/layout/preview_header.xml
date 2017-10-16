@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/editor_header" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/dp_40_in_sw320dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot2.commonwidget.DJIStateImageView android:gravity="center" android:id="@id/editor_header_back_left" android:padding="@dimen/dp_8_in_sw320dp" android:layout_width="@dimen/dp_40_in_sw320dp" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dp_2_in_sw320dp" android:src="@drawable/ic_back_gray" android:scaleType="centerCrop" />
-    <dji.pilot2.commonwidget.DJIStateImageView android:gravity="center" android:id="@id/preview_heart_img" android:padding="@dimen/dp_8_in_sw320dp" android:layout_width="@dimen/dp_40_in_sw320dp" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp_5_in_sw320dp" android:src="@drawable/ic_favorite_border_dark" android:scaleType="centerCrop" android:layout_toLeftOf="@id/preivew_share_img" />
-    <dji.pilot2.commonwidget.DJIStateImageView android:gravity="center" android:id="@id/preivew_share_img" android:padding="@dimen/dp_7_in_sw320dp" android:layout_width="@dimen/dp_40_in_sw320dp" android:layout_height="fill_parent" android:layout_marginRight="@dimen/dp_5_in_sw320dp" android:src="@drawable/ic_share_dark" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
-    <View android:id="@id/editor_header_divider" android:background="#ffececec" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
-</RelativeLayout>

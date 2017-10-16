@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camera_osd_sd" android:scaleType="center" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/status_img" android:background="@drawable/wm220_ic_cam_video_redpoint" android:visibility="gone" android:layout_width="@dimen/txt_eight" android:layout_height="@dimen/txt_eight" android:layout_marginLeft="@dimen/dp_5" android:scaleType="fitCenter" android:scaleX="0.4" android:scaleY="0.4" />
-</LinearLayout>

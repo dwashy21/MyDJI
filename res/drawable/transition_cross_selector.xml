@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:state_selected="true" android:drawable="@drawable/transition_cross_blue" />
-    <item android:state_pressed="true">
-        <bitmap android:src="@drawable/transition_cross_white" android:alpha="0.5" />
-    </item>
-    <item android:state_selected="false" android:drawable="@drawable/transition_cross_white" />
-</selector>

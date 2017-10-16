@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="#99000000" android:layout_width="400.0dip" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="@color/v2_playback_dialog_text" android:gravity="center" android:id="@id/v2_hg_informations_dialog_title" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/v2_hg_informations_dialog_title" />
-    <ListView android:orientation="vertical" android:id="@id/v2_hg_informations_lv" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginRight="20.0dip" android:layout_marginBottom="10.0dip" android:divider="@null" />
-    <View android:id="@id/v2_hg_informations_dialog_divider" android:background="@color/v2_playback_divider_color" android:layout_width="fill_parent" android:layout_height="5.0dip" />
-    <dji.pilot.publics.widget.DJIStateTextView android:textSize="16.0sp" android:textColor="#ff1088f2" android:gravity="center" android:id="@id/v2_hg_informations_dialog_cancel" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/ok" />
-</LinearLayout>

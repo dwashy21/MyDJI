@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:id="@id/fpv_left_second_menu" android:layout_width="wrap_content" android:layout_height="@dimen/leftmenu_second_radius" layout="@layout/fpv_leftmenu_gimbal_view" />
-    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/fpv_leftmenu_gimbal_release_ly" android:background="@color/transparent" android:visibility="gone" android:layout_marginTop="@dimen/leftmenu_item_margin" android:src="@drawable/btn_leftmenu_gimbalcontrol_release" android:layout_below="@id/fpv_left_second_menu" style="@style/LeftMenuItemImgNoMargin" />
-</LinearLayout>

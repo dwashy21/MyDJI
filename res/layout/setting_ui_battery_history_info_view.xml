@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
-    <ImageView android:background="@drawable/setting_ui_common_bg" android:layout_width="fill_parent" android:layout_height="1.0px" android:contentDescription="@string/app_name" />
-    <TextView android:textSize="@dimen/setting_ui_txt_small" android:gravity="center|left" android:id="@id/battery_history_info_tv" android:paddingLeft="@dimen/setting_ui_item_padding" android:paddingTop="@dimen/setting_ui_item_padding" android:paddingRight="@dimen/setting_ui_item_padding" android:paddingBottom="@dimen/setting_ui_item_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-</LinearLayout>

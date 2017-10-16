@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:fitsSystemWindows="@bool/is_fix_system" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot2.newlibrary.library.LibraryTopbarView android:gravity="center" android:id="@id/new_library_topbar" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height" />
-    <dji.pilot2.copy.widget.DJINonViewPager android:id="@id/new_library_viewpage" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-</LinearLayout>

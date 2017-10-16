@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.setting.ui.widget.MavicRemoteControllerWheelCalibrationView android:layout_gravity="center" android:id="@id/rc_wheel_calibration" android:layout_width="260.0dip" android:layout_height="220.0dip" android:layout_marginTop="@dimen/dp_20" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/sp_13" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:layout_marginBottom="@dimen/dp_20" android:text="@string/setting_ui_rc_calibration_status_wheel" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/sp_13" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dp_20" android:text="@string/setting_ui_rc_calibration_hint_wheel_calibration" />
-</LinearLayout>

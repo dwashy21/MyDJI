@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/dp_140_in_sw320dp" android:layout_height="@dimen/dp_140_in_sw320dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <dji.publics.DJIUI.DJIImageView android:id="@id/playback_bokeh_touch_oval" android:layout_width="@dimen/dp_100_in_sw320dp" android:layout_height="@dimen/dp_100_in_sw320dp" android:src="@drawable/playback_bokeh_scale" android:layout_centerInParent="true" />
-        <dji.pilot.playback.kumquat.bokeh.view.DJIVerticalSeekBar android:id="@id/playback_bokeh_touch_seekbar" android:layout_width="@dimen/dp_25_in_sw320dp" android:layout_height="@dimen/dp_110_in_sw320dp" android:layout_marginRight="0.0dip" android:maxHeight="2.0dip" android:max="35" android:progress="20" android:secondaryProgress="35" android:progressDrawable="@drawable/playback_bokeh_progress_bg" android:minHeight="2.0dip" android:thumb="@drawable/playback_bokeh_seekbar_thumb" android:thumbOffset="@dimen/dp_5_in_sw320dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-    </dji.publics.DJIUI.DJIRelativeLayout>
-</dji.publics.DJIUI.DJIRelativeLayout>

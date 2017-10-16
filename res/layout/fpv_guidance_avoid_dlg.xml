@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/stroke_avoid_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/stroke_top_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
-        <dji.pilot.fpv.view.DJIGuidanceAvoidView android:id="@id/fpv_guidance_avoid_img" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/fpv_top_max_margin" />
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:textColor="@color/white" android:id="@id/fpv_guidance_distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fpv_top_large_margin" android:layout_marginBottom="@dimen/fpv_top_max_margin" android:text="@string/app_back" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
-    </dji.publics.DJIUI.DJIRelativeLayout>
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_twelve" android:textColor="@color/white" android:id="@id/fpv_guidance_avoid_tv" android:paddingLeft="@dimen/fpv_top_max_margin" android:paddingTop="@dimen/fpv_top_mid_margin" android:paddingRight="@dimen/fpv_top_max_margin" android:paddingBottom="@dimen/fpv_top_mid_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/guidance_direction_behind" android:drawableLeft="@drawable/battery_warning_icon" android:drawablePadding="@dimen/fpv_top_mid_margin" />
-</dji.publics.DJIUI.DJILinearLayout>

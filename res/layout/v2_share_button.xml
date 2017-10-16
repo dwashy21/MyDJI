@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="@dimen/dp_50_in_sw320dp" android:layout_height="@dimen/dp_50_in_sw320dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/share_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:scaleType="fitCenter" android:layout_centerInParent="true" />
-    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/v2_shareactivity_select" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_shareactivity_select" android:layout_alignRight="@id/share_image" android:layout_alignParentBottom="true" />
-</RelativeLayout>

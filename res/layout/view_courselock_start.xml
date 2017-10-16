@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
-        <dji.pilot.dji_groundstation.ui.views.CourseLockWithTextView android:layout_gravity="center" android:layout_width="120.0dip" android:layout_height="120.0dip" />
-    </FrameLayout>
-    <dji.publics.DJIUI.DJITextView android:textSize="13.0dip" android:textColor="@color/white" android:gravity="left" android:id="@id/gs_course_lock_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:text="@string/gsnew_gs_course_lock_desc" android:layout_above="@id/gs_split_line" android:lineSpacingMultiplier="1.3" />
-    <dji.pilot.dji_groundstation.ui.views.CourseLockResetTextView android:textColor="@color/gs_link_btn_bkg" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/gsnew_gs_course_lock_status_reset" />
-</dji.publics.DJIUI.DJILinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/black_dark_half" android:layout_width="@dimen/dp_320_in_sw320dp" android:layout_height="@dimen/dp_252_in_sw320dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageButton android:id="@id/liveshare_base_close_btn" android:background="@color/white_10P" android:layout_width="@dimen/dp_30" android:layout_height="@dimen/dp_30" android:src="@drawable/setting_ui_root_close" android:layout_alignParentRight="true" />
-    <FrameLayout android:id="@id/liveshare_base_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
-</dji.publics.DJIUI.DJIRelativeLayout>

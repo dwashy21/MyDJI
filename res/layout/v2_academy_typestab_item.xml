@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
-    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/item_content_ly" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_centerInParent="true">
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/black" android:id="@id/series_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="L" android:layout_centerVertical="true" phantom:djiTextFace="bold" />
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/red" android:id="@id/acad_aircraft_version_txt" android:paddingLeft="@dimen/dp_5_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="R" android:layout_toRightOf="@id/series_txt" android:layout_centerVertical="true" phantom:djiTextFace="bold" />
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_sixth" android:textStyle="bold" android:textColor="@color/black" android:id="@id/acad_aircraft_subversion_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_5_in_sw320dp" android:text="B" android:layout_toRightOf="@id/acad_aircraft_version_txt" android:layout_centerVertical="true" phantom:djiTextFace="nlight" />
-    </dji.publics.DJIUI.DJIRelativeLayout>
-</dji.publics.DJIUI.DJIRelativeLayout>

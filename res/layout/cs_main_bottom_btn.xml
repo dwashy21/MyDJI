@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/dp_20_in_sw320dp" android:layout_height="@dimen/dp_20_in_sw320dp">
-        <ImageView android:id="@id/v2maintabimage" android:focusable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
-        <TextView android:textSize="@dimen/dp_8_in_sw320dp" android:textColor="@color/red" android:gravity="center" android:id="@id/main_redpoint" android:background="@drawable/v2_tab_redpoint_view" android:visibility="gone" android:layout_width="@dimen/dp_5_in_sw320dp" android:layout_height="@dimen/dp_5_in_sw320dp" android:layout_alignParentRight="true" />
-    </RelativeLayout>
-    <TextView android:textSize="@dimen/txt_ten" android:textColor="@color/v2_tab_textview_while" android:gravity="center_horizontal" android:id="@id/v2maintabtextview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_2_in_sw320dp" android:text="Me" />
-</LinearLayout>

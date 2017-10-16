@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot.dji_groundstation.ui.views.DrawModeView android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot.dji_groundstation.ui.widget.StateTextView android:textSize="@dimen/dp_12_in_sw320dp" android:textColor="@color/white_bg_txt" android:gravity="center" android:id="@id/gs_view_draw_mode_auto" android:background="@drawable/gs_selector_left_round" android:layout_width="@dimen/dp_50_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:text="@string/gsnew_gs_draw_auto" />
-    <dji.pilot.dji_groundstation.ui.widget.StateImageview android:id="@id/gs_view_draw_mode_rc" android:background="@drawable/gs_selector_right_round" android:layout_width="@dimen/dp_50_in_sw320dp" android:layout_height="@dimen/dp_30_in_sw320dp" android:src="@drawable/gs_selector_rc" android:scaleType="centerInside" android:adjustViewBounds="true" />
-</dji.pilot.dji_groundstation.ui.views.DrawModeView>

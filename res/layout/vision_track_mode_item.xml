@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_forteen" android:textColor="@color/selector_camera_info" android:gravity="center" android:orientation="vertical" android:id="@id/vision_track_mode_item_tv" android:paddingTop="@dimen/dp_14_in_sw320dp" android:paddingBottom="@dimen/dp_14_in_sw320dp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/visual_flight_mode_headless_follow" android:drawableTop="@drawable/selector_vision_track_normal" android:drawablePadding="@dimen/dp_4_in_sw320dp" />
-</dji.publics.DJIUI.DJILinearLayout>

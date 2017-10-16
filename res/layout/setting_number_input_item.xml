@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/sp_20" android:textColor="@color/setting_ui_exp_blue" android:gravity="center_horizontal" android:id="@id/setting_number_input_tx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10" android:layout_marginBottom="@dimen/dp_10" />
-</dji.publics.DJIUI.DJILinearLayout>

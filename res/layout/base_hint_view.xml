@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:background="@color/gs_base_background" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/dp_20_in_sw320dp" android:textColor="@color/white" android:id="@id/hint_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_70" android:text="@string/visual_tap_fly_new_bee_hint_normal" android:layout_centerHorizontal="true" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/hint_img" android:layout_width="@dimen/dp_250_in_sw320dp" android:layout_height="@dimen/dp_200_in_sw320dp" android:layout_marginTop="@dimen/dp_40" android:src="@drawable/tap_fly_ground_hint" android:layout_below="@id/hint_description" android:layout_centerHorizontal="true" />
-</RelativeLayout>

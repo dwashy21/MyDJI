@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:paddingBottom="@dimen/dp_10" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/raw_burst_tips_divider" android:background="@color/divider_darker_gray" android:layout_width="fill_parent" android:layout_height="1.0px" />
-    <TextView android:textSize="@dimen/setting_ui_txt_normal" android:textColor="@color/white" android:id="@id/raw_burst_tips_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_5" android:text="@string/raw_burst_format_tips" android:layout_below="@id/raw_burst_tips_divider" android:layout_alignParentRight="true" />
-    <TextView android:textSize="@dimen/txt_twelve" android:textColor="@color/white_80P" android:id="@id/raw_burst_exposure_time_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_20" android:text="@string/raw_burst_exposure_time_tips" android:layout_below="@id/raw_burst_tips_content" android:layout_alignParentRight="true" />
-</RelativeLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.pilot.newfpv.topbar.sub.DJIFpvTopBatteryView android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/fpv_top_battery_ly" android:layout_width="wrap_content" style="@style/fpv_topbar_widget_layout"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIImageView android:id="@id/fpv_top_battery_img" android:src="@drawable/fpv_topbar_battery_nor" style="@style/FpvTopImg" />
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_forteen" android:gravity="left" android:id="@id/fpv_top_battery_tv" android:layout_width="wrap_content" android:text="@string/fpv_default_str" style="@style/FpvTopTxt" />
-    <dji.publics.DJIUI.DJITextView android:gravity="center" android:id="@id/fpv_top_battery_voltage_tv" android:paddingLeft="@dimen/dp_3_in_sw320dp" android:paddingTop="@dimen/dp_1_in_sw320dp" android:paddingRight="@dimen/dp_3_in_sw320dp" android:paddingBottom="@dimen/dp_1_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dp_3_in_sw320dp" android:text="@string/fpv_default_str" style="@style/fpv_topbar_battery_voltage_bg" />
-</dji.pilot.newfpv.topbar.sub.DJIFpvTopBatteryView>

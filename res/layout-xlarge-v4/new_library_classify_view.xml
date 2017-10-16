@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="@dimen/v2_topbar_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot2.newlibrary.widget.RoundedCornerLinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_centerInParent="true">
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/new_library_top_text_size_normal" android:gravity="center" android:id="@id/library_classify_video" android:background="@color/standard3_0_dark_primary_color" android:visibility="gone" android:layout_width="@dimen/dp_75_in_sw320dp" android:layout_height="fill_parent" android:text="@string/new_library_video" />
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/new_library_top_text_size_normal" android:gravity="center" android:id="@id/library_classify_photo" android:visibility="gone" android:layout_width="@dimen/dp_75_in_sw320dp" android:layout_height="fill_parent" android:text="@string/new_library_photo" />
-        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/new_library_top_text_size_normal" android:gravity="center" android:id="@id/library_classify_likes" android:visibility="gone" android:layout_width="@dimen/dp_75_in_sw320dp" android:layout_height="fill_parent" android:text="@string/new_library_likes" />
-    </dji.pilot2.newlibrary.widget.RoundedCornerLinearLayout>
-</merge>

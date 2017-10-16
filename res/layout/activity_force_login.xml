@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="right" android:orientation="vertical" android:background="@color/popup_dlg_white" android:layout_width="@dimen/dp_320_in_sw320dp" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp">
-        <TextView android:scrollbarSize="@dimen/popup_dlg_scrollbarSize_4dp" android:scrollbarThumbVertical="@drawable/anim_grid_thumb" android:scrollbarTrackVertical="@color/popup_dlg_white" android:scrollbarAlwaysDrawVerticalTrack="false" android:scrollbarStyle="insideOverlay" android:textSize="@dimen/popup_dlg_msg_textSize_14sp" android:textColor="@color/popup_dlg_black" android:gravity="center" android:id="@id/goggle_active_result_content" android:padding="@dimen/dp_10_in_sw320dp" android:scrollbars="vertical" android:layout_width="@dimen/dp_320_in_sw320dp" android:layout_height="wrap_content" android:text="@string/aviator_uuid_force_login" android:scrollbarFadeDuration="2000" android:scrollbarDefaultDelayBeforeFade="0" />
-        <View android:background="@color/popup_dlg_divider_gray" android:layout_width="wrap_content" android:layout_height="@dimen/popup_dlg_line_1dp" />
-        <TextView android:textColor="@color/popup_dlg__blue" android:gravity="center" android:id="@id/goggle_active_result_ok" android:layout_width="@dimen/dp_200_in_sw320dp" android:layout_height="@dimen/dp_40_in_sw320dp" android:text="@string/mine_login_text" android:layout_weight="1.0" />
-    </LinearLayout>
-</LinearLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/v2_multimoment_sound_switch_toast" android:background="@drawable/v2_cutmoment_save_background" android:paddingLeft="@dimen/dp_25_in_sw320dp" android:paddingTop="@dimen/dp_10_in_sw320dp" android:paddingRight="@dimen/dp_25_in_sw320dp" android:paddingBottom="@dimen/dp_10_in_sw320dp" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/txt_forteen" android:textColor="@color/white" android:id="@id/v2_multimoment_sound_switch_toast_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</dji.publics.DJIUI.DJILinearLayout>

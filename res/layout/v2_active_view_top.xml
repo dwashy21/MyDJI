@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/v2_active_view_top" android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/activate_top_previous" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_marginLeft="@dimen/dp_18_in_sw320dp" android:src="@drawable/v2_playback_header_back" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
-    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/activate_process_view" android:layout_width="wrap_content" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_centerInParent="true" />
-    <TextView android:textSize="@dimen/v2_active_main_title" android:textColor="@color/v2_active_main_next" android:gravity="center" android:id="@id/activate_top_continue" android:layout_width="@dimen/dp_80_in_sw320dp" android:layout_height="@dimen/dp_40_in_sw320dp" android:layout_marginRight="@dimen/dp_18_in_sw320dp" android:text="@string/continue_" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
-</RelativeLayout>

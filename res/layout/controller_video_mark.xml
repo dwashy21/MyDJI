@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:id="@id/rl_video_mark" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <ImageView android:id="@id/img_mark_mask" android:background="@drawable/editor_mark_mask" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <ImageView android:id="@id/img_control_start" android:visibility="gone" android:layout_width="@dimen/editor_mark_control_width" android:layout_height="fill_parent" android:src="@drawable/progress_cut_mark_selector" android:scaleType="fitXY" />
-    <ImageView android:id="@id/img_control_end" android:visibility="gone" android:layout_width="@dimen/editor_mark_control_width" android:layout_height="fill_parent" android:src="@drawable/progress_cut_mark_selector" android:scaleType="fitXY" />
-    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="center" android:id="@id/txt_mark_duration" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/editor_mark_control_width" android:layout_marginRight="@dimen/editor_mark_control_width" android:singleLine="true" android:layout_centerInParent="true" />
-</RelativeLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.publics.DJIUI.DJIGridView android:id="@id/gallery_album_grid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/dp_20_in_sw320dp" android:verticalSpacing="@dimen/dp_10_in_sw320dp" android:columnWidth="@dimen/dp_120_in_sw320dp" android:numColumns="5" />
-</LinearLayout>

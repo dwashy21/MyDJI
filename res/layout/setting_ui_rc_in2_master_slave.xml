@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:text="@string/setting_ui_rc_status" style="@style/setting_ui_item_sub_title" />
-    <LinearLayout android:orientation="horizontal" android:id="@id/rc_setting_mode_ly" style="@style/setting_ui_item">
-        <TextView android:text="@string/setting_ui_rc_set_function" style="@style/setting_ui_item_title" />
-        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/setting_ui_item_spinner_btn" android:text="close" style="@style/setting_ui_item_spinner_btn" />
-    </LinearLayout>
-</LinearLayout>

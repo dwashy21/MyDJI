@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot2.upgrade.rollback.LongPressImageButton android:id="@id/main_top_btn_academy" android:background="@drawable/rc_main_top_academy_btn" style="@style/main_top_button" />
-    <dji.publics.DJIUI.DJIImageButton android:id="@id/main_top_btn_flightrecord" android:background="@drawable/rc_main_top_flightrecord_btn" style="@style/main_top_button" />
-    <dji.publics.DJIUI.DJIImageButton android:id="@id/main_top_btn_settings" android:background="@drawable/rc_main_top_settings_btn" style="@style/main_top_button" />
-    <dji.publics.DJIUI.DJIImageButton android:id="@id/main_top_btn_offline_map" android:background="@drawable/rc_main_top_offlinemap_btn" style="@style/main_top_button" />
-</dji.publics.DJIUI.DJILinearLayout>

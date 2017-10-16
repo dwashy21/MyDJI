@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <dji.pilot2.ui.widget.PreviewVideoView android:id="@id/playback_quickmoive_preview_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <dji.publics.DJIUI.DJIImageView android:id="@id/playback_quickmoive_preview_play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_huifang_detail_play" android:layout_centerInParent="true" />
-    <dji.pilot.playback.kumquat.common.DJIPlaybackHeaderView android:id="@id/playback_quickmoive_preview_header_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
-    <dji.pilot.playback.kumquat.common.DJIPlaybackOperationView android:id="@id/playback_quickmoive_preview_operation_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
-</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <RelativeLayout android:gravity="center" android:id="@id/rl_sliding_bar" android:layout_width="324.0dip" android:layout_height="wrap_content" android:layout_above="@id/rv_list_filter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
-        <dji.pilot2.ui.widget.DJIMinuteAdjustSlidingBar android:id="@id/editor_adjust_slider_bar" android:layout_width="fill_parent" android:layout_height="25.0dip" />
-        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/txt_adjust_percent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13.0dip" android:layout_below="@id/editor_adjust_slider_bar" android:layout_centerHorizontal="true" />
-    </RelativeLayout>
-    <android.support.v7.widget.RecyclerView android:id="@id/rv_list_filter" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" />
-</RelativeLayout>

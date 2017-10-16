@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/divider" android:background="@color/standard3_0_unable_text_color" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/dp_10_in_sw320dp" />
-    <LinearLayout android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_10_in_sw320dp" android:layout_marginBottom="@dimen/dp_10_in_sw320dp" android:layout_below="@id/divider">
-        <EditText android:layout_gravity="center_vertical" android:id="@id/edit_comment" android:background="@drawable/gl_comment_bg" android:layout_width="0.0dip" android:layout_height="@dimen/dp_35_in_sw320dp" android:layout_marginLeft="@dimen/dp_10_in_sw320dp" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:hint="@string/v2_guide_comment_tip" android:layout_weight="1.0" />
-        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/white" android:gravity="center" android:id="@id/send_button" android:background="@drawable/gl_sendbutton_bg" android:layout_width="@dimen/dp_70_in_sw320dp" android:layout_height="@dimen/dp_35_in_sw320dp" android:layout_marginRight="@dimen/dp_10_in_sw320dp" android:text="@string/v2_guide_comment_send" />
-    </LinearLayout>
-</RelativeLayout>

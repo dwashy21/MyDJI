@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <GridView android:id="@id/creation_grid_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="@dimen/dp_1_in_sw320dp" android:verticalSpacing="@dimen/dp_1_in_sw320dp" android:stretchMode="columnWidth" android:numColumns="2" />
-    <include layout="@layout/new_creation_placeholder_djipad" />
-    <include layout="@layout/new_creation_placeholder" />
-    <include layout="@layout/new_creation_loading" />
-</merge>

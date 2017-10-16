@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:orientation="horizontal" android:background="@color/adsb_item_double_bg_1" android:layout_width="@dimen/adsb_item_width_total" android:layout_height="@dimen/adsb_title_height"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textSize="@dimen/adsb_title_text_size" android:textColor="@color/gs_white" android:gravity="center" android:id="@id/adsb_cao_view" android:layout_width="@dimen/adsb_item_width_1" android:layout_height="fill_parent" android:text="@string/adsb_list_icao" />
-    <TextView android:textSize="@dimen/adsb_title_text_size" android:textColor="@color/gs_white" android:gravity="center" android:id="@id/adsb_dis_view" android:background="@color/adsb_item_double_bg_2" android:layout_width="@dimen/adsb_item_width_2" android:layout_height="fill_parent" android:text="@string/adsb_list_distance" />
-    <TextView android:textSize="@dimen/adsb_title_text_size" android:textColor="@color/gs_white" android:ellipsize="marquee" android:gravity="center" android:id="@id/adsb_height_view" android:layout_width="@dimen/adsb_item_width_2" android:layout_height="fill_parent" android:text="@string/adsb_list_height" android:maxLines="1" />
-</LinearLayout>

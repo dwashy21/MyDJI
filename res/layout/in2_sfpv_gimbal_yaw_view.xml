@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:background="@drawable/sfpv_gimbal_yaw_bg_ball" android:layout_width="wrap_content" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <dji.pilot.publics.widget.DJIClipView android:id="@id/in2_sfpv_gimbal_angle_clip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:initialAngle="-90.0" app:shape="circle" app:src="@drawable/sfpv_gimbal_yaw_angle_clip" />
-    <ImageView android:id="@id/in2_sfpv_gimbal_yaw_front_area_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sfpv_gimbal_yaw_front_area" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sfpv_gimbal_yaw_drone" android:contentDescription="@string/app_name" />
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sfpv_gimbal_yaw_top_arrow" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
-</RelativeLayout>

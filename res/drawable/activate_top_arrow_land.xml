@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector
-  xmlns:Android="http://schemas.android.com/apk/res/android">
-    <item Android:state_enabled="false" Android:drawable="@drawable/activate_top_back_white_24dp_land" />
-    <item Android:state_enabled="true" Android:state_pressed="true" Android:drawable="@drawable/activate_top_back_black_16dp_land" />
-    <item Android:drawable="@drawable/activate_top_back_black_24dp_land" />
-</selector>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView android:textColor="@color/setting_ui_color_blue_txt" android:gravity="center" android:id="@id/setting_ui_battery_pair_btn" android:background="@drawable/setting_ui_spinner_btn_bg" android:layout_width="@dimen/dp_90" android:layout_height="@dimen/dp_20" android:text="@string/setting_ui_battery_paired_tip" android:layout_alignParentRight="true" style="@style/setting_ui_item_sub_title" />
-    <TextView android:textColor="@color/white" android:id="@id/setting_ui_battery_finish_tip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_battery_paired" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_sub_title" />
-</RelativeLayout>

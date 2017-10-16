@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView style="@style/MineScrollerStyle"
-  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <LinearLayout style="@style/MineRowContainerStyle">
-        <dji.pilot2.mine.view.MeRowView android:id="@id/coupon" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_mine_gift_icon" app:me_row_text="@string/v2_mine_coupon" app:me_row_new_show="false" />
-        <dji.pilot2.mine.view.MeRowView android:id="@id/unlock" android:layout_width="fill_parent" android:layout_height="wrap_content" app:me_row_icon="@drawable/v2_icon_nfz_list" app:me_row_text="@string/mine_unlock_list" app:me_row_new_show="false" />
-    </LinearLayout>
-</ScrollView>

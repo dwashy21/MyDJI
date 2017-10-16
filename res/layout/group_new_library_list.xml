@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="bottom" android:background="@android:color/white" android:padding="@dimen/dp_4_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dp_50_in_sw320dp"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
-        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/library_group_main_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
-        <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:id="@id/library_group_secondary_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_2_in_sw320dp" />
-    </LinearLayout>
-    <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:id="@id/library_group_time" android:layout_width="wrap_content" android:layout_height="wrap_content" />
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="activity_horizontal_margin">64.0dip</dimen>
-    <dimen name="v2_bottombar_height">62.0dip</dimen>
-    <dimen name="v2_topbar_height">52.0dip</dimen>
-</resources>

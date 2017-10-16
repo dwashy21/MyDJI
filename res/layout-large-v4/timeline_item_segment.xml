@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <View android:id="@id/img_line_above" android:background="#ff454545" android:layout_width="15.0dip" android:layout_height="4.0dip" />
-    <TextView android:textSize="21.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/txt_segment_no" android:background="@drawable/black_circle" android:layout_width="45.0dip" android:layout_height="45.0dip" />
-    <View android:id="@id/img_line_below" android:background="#ff454545" android:layout_width="15.0dip" android:layout_height="4.0dip" />
-    <dji.pilot2.widget.EditorSegmentBar android:id="@id/esb_segment_bar" android:layout_width="480.0dip" android:layout_height="fill_parent" />
-</LinearLayout>

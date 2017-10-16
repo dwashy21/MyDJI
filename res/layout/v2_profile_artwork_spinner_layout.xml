@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<TextView android:textSize="@dimen/txt_forteen" android:gravity="center" android:id="@android:id/text1" android:padding="@dimen/dp_2_in_sw320dp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="inherit"
-  xmlns:android="http://schemas.android.com/apk/res/android" />
